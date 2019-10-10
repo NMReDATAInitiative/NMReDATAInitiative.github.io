@@ -1,10 +1,14 @@
 ---
 layout: default
 ---
-
+Under construction....
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
+
+[page 1](./another-page.html)
+[page 1](./another-page.html)
+[contact](./contact).
 
 There should be whitespace between paragraphs.
 

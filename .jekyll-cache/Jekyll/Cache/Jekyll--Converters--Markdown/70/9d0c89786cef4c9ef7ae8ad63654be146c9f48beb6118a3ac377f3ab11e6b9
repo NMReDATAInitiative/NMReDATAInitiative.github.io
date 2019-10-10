@@ -1,6 +1,11 @@
-I"Â<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
+I"T<p>Under constructionâ€¦.
+Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
 
 <p><a href="./another-page.html">Link to another page</a>.</p>
+
+<p><a href="./another-page.html">page 1</a>
+<a href="./another-page.html">page 1</a>
+<a href="./contact">contact</a>.</p>
 
 <p>There should be whitespace between paragraphs.</p>
 
