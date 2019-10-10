@@ -2,4 +2,4 @@ title: NMReDATA Initiative
 description: Main information website of the NMReDATA Initiative
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-slate
+theme: alembic-jekyll-theme
