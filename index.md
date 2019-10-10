@@ -3,7 +3,7 @@ layout: default
 ---
 This site is under construction!!!
 
-For now, please refer to the main normal site at [nmredata.org](nmredata.org)
+For now, please refer to the main normal site at [nmredata.org](http://nmredata.org)
 
 [Link to another page](./another-page.html).
 
