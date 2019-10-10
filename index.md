@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-
+This site is under construction!!!
+For now, please refer to the main normal site at nmredata.org
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
