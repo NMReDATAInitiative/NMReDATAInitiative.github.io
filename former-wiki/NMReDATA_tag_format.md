@@ -190,7 +190,7 @@ canonical SMILES (when the hydrogen atoms are implicit)
 C(C1C(C(C(C(O1)O)O)O)O)O
 ````
 
-#### <NMREDATA_ALATIS> (optional but desired)
+#### /<NMREDATA_ALATIS/> (optional but desired)
 
 Here should come the *ALATIS* code of the compound. (If possible, it
 should be included!)
