@@ -51,13 +51,13 @@ about the NMR dataset.
 This tag is used to specify the “VERSION” of the file format. Current
 version : 1.1
 
-`>  `<NMREDATA_VERSION>
+`>  <NMREDATA_VERSION>`
 `1.1`<span style="color:#0808F8">**`\`**</span>
 
 Note the <span style="color:#0808F8"> addition of the "**\\**" before
 the end-of-line character. If is optional for tags with a single line,
 but mandatory to reparate lines [(more
-details)](/end-of-line "wikilink").
+details)](/end-of-line "Wikilink").
 
 #### <NMREDATA_LEVEL>
 
@@ -69,10 +69,10 @@ reading complex data (with level \>0).
 ##### Level 0
 
 When the data contain no ambiguities in the assignment, set to 0:
-
+````
 <NMREDATA_LEVEL>
-`0`
-
+0
+````
 ##### Level 1
 
 When using list of signals including [interchangeable
