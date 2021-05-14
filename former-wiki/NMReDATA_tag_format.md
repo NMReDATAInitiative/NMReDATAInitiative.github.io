@@ -467,16 +467,18 @@ NMR parameters by best fit of simulated and experimental spectra.
 For example, in a phenyl group where o, m and p, correspond to the
 *ortho*, *meta* and *para* protons:
 
-`>  `<NMREDATA_ASSIGNMENT>
-`...`
-`o, 6.610, 10\ `
-`o', 6.610, 14\`
-`m, 7.540, 11\ `
-`m', 7.540, 13\ `
-`p, 7.310, 12\`
-`...`
-`Equivalent=o, o'\ `
-`Equivalent=m, m'\`
+````
+>  <NMREDATA_ASSIGNMENT>
+...
+o, 6.610, 10\
+o', 6.610, 14\
+m, 7.540, 11\ 
+m', 7.540, 13\ 
+p, 7.310, 12\
+...
+Equivalent=o, o'\ 
+Equivalent=m, m'\
+````
 
 means that the o and o' are m and m' and are equivalent. This allows to
 provide different couplings for J(m,o) than for J(m,o') which could not
@@ -499,26 +501,32 @@ The list can contain only J<sub>H,H</sub>, or only
 (the label indicates the isotope through the NMREDATA_ASSIGNMENT table –
 see above).
 
+````
 `>  `<NMREDATA_J>
 `a, b, 7.00`<span style="color:#080808">**`\`**</span>
 `A, a, 150.3`<span style="color:#080808">**`\`**</span>
 `B, a, 7.50`<span style="color:#080808">**`\`**</span>
+````
 
 The number of bonds can be added after the keyword "nb=".
 
+````
 `>  `<NMREDATA_J>
 `a, b, 7.00, nb=3`<span style="color:#080808">**`\`**</span>
 `A, a, 150.30, nb=1`<span style="color:#080808">**`\`**</span>
 `B, a, 7.50, nb=3`<span style="color:#080808">**`\`**</span>` `
+````
 
 Alternatively comments can be used to specify the type of coupling, but
 this is not part of the format, this is only to facilitate the work of
 software developers.
 
+````
 `>  `<NMREDATA_J>
 `a, b, 7.00 ;`<sup>`3`</sup>`JHH`<span style="color:#080808">**`\`**</span>
 `A, a, 150.3 ;`<sup>`1`</sup>`JCH`<span style="color:#080808">**`\`**</span>
 `B, a, 7.50 ;`<sup>`3`</sup>`JCH`<span style="color:#080808">**`\`**</span>
+````
 
 This may include J<sub>H,H</sub> (from 1D <sup>1</sup>H, or from COSY)
 and/or J<sub>C,H</sub> from RDC measurements, long-range JCH from HMBC,
@@ -534,6 +542,7 @@ observed.
 
 For the <sup>1</sup>H and <sup>19</sup>F of 1,3,5-trifluoro benzene:
 
+````
 `>  `<NMREDATA_ASSIGNMENT>
 `a, 8.301, 7\`
 `b, 8.301, 8\`
@@ -556,9 +565,11 @@ For the <sup>1</sup>H and <sup>19</sup>F of 1,3,5-trifluoro benzene:
 `c, F2, 7.00 ;`<sup>`5`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**`\`**</span>
 `Equivalent a/F1,a/F2,b/F2,b/F2,c/F3,c/F1 `
 `Equivalent a/F3,b/F1,c/F2`
+````
 
 for the protons of Cl-CH2-CH2-Br
 
+````
 `>  `<NMREDATA_ASSIGNMENT>
 `a, 3.301, 5\`
 `a', 3.301, 6\`
@@ -574,6 +585,7 @@ for the protons of Cl-CH2-CH2-Br
 `a, b', 5.00\`
 `Equivalent a/b, a'/b' `
 `Equivalent a/b', a'/b`
+````
 
 Individual spectra tags
 -----------------------
@@ -587,6 +599,7 @@ second part of the tag lists the signals.
 
 Example of a 1D spectrum:
 
+````
 `>  `<NMREDATA_1D_1H>
 `Larmor=500.13\`
 `Pulseprogram=zg30\`
@@ -594,10 +607,13 @@ Example of a 1D spectrum:
 `Signal 1\`
 `Signal 2\`
 `...`
+````
 
 For other isotopes:
 
+````
 `<NMREDATA_1D_`*`isotope`*`> `
+````
 
 Each 1D "signal" line start with a chemical shift (x.xxxx) or a
 **chemical shift range** (x.xxxx-y.yyyy) (note: use four digits !!!).
@@ -607,16 +623,21 @@ for details)
 
 For 2D spectra the general format is
 
-`<NMREDATA_2D_`*`IndirectIsotope_CodeMixing_DirectIsotope`*`> `
+````
+<NMREDATA_2D_`*`IndirectIsotope_CodeMixing_DirectIsotope`*`> 
+````
+
 
 Example of HSQC spectrum:
 
+````
 `>  `<NMREDATA_2D_13C_1J_1H>
 `Larmor=125.7567\`
 `Spectrum_Location=`[`file:./nmr/11/1/pdata/1\`](file:./nmr/11/1/pdata/1\)
 `C1/H-C1\`
 `C2/H-C2\`
 `...`
+````
 
 Definition of the [signal attributes for 1D
 spectra](/1D_attributes "wikilink").
@@ -688,6 +709,7 @@ Example:
 
 MD5 are not mandatory, but recommended if they can be easily generated
 
+````
 `>  `<NMREDATA_1D_1H>` `
 `Larmor=500.13\`
 `MD5_1r=5E77AB5838AA4C860BA8884A5B0BD9ED\`
@@ -695,6 +717,7 @@ MD5 are not mandatory, but recommended if they can be easily generated
 `4.8000, S=q, N=2, L=a, J=7.00\`
 `2.1000, S=bs, N=1, L=b\`
 `1.5000, S=t, N=3, L=c, J=7.10\`
+````
 
 where N is the number of protons, S the multiplicity, *etc*. More
 details about the [attributes of 1D spectra](/1D_attributes "wikilink")
@@ -702,7 +725,9 @@ details about the [attributes of 1D spectra](/1D_attributes "wikilink")
 
 For multiple coupling:
 
+````
 `4.8000, S=dd, N=1, L=a, J=9.30, 4.89\`
+````
 
 Note that the coupling can be [assigned](/1D_attributes "wikilink").
 
@@ -711,7 +736,9 @@ fields are all optional. Because of overlap, there may be more than one
 signal assigned to a chemical shift (or range of chemical shifts). They
 are simply listed with "," as separator.
 
-`7.200-7.600, N=5, L=H-C1, H-C2, C-C4\`
+````
+7.200-7.600, N=5, L=H-C1, H-C2, C-C4\
+````
 
 One reason for having chemical shifts listed in the
 <NMREDATA_ASSIGNMENT> tag: is that signals may overlap and be given as a
@@ -720,13 +747,17 @@ COSY, etc.
 
 Ranges are accepted as small-to-large and large-to-small:
 
-`7.200-7.600, N=5, L=H-C1, H-C2, C-C4\`
-`7.600-7.200, N=5, L=H-C1, H-C2, C-C4\`
+````
+7.200-7.600, N=5, L=H-C1, H-C2, C-C4\
+7.600-7.200, N=5, L=H-C1, H-C2, C-C4\
+````
 
 For the results of diffusion measurements, Diff, etc. are given in the
 [proper units](/1D_attributes#Diff.3D_Diffusion_rate "wikilink"):
 
-`4.8, S=q, N=2, L=a, Diff=1.7e-11`
+````
+4.8, S=q, N=2, L=a, Diff=1.7e-11
+````
 
 Chemical shifts are given in ppm with four digits after the period (the
 usual 3 is not enough at high field and high resolution!)
@@ -740,36 +771,44 @@ experimental values. If the 1D spectrum is homodecoupled at a given
 chemical shift or totally decoupled (pureshift) one of the two following
 lines should be added:
 
-`Decoupled=1H, 1.2\`
-`Decoupled=1H\`
+````
+Decoupled=1H, 1.2\
+Decoupled=1H\
+````
 
 If other spins are decoupled add:
 
-`Decoupled=19F\`
+````
+Decoupled=19F\
+...
+````
 
 ...
 
 ##### <NMREDATA_1D_13C> etc.
 
 1D <sup>13</sup>C spectra and other heteronuclear spectra (nuclei X)
-
-`>  `<NMREDATA_1D_13C>` `
-`Larmor=125.0\`
-`Decoupled=1H\`
-`51.812, I=118.0\`
-`20.123, I=123.1\`
+````
+>  <NMREDATA_1D_13C>
+Larmor=125.0\
+Decoupled=1H\
+51.812, I=118.0\
+20.123, I=123.1\
+````
 
 When the 1D X spectrum is not obtained from a simple pulse-detection
 sequence (i.e. DEPT, APT, etc.) this is specified using an additional
 label “Sequence”:
 
-`>  `<NMREDATA_1D_13C>` or other isotopes`
-`Larmor=125.0\`
-`Decoupled=1H\`
-`Sequence=DEPT135 (or DEPT45, DEPT90, ATP)\`
-`Pulseprogram=dept135 \`
-`51.812, I=-80.1\`
-`20.123, I=123.1\`
+````
+>  <NMREDATA_1D_13C>` or other isotopes
+Larmor=125.0\
+Decoupled=1H\
+Sequence=DEPT135 (or DEPT45, DEPT90, ATP)\
+Pulseprogram=dept135 \
+51.812, I=-80.1\
+20.123, I=123.1\
+````
 
 The peak intensity provides the signs of the DEPT-135 signal.
 
@@ -778,13 +817,15 @@ The peak intensity provides the signs of the DEPT-135 signal.
 Selective 1D spectra, such as selective-NOESY or selective-TOCSY, etc.
 use tags with names encoded similarly to 2D spectra:
 
-`>  `<NMREDATA_1D_1H_D_1H>` `
-`Larmor=500.13`
-`CorType=NOESY`
-`F1_selected_window=2.500`
-`Pulseprogram=selnogp`
-`1.812, I=4.2E4`
-`2.323, I=5.2E4`
+````
+>  <NMREDATA_1D_1H_D_1H>
+Larmor=500.13
+CorType=NOESY
+F1_selected_window=2.500
+Pulseprogram=selnogp
+1.812, I=4.2E4
+2.323, I=5.2E4
+````
 
 The tag name (1D_1H_D_1H) indicate that the source spin (first "1H") of
 the NOE is a <sup>1</sup>H, that the mixing is of type "D" (Dipolar
@@ -793,12 +834,16 @@ the <sup>1</sup>H channel.
 
 For sel-TOCSY, the tag name would be
 
-`>  `<NMREDATA_1D_1H_TJ_1H>` `
+````
+>  <NMREDATA_1D_1H_TJ_1H>
+````
 
 For selectively relayed magnetization from <sup>19</sup>F to
 <sup>1</sup>H:
 
-`>  `<NMREDATA_19F_1J_1H>` `
+````
+>  <NMREDATA_19F_1J_1H>
+````
 
 The position of the selective pulse in the first pseudo dimention is
 specified with the keyword "F1_selected_window":
@@ -806,25 +851,35 @@ specified with the keyword "F1_selected_window":
 When multiple spectra are recorded, tags are numbered with "\#2", etc.
 to avoid having multiple tags with the same name:
 
-`>  `<NMREDATA_1D_1H_D_1H>` `
-`...`
+````
+>  <NMREDATA_1D_1H_D_1H>
+...
+````
 
-`>  <NMREDATA_1D_1H_D_1H#2> `
-`...`
 
-`>  <NMREDATA_1D_1H_D_1H#2> `
-`...`
+````
+>  <NMREDATA_1D_1H_D_1H#2>
+...
+````
+
+
+````
+>  <NMREDATA_1D_1H_D_1H#2>
+...
+````
 
 ### 2D spectra
 
-`>  2D HSQC `<NMREDATA_2D_13C_1J_1H>`\`
-`Larmor=500.13\`
-`MD5_2rr=5E77AB5838AA4C860BA8884A5B0BD9ED\`
-`MD5_ser=ED8AD88199996436B40AAE283F0FB6F6\`
-`CorType=HSQC ;(COSY; HSQC; HMBC; H2BC; TOCSY; NOESY)\`
-`Pulseprogram=XXX\`
-`a/C1, I=1.2\`
-`b/48.43, I=1.2\`
+````
+>  2D HSQC <NMREDATA_2D_13C_1J_1H>
+Larmor=500.13\
+MD5_2rr=5E77AB5838AA4C860BA8884A5B0BD9ED\
+MD5_ser=ED8AD88199996436B40AAE283F0FB6F6\
+CorType=HSQC ;(COSY; HSQC; HMBC; H2BC; TOCSY; NOESY)\
+Pulseprogram=XXX\
+a/C1, I=1.2\
+b/48.43, I=1.2\
+````
 
 The Larmor frequency is the one of the detected isotope (last in the tag
 label). “Types” and “Pulseprogram” can be specified.
@@ -854,24 +909,28 @@ MD5 are not mandatory, but recommended if they can be easily generated
 
 Here is an example of HSQC data:
 
-`>  2D HSQC `<NMREDATA_2D_13C_1J_1H>
-`Larmor=500\`
-`CorType=HSQC \`
-`Pulseprogram=XXX\`
-`a/C1, I=1.2\`
-`b/48.43, I=1.2\`
+````
+>  2D HSQC <NMREDATA_2D_13C_1J_1H>
+Larmor=500\
+CorType=HSQC \
+Pulseprogram=XXX\
+a/C1, I=1.2\
+b/48.43, I=1.2\
+````
 
 #### 2D HMBC <NMREDATA_2D_13C_NJ_1H>
 
 Here is an example of HMBC data with two examples of ambiguous
 assignment (could also occur in clusters of peaks):
 
-`>  `<NMREDATA_2D_13C_NJ_1H>
-`Larmor=500.13\`
-`C1/a; optional comment will be visible in the spectrum’s view`
-`(C2,C3)/b, I=1.2\`
-`C2/(b,c) , I=1.2\ `
-`C4,C5,C6)/(e,f) , I=1.2\`
+````
+>  <NMREDATA_2D_13C_NJ_1H>
+Larmor=500.13\
+C1/a; optional comment will be visible in the spectrum’s view
+(C2,C3)/b, I=1.2\
+C2/(b,c) , I=1.2\ 
+C4,C5,C6)/(e,f) , I=1.2\
+````
 
 for HETCOR, the tag label would be
 
@@ -903,20 +962,24 @@ See discussion of COSY spectra (below) why using “Ja”.
 
 A COSY spectrum will be coded with,
 
-`>  `<NMREDATA_2D_1H_NJ_1H>
-[`CorType`](/CorType "wikilink")`=HSQC(COSY; HSQC; HMBC; ?? exact list is still to be defined. Consider this one tentative)`
-`Larmor=500\`
-`a/b, I=1.2, S=100\`
-`b/a, I=1.2\`
-`b/c, I=1.2\`
-`c/b, I=1.2\`
+````
+>  <NMREDATA_2D_1H_NJ_1H>
+[CorType](/CorType "wikilink")=HSQC(COSY; HSQC; HMBC; ?? exact list is still to be defined. Consider this one tentative)
+Larmor=500\
+a/b, I=1.2, S=100\
+b/a, I=1.2\
+b/c, I=1.2\
+c/b, I=1.2\
+````
 
 If couplings were measured from the cosy, the values should be specified
 
-`a/b, Ja=5\`
-`where Ja means active coupling (present in f1 and f2)`
-`where J1 means passive coupling(s) (present in f1). `
-`where J2 means passive coupling(s) (present in f2).`
+````
+a/b, Ja=5\
+where Ja means active coupling (present in f1 and f2)
+where J1 means passive coupling(s) (present in f1).
+where J2 means passive coupling(s) (present in f2).
+````
 
 Any number of couplings can be added. For example, the A-X crosspeak
 with A and X coupling with M could be described as:
@@ -927,8 +990,10 @@ Meaning that the active coupling JAX=5 Hz, the passive couplings JAM=4
 Hz and JXM=2 Hz. If the assignment was made (as for 1D 1H), the assigned
 couplings are specified:
 
-`A/X, Ja=5, J1=4(M), J2=2(M)\`
-`A/X, Ja=5, J1=4(M), 6.1(K), J2=2(M), 3.1(K)\`
+````
+A/X, Ja=5, J1=4(M), J2=2(M)\
+A/X, Ja=5, J1=4(M), 6.1(K), J2=2(M), 3.1(K)\
+````
 
 This allows reporting the result of the analysis of high-resolution
 DQF-COSY spectra or soft-COSY spectra. In this manner, high-resolution
@@ -945,67 +1010,79 @@ read.
 
 NOESY spectra will be described as:
 
-`>  `<NMREDATA_2D_1H_D_1H>
-`Larmor=500\`
-`a/b, I=1.2\`
-`b/c, I=1.2\`
+````
+>  <NMREDATA_2D_1H_D_1H>
+Larmor=500\
+a/b, I=1.2\
+b/c, I=1.2\
+````
 
 #### 2D HOESY <NMREDATA_2D_19F_D_1H>
 
 Heteronuclear <sub>19</sub>F-<sub>1</sub>H data would be in a tag called
 if <sub>1</sub>H is detected and <sub>19</sub>F in F1:
 
-`>  `<NMREDATA_2D_19F_D_1H>
+````
+>  <NMREDATA_2D_19F_D_1H>
+````
 
 #### Naming tags for *n*D
 
 The structure of the name of the SD tag of spectra is constructed as
 follows. It describes the pulse sequence.
 
-`1) The number of dimensions is given (e.g. “2D_...”) `
-`2) Follows, the isotope of the first indirect dimension (e.g. “..._13C_...”)`
-`3) Follows the code of the mixing to the next dimension (e.g. “..._1J_...”). `
-`4) Finally, the detected isotope is given. (e.g. “..._1H”).`
+````
+1) The number of dimensions is given (e.g. “2D_...”)
+2) Follows, the isotope of the first indirect dimension (e.g. “..._13C_...”)
+3) Follows the code of the mixing to the next dimension (e.g. “..._1J_...”).
+4) Finally, the detected isotope is given. (e.g. “..._1H”).
+````
 
 the TAG of the HSQC is therefore “<NMREDATA_2D_13C_1J_1H>”
 
 Mixing can be:
 
-`1J for one bond (typ. HSQC)`
-`NJ (multiple bound J, for cosy, hmbc)`
-`TJ TOCSY`
+````
+1J for one bond (typ. HSQC)
+NJ (multiple bound J, for cosy, hmbc)
+TJ TOCSY
+````
 
 Examples:
 
-`2D_1H_NJ_1H    COSY/DQF-COSY`
-`2D_1H_3QJ_1H   TQ-COSY (and other MQF)`
-`2D_1H_EJ_1H    E-COSY/soft-COSY`
-`2D_1H_RJ_1H    relayed cosy`
-`2D_1H_TJ_1H    TOCSY`
-`2D_13C_1J_1H   HSQC/HMQC/CT-HSQC`
-`2D_13C_NJ_1H   HMBC`
-`2D_13C_2J_1H   H2BC`
-`2D_13C_1J(1H_J)_1H 2MBC (HSQC-COSY ?)`
-`2D_13C_11CCJ_1H    1,1 adequate`
-`2D_13C_N1CCJ_1H    n,1 adequate`
-`2D_13C_1NCCJ_1H    1,n adequate`
-`2D_13C_NNCCJ_1H    n,n adequate`
-`2D_13C13C_1J_13C   2D-inadequate`
-`2D_1H_D_1H NOESY `
-`2D_19F_D_1H    HOESY with 19F in F1 detection of 1H`
-`2D_T1_1H   relax measurements`
-`2D_F_1H    diffusion measurements`
-`2D_13C_1J(1H_TJ)_1H    2D HSQC-TOCSY`
-`2D_1H  J-res/DIAG/ d_resolved/SERF/G-SERF`
-`3D_13C_1J_1H_TJ_1H 3D HSQC-TOCSY`
-`3D_CO_1J_15N_1J_1H 3D-HNCO     `
-`                       `
+````
+2D_1H_NJ_1H    COSY/DQF-COSY
+2D_1H_3QJ_1H   TQ-COSY (and other MQF)
+2D_1H_EJ_1H    E-COSY/soft-COSY
+2D_1H_RJ_1H    relayed cosy
+2D_1H_TJ_1H    TOCSY
+2D_13C_1J_1H   HSQC/HMQC/CT-HSQC
+2D_13C_NJ_1H   HMBC
+2D_13C_2J_1H   H2BC
+2D_13C_1J(1H_J)_1H 2MBC (HSQC-COSY ?)
+2D_13C_11CCJ_1H    1,1 adequate
+2D_13C_N1CCJ_1H    n,1 adequate
+2D_13C_1NCCJ_1H    1,n adequate
+2D_13C_NNCCJ_1H    n,n adequate
+2D_13C13C_1J_13C   2D-inadequate
+2D_1H_D_1H NOESY 
+2D_19F_D_1H    HOESY with 19F in F1 detection of 1H
+2D_T1_1H   relax measurements
+2D_F_1H    diffusion measurements
+2D_13C_1J(1H_TJ)_1H    2D HSQC-TOCSY
+2D_1H  J-res/DIAG/ d_resolved/SERF/G-SERF
+3D_13C_1J_1H_TJ_1H 3D HSQC-TOCSY
+3D_CO_1J_15N_1J_1H 3D-HNCO     
+                       
+````
 
 For J-resolved and related experiments (DIAG, δ-resolved) where the
 indirect dimension is not a chemical shift (no correlation present),
 only the detected isotope is given.
 
-`2D_1H J-resolved`
+````
+2D_1H J-resolved
+````
 
 The spectrum is described as a 1D 1H spectrum (providing chemical shift,
 couplings, etc.).
