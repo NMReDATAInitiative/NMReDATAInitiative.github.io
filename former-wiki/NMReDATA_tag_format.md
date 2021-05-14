@@ -86,11 +86,14 @@ When using ambiguously assigned signals in 2D spectra, set to 2 or 3
 
 Instead of using a single label in the assignment of signals,
 
-`a`
+````
+a
+````
 
 this level allows to list the possible candidate labels to the signal.
 
 For example,
+
 ````
 (a, b)
 (a,b) 
@@ -121,17 +124,18 @@ Path= pointer to the nmredata.sdf file relative to the root of the z
 
 Here is an working example:
 ````
-`>  `<NMREDATA_ID>
-`Doi=10.5281/zenodo.1146869`<span style="color:#0808F8">**`\`**</span>
-`Record=`[`https://zenodo.org/record/1146869/files/sample1.zip`](https://zenodo.org/record/1146869/files/sample1.zip)<span style="color:#0808F8">**`\`**</span>
-`Path=compound1.nmredata.sdf`<span style="color:#0808F8">**`\`**</span>
+>  `<NMREDATA_ID>
+Doi=10.5281/zenodo.1146869\
+Record=`[`https://zenodo.org/record/1146869/files/sample1.zip`](https://zenodo.org/record/1146869/files/sample1.zip)\
+Path=compound1.nmredata.sdf\
+
 ````
 
 When copied from database to database, multiple ID's may be included.
 These will be defined by database manager and software producers. They
 could have the following form:
 ````
-...`
+...
 DB_ID= the code or number is assigned by the hosting database\
 Title= Full analysis of whatever from methanol extract  \
 Comment= Here more details could be given on the record.\
@@ -175,11 +179,15 @@ Examples:
 isomeric SMILES of glucose (when the .mol structure includes explicit
 hydrogen atoms)
 
-`C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O)O)O)O)O`
+````
+C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O)O)O)O)O
+````
 
 canonical SMILES (when the hydrogen atoms are implicit)
 
-`C(C1C(C(C(C(O1)O)O)O)O)O`
+````
+C(C1C(C(C(C(O1)O)O)O)O)O
+````
 
 #### <NMREDATA_ALATIS> (optional but desired)
 
@@ -213,16 +221,20 @@ CDCl3/DMSO/D2O 80:10:10
 By default, the numbers are percentages in volumes. This can be modified
 when other units are necessary as for describing buffers:
 
-`>  `<NMREDATA_SOLVENT>
-`D2O/"sodium phosphate"/"sodium azide"/DSS 100:50:500:0.1 %:mM:uM:% Solvent:Buffer:Cytocide:Reference`
+````
+>  <NMREDATA_SOLVENT>
+D2O/"sodium phosphate"/"sodium azide"/DSS 100:50:500:0.1 %:mM:uM:% Solvent:Buffer:Cytocide:Reference
+````
 
 In the case of RDC measurements, the medium used can be specified in the
 line following the name of the solvent.
 
 #### <NMREDATA_PH> (optional)
 
-`>  `<NMREDATA_PH>` `
-`5.73`
+````
+>  <NMREDATA_PH>
+5.73
+````
 
 The pH is imporant in metabolomics applications. We recommend including
 it when relevant.
@@ -233,16 +245,18 @@ When known, the concentration should be given. Only “mM” are allowed,
 but the unit is specified.
 
 <NMREDATA_CONCENTRATION>
-`12.3 mM`
+````
+12.3 mM
+````
 
 #### <NMREDATA_TEMPERATURE> (optional but desired)
 
 When available the temperature of the sample should be given (only K are
 allowed, but the unit is given)
-
-`>  `<NMREDATA_TEMPERATURE>
-`298.0 K`
-
+````
+>  <NMREDATA_TEMPERATURE>
+298.0 K
+````
 Agregated data tags
 -------------------
 
@@ -299,13 +313,15 @@ b and c, and carbons A and B, (names could be different, I don’t mean
 that labels have to be called using letters for protons, and numbers for
 carbons - this is just an example) the tag would be:
 
-`>  `<NMREDATA_ASSIGNMENT>`; ethanol with explicit hydrogen atoms`
-`A, 48.301, 1 ;A corresponds to the carbon of CH2\`
-`B, 20.322, 2 ;B corresponds to the carbon of CH3\`
-`a, 2.610, 3 ;a corresponds to the hydrogen atom of the OH\`
-`b, 4.802, 4, 5; b corresponds to the hydrogen atoms of the CH2\`
-`c, 1.401, 6, 7, 8\`
-`Ex, 3.6, 9\`
+````
+>  <NMREDATA_ASSIGNMENT>; ethanol with explicit hydrogen atoms
+A, 48.301, 1 ;A corresponds to the carbon of CH2\
+B, 20.322, 2 ;B corresponds to the carbon of CH3\
+a, 2.610, 3 ;a corresponds to the hydrogen atom of the OH\
+b, 4.802, 4, 5; b corresponds to the hydrogen atoms of the CH2\
+c, 1.401, 6, 7, 8\
+Ex, 3.6, 9\
+````
 
 We recommend to use the special label "Ex" to designate all the H of the
 OH, NH, etc. that are quickly exchanging (for example the OH of glucose
@@ -322,12 +338,14 @@ defined chirality.
 
 Example for ethanol:
 
-`>  `<NMREDATA_ASSIGNMENT>
-`A, 48.3010, 1 ;the label "A" corresponds to the atom one which is the carbon of the CH2`<span style="color:#0808F8">**`\`**</span>
-`B, 20.3220, 2 ;atom two is the carbon of the CH3`<span style="color:#0808F8">**`\`**</span>
-`a, 2.6100, H3 ;"H3" refers to the hydrogen atom of atom 3 (the oxygen)`<span style="color:#0808F8">**`\`**</span>
-`b, 4.8020, H1 ;"H1" refers to the hydrogen atoms of atom 1 (of the CH2)`<span style="color:#0808F8">**`\`**</span>
-`c, 1.4010, H2`<span style="color:#0808F8">**`\`**</span>
+````
+>  <NMREDATA_ASSIGNMENT>
+A, 48.3010, 1 ;the label "A" corresponds to the atom one which is the carbon of the CH2\
+B, 20.3220, 2 ;atom two is the carbon of the CH3\
+a, 2.6100, H3 ;"H3" refers to the hydrogen atom of atom 3 (the oxygen)\
+b, 4.8020, H1 ;"H1" refers to the hydrogen atoms of atom 1 (of the CH2)\
+c, 1.4010, H2\
+````
 
 (atom 3 would be the oxygen of ethanol) Only explicit H are allowed. No
 monomer unit, no “R” group.
@@ -351,14 +369,16 @@ diastereotopic protons).
 Examples of labels (**Note the \<""\> is used when they the labels
 include "," "/" "\\" "\|" "(" ")" or "&" characters**):
 
-`a`
-`H-C1`
-`Proton_1`
-`H'`
-`H''`
-`<"Ha,Hb">`
-`<"Ha/Hb">`
-`<"H-C(1)">`
+````
+a
+H-C1
+Proton_1
+H'
+H''
+<"Ha,Hb">
+<"Ha/Hb">
+<"H-C(1)">
+````
 
 No ranges of chemical shifts are allowed here, only single floating
 point should be specified. (in 1D spectra description ranges are
@@ -382,16 +402,21 @@ may be interchanged, they are listed before the end of the
 NMREDATA_ASSIGNMENT list, before the empty line with the keyword
 "Interchangeable=":
 
-`>  `<NMREDATA_ASSIGNMENT>
-`...`
-`a, 5.610, 10\`
-`b, 5.802, 41\`
-`...`
-`Interchangeable=a, b\`
+````
+>  <NMREDATA_ASSIGNMENT>
+...
+a, 5.610, 10\
+b, 5.802, 41\
+...
+Interchangeable=a, b\
+````
 
 means that the assignment of a and b may be interchanged.
 
-`Interchangeable=(a, CA), (b, CB)`
+````
+Interchangeable=(a, CA), (b, CB)
+````
+
 
 means that “a” together with “CA” may be interchanged with “b” together
 with “CB”. (This may be if two -O-Me could not be assigned unambiguously
@@ -425,12 +450,14 @@ systems). In this case the fact that pairs of "labels" correspond to
 equivalent spins is indicated with the "Equivalent=" keyword. Follows
 the list of the labels of the equivalent spins.
 
-`>  `<NMREDATA_ASSIGNMENT>
-`...`
-`a, 6.610, 10\`
-`a', 6.610, 41\`
-`...`
-`Equivalent=a, a'\`
+````
+>  <NMREDATA_ASSIGNMENT>
+...
+a, 6.610, 10\
+a', 6.610, 41\
+...
+Equivalent=a, a'\
+````
 
 means that the a and a' are equivalent.
 
