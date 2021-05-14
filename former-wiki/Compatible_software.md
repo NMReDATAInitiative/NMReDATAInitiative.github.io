@@ -34,64 +34,6 @@ Announced Software & tools
 
 ### "Comparison of NMReDATA versions (under construction)"
 
-\<!--
-
-<table>
-<thead>
-<tr class="header">
-<th><p>Content</p></th>
-<th><p>V1.1</p></th>
-<th><p>V1.2</p></th>
-<th><p>V1.3 (Future version under review...)</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>author/institution/license information</p></td>
-<td></td>
-<td></td>
-<td><p>opt.</p></td>
-</tr>
-<tr class="even">
-<td><p>TAGS</p></td>
-<td><table>
-<tbody>
-<tr class="odd">
-<td></td>
-</tr>
-<tr class="even">
-<td><p>tag1</p></td>
-</tr>
-<tr class="odd">
-<td><p>tag2</p></td>
-</tr>
-</tbody>
-</table></td>
-<td><table>
-<tbody>
-<tr class="odd">
-<td></td>
-</tr>
-<tr class="even">
-<td><p>tag1</p></td>
-</tr>
-<tr class="odd">
-<td><p>tag2</p></td>
-</tr>
-</tbody>
-</table></td>
-<td><p>fg</p></td>
-</tr>
-<tr class="odd">
-<td><p>v1</p></td>
-<td><p>v2</p></td>
-<td><p>v3</p></td>
-<td><p>v4</p></td>
-</tr>
-</tbody>
-</table>
-
---!\>
 
 The unix script written for Mac converting Mnova files to nmredata.sdf
 files and generating NMR records (when the spectral data are at their

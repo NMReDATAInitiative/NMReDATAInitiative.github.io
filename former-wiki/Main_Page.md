@@ -23,7 +23,7 @@ Introduction
 
 The [NMReDATA working group](http://www.nmredata.org/partners.html)
 decided to include data extracted from NMR spectra of small molecules in
-[SDF files](/sdf_files "wikilink") using SD tags.
+[SDF files](/Sdf_files "wikilink") using SD tags.
 
 Link to the [MRC
 article](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrc.4737) on
