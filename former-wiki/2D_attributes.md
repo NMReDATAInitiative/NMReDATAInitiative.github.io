@@ -20,13 +20,19 @@ List of signal attributes ("D spectra)
 
 **Note that they should apear in this order!**
 
-[`I=`` ``Intensity`](/#I=_Signal_intensity "wikilink")` (`***`float`***`)`
-[`E=`` ``Volume`](/#E=_Signal_Volume "wikilink")` (crude integrals) (`***`float`***`)`
-[`Ja=`` ``Active`` ``scalar`` ``coupling`](/#Ja=_Active_scalar_coupling "wikilink")` (`***`string`***`)`
-[`J1=`` ``F1`` ``passive`` ``coupling`](/#J1/J2=_Passive_scalar_coupling "wikilink")` (`***`string`***`)`
-[`J2=`` ``F2`` ``passive`` ``coupling`](/#J1/J2=_Passive_scalar_coupling "wikilink")` (`***`string`***`)`
-[`W1=`` ``F1`` ``signal`` ``width`](/#W1/J2=_Signal_width "wikilink")` (`***`float`***`)`
-[`W2=`` ``F2`` ``signal`` ``width`](/#W1/J2=_Signal_width "wikilink")` (`***`float`***`)`
+[I= Intensity](/#I=_Signal_intensity "wikilink") (***float***)
+
+[E= Volume](/#E=_Signal_Volume "wikilink") (crude integrals) (***float***)
+
+[Ja= Active scalar coupling](/#Ja=_Active_scalar_coupling "wikilink") (***string***)
+
+[J1= F1 passive coupling](/#J1/J2=_Passive_scalar_coupling "wikilink") (***string***)
+
+[J2= F2 passive coupling](/#J1/J2=_Passive_scalar_coupling "wikilink") (***string***)
+
+[W1= F1 signal width](/#W1/J2=_Signal_width "wikilink") (***float***)
+
+[W2= F2 signal width](/#W1/J2=_Signal_width "wikilink") (***float***)
 
 Examples attributes of 2D signal
 ================================
