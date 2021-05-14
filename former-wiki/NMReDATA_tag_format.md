@@ -123,6 +123,7 @@ Path= pointer to the nmredata.sdf file relative to the root of the z
 ````
 
 Here is an working example:
+
 ````
 >  `<NMREDATA_ID>
 Doi=10.5281/zenodo.1146869\
@@ -245,6 +246,7 @@ When known, the concentration should be given. Only “mM” are allowed,
 but the unit is specified.
 
 <NMREDATA_CONCENTRATION>
+
 ````
 12.3 mM
 ````
@@ -253,10 +255,12 @@ but the unit is specified.
 
 When available the temperature of the sample should be given (only K are
 allowed, but the unit is given)
+
 ````
 >  <NMREDATA_TEMPERATURE>
 298.0 K
 ````
+
 Agregated data tags
 -------------------
 
