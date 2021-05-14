@@ -37,7 +37,8 @@ c
 \````
 ````
 
-For now, please refer to the main normal site at [nmredata.org](http://nmredata.org)
+For now, please refer to the main normal web site at [nmredata.org](http://nmredata.org)
+For now, please refer to the main normal wiki side at [nmredata.org](https://nmredata.org/wiki/Main_Page)
 
 
 # Header 1
