@@ -10,7 +10,7 @@ Direct link to the page describing the [format of the NMREDATA tags
 NMREDATA tags (version 2.0)](/NMReDATA_tag_format_2.0 "wikilink").
 
 List of [compatible software and
-webtools](/compatible_software "wikilink")
+webtools](/Compatible_software "Compatible software")
 
 Tentative instruction for [journal submission of
 NMReDATA](/Submission_NMReDATA "wikilink").
