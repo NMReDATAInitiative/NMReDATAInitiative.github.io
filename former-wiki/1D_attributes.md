@@ -13,16 +13,16 @@ of signal attributes (1D spectra)
 the shift value is mandatory.**
 
 ````
-[S= Multiplicity](/#S=_Multiplicity "wikilink") (`***`string`***`)
-[J= Scalar coupling](/#J=_Scalar_coupling "wikilink") (`***`string`***`)
-[N= number of nuclei](/#N=_number_of_nuclei "wikilink")` (rounded number of atoms) (`***`int`***`)
-[L= Label of the signal](/#L=_Label "wikilink")` (`***`string`***`)
-[E= Integral](/#E=_Signal_Integral "wikilink")` (crude integrals) (`***`float`***`)
-[I= Intensity](/#I=_Signal_intensity "wikilink")` (`***`float`***`)
-[W= Width](/#W"=_Signal_width "wikilink")` (`***`float`***`)
-[T1= T1 relaxation time](/#T1/T2=_Relaxation_time "wikilink")` in second (`***`float`***`)
-[T2= T2 relaxation time](/#T1/T2=_Relaxation_time "wikilink")` in second (`***`float`***`)
-[Diff= for diffusion rate](/#Diff=_Diffusion_rate "wikilink")` in m`<sup>`2`</sup>`/s`<sup>`-1`</sup>(`***`float`***`)
+[S= Multiplicity](/#S=_Multiplicity "wikilink") (***string***)
+[J= Scalar coupling](/#J=_Scalar_coupling "wikilink") (***string***)
+[N= number of nuclei](/#N=_number_of_nuclei "wikilink")` (rounded number of atoms) (***int***)
+[L= Label of the signal](/#L=_Label "wikilink")` (***string***)
+[E= Integral](/#E=_Signal_Integral "wikilink")` (crude integrals) (***float***)
+[I= Intensity](/#I=_Signal_intensity "wikilink")` (***float***)
+[W= Width](/#W"=_Signal_width "wikilink")` (***float***)
+[T1= T1 relaxation time](/#T1/T2=_Relaxation_time "wikilink")` in second (***float***)
+[T2= T2 relaxation time](/#T1/T2=_Relaxation_time "wikilink")` in second (***float***)
+[Diff= for diffusion rate](/#Diff=_Diffusion_rate "wikilink")` in m`<sup>`2`</sup>`/s`<sup>`-1`</sup>(***float***)
 ````
 
 Examples of signal attribute in 1D spectrum
