@@ -108,7 +108,12 @@ or *b*. Note that here we don't require the space after the ",".
 
 When using interchangeable and ambiguous assignment, set to 3 (=2+1).
 
-## /<NMREDATA_ID/> (Very important for reference)
+## "/<"NMREDATA_ID/> (Very important for reference)
+
+## "/<"NMREDATA_ID/> (Very important for reference)
+
+## "/<NMREDATA_ID"/> (Very important for reference)
+## '/<'NMREDATA_ID/> (Very important for reference)
 
 This tag is optional but very much encouraged, in particular when data
 are stored as NMR record with a DOI. The following are defined by the
