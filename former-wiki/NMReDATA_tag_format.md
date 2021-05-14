@@ -46,7 +46,7 @@ Header tags
 We included in the header tags only the absolutely necessary information
 about the NMR dataset.
 
-#### <NMREDATA_VERSION>
+#### \<NMREDATA_VERSION\>
 
 This tag is used to specify the “VERSION” of the file format. Current
 version : 1.1
@@ -59,7 +59,7 @@ the end-of-line character. If is optional for tags with a single line,
 but mandatory to reparate lines [(more
 details)](/end-of-line "Wikilink").
 
-#### <NMREDATA_LEVEL>
+#### \<NMREDATA_LEVEL\>
 
 This tag is used to specify the level of complexity of the data. In most
 cases, level 0 (the standard) will be used when an assignment is
@@ -110,20 +110,6 @@ When using interchangeable and ambiguous assignment, set to 3 (=2+1).
 
 #### \<NMREDATA_ID\> (Very important for reference)
 
-## "/<"NMREDATA_ID/> (Very important for reference)
-
-## "/<NMREDATA_ID"/> (Very important for reference)
-## '/<'NMREDATA_ID/> (Very important for reference)
-
-
-
-#### /"</"NMREDATA_ID/> (Very important for reference)
-
-## "<"NMREDATA_ID/> (Very important for reference)
-
-## "<NMREDATA_ID"/> (Very important for reference)
-## '<'NMREDATA_ID/> (Very important for reference)
- 
 This tag is optional but very much encouraged, in particular when data
 are stored as NMR record with a DOI. The following are defined by the
 NMReDATA format:
@@ -172,7 +158,7 @@ etc.) it is to the “generator” of the file to decide if/how to make it
 unique if desired. InChIKey/SMILES could be given if the soft generating
 the data is able to specify it. CAS-number if it already exists.
 
-#### <NMREDATA_FORMULA> (optional but desired)
+#### \<NMREDATA_FORMULA\> (optional but desired)
 
 Here should come the chemical formula of the compound. (optional, but if
 possible, it should be included!)
@@ -182,7 +168,7 @@ possible, it should be included!)
 C6H12O6
 ````
 
-#### <NMREDATA_SMILES> (optional but desired)
+#### \<NMREDATA_SMILES\> (optional but desired)
 
 Here comes the *isomeric smiles* when the molecule contains explicit H.
 Otherwise *canonical smile* is OK. This will allow to generate text
@@ -204,14 +190,14 @@ canonical SMILES (when the hydrogen atoms are implicit)
 C(C1C(C(C(C(O1)O)O)O)O)O
 ````
 
-#### /<NMREDATA_ALATIS/> (optional but desired)
+#### \<NMREDATA_ALATIS\> (optional but desired)
 
 Here should come the *ALATIS* code of the compound. (If possible, it
 should be included!)
 
 [More details about Alatis](http://alatis.nmrfam.wisc.edu/)
 
-#### <NMREDATA_SOLVENT>
+#### \<NMREDATA_SOLVENT\>
 
 The solvent is specified using this tag.
 
@@ -244,7 +230,7 @@ D2O/"sodium phosphate"/"sodium azide"/DSS 100:50:500:0.1 %:mM:uM:% Solvent:
 In the case of RDC measurements, the medium used can be specified in the
 line following the name of the solvent.
 
-#### <NMREDATA_PH> (optional)
+#### \<NMREDATA_PH\> (optional)
 
 ````
 >  <NMREDATA_PH>
@@ -254,7 +240,7 @@ line following the name of the solvent.
 The pH is imporant in metabolomics applications. We recommend including
 it when relevant.
 
-#### <NMREDATA_CONCENTRATION> (optional)
+#### \<NMREDATA_CONCENTRATION\> (optional)
 
 When known, the concentration should be given. Only “mM” are allowed,
 but the unit is specified.
@@ -265,7 +251,7 @@ but the unit is specified.
 12.3 mM
 ````
 
-#### <NMREDATA_TEMPERATURE> (optional but desired)
+#### \<NMREDATA_TEMPERATURE\> (optional but desired)
 
 When available the temperature of the sample should be given (only K are
 allowed, but the unit is given)
@@ -289,7 +275,7 @@ usually not systematically measured and/or assigned, but when they are,
 the values measured in the spectra should be compiled in the
 <NMREDATA_J> tag
 
-#### <NMREDATA_ASSIGNMENT> (previously named <NMREDATA_SIGNALS>)
+#### \<NMREDATA_ASSIGNMENT\> (previously named \<NMREDATA_SIGNALS\>)
 
 This tag makes the link between the labels (used in the description of
 the spectra (see below) to the atoms of the molecules.
@@ -504,7 +490,7 @@ be distinguished if a single label was used for both *ortho* protons.
 
 See also equivalent coupling in the NMREDATA_J tag.
 
-#### <NMREDATA_J>
+#### \<NMREDATA_J\>
 
 If scalar couplings were measured and assigned, a <NMREDATA_J> tag
 should be generated to list the couplings. This facilitates the
@@ -803,7 +789,7 @@ Decoupled=19F\
 
 ...
 
-##### <NMREDATA_1D_13C> etc.
+##### \<NMREDATA_1D_13C\> etc.
 
 1D <sup>13</sup>C spectra and other heteronuclear spectra (nuclei X)
 ````
@@ -923,7 +909,7 @@ be “quantitative”. Optional integration of the volume encouraged using
 
 MD5 are not mandatory, but recommended if they can be easily generated
 
-#### 2D HSQC <NMREDATA_2D_13C_1J_1H>
+#### 2D HSQC \<NMREDATA_2D_13C_1J_1H\>
 
 Here is an example of HSQC data:
 
@@ -936,7 +922,7 @@ a/C1, I=1.2\
 b/48.43, I=1.2\
 ````
 
-#### 2D HMBC <NMREDATA_2D_13C_NJ_1H>
+#### 2D HMBC \<NMREDATA_2D_13C_NJ_1H\>
 
 Here is an example of HMBC data with two examples of ambiguous
 assignment (could also occur in clusters of peaks):
@@ -974,7 +960,7 @@ heteronuclear couplings may be listed as :
 (more details about the [attributes of 2D
 spectra](/2D_attributes "wikilink")).
 
-#### 2D COSY <NMREDATA_2D_1H_NJ_1H>
+#### 2D COSY \<NMREDATA_2D_1H_NJ_1H\>
 
 See discussion of COSY spectra (below) why using “Ja”.
 
@@ -1024,7 +1010,7 @@ generating these data should also generate a <J> tag (see above) to
 compile J-couplings and present them in a manner that it is easier to
 read.
 
-#### 2D NOESY <NMREDATA_2D_1H_D_1H>
+#### 2D NOESY \<NMREDATA_2D_1H_D_1H\>
 
 NOESY spectra will be described as:
 
@@ -1035,7 +1021,7 @@ a/b, I=1.2\
 b/c, I=1.2\
 ````
 
-#### 2D HOESY <NMREDATA_2D_19F_D_1H>
+#### 2D HOESY \<NMREDATA_2D_19F_D_1H\>
 
 Heteronuclear <sub>19</sub>F-<sub>1</sub>H data would be in a tag called
 if <sub>1</sub>H is detected and <sub>19</sub>F in F1:
