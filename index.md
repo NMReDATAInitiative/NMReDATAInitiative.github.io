@@ -5,13 +5,7 @@ This site is under construction!!!
 
 For now, please refer to the main normal site at [nmredata.org](http://nmredata.org)
 
-[Link to another page](./another-page.html).
-
 [Link to formerly wikimedia pages](./former-wiki/Main_Page.md).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # Header 1
 
