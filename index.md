@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
-This site is under construction!!!
+*This site is under construction!!!*
 
 Migration from the wiki page is at the final stage of fine editing.
+
 [Link to the new pages (formerly wikimedia pages)](./former-wiki/Main_Page.md).
 
 *Issues:*
 
-- In titles (with one or more #) the < and > char have to escaped using \\
+- In titles (with one or more #) the < and > char have to escaped using `\`
 ````
 Replace:
 ## <NMREDATA_VERSION>
