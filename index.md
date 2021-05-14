@@ -3,6 +3,24 @@ layout: default
 ---
 This site is under construction!!!
 
+Migration from the wiki page is at the final stage of fine editing.
+
+Issues:
+
+- In titles (wiht one or more #) the < and > char have to escaped using \\
+````
+Replace:
+## <NMREDATA_VERSION>
+with:
+## \<NMREDATA_VERSION\>
+````
+- For calls to other md pages, the first letter has to be set to its capital version:
+````
+Replace:
+[Link to formerly wikimedia pages](./former-wiki/Main_Page.md).
+with:
+[Link to formerly wikimedia pages](./former-wiki/Main_Page.md).
+````
 For now, please refer to the main normal site at [nmredata.org](http://nmredata.org)
 
 [Link to formerly wikimedia pages](./former-wiki/Main_Page.md).
