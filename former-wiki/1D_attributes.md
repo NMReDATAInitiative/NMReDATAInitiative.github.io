@@ -59,7 +59,7 @@ Examples of a a negative signal for CH<sub>2</sub>,C(5) a DEPT
 Attributes
 ==========
 
-## S= Multiplicity
+#### S= Multiplicity
 
 |      |               |
 |------|---------------|
@@ -78,8 +78,8 @@ In case of overlap, second-order effects, use "m". This is meant to be
 the apparent multiplicity. For example a dd with similar coupling will
 look as a triplet, can be called "t".
 
-## J= Scalar coupling
-### J= Scalar coupling (unassigned)
+#### J= Scalar coupling
+##### J= Scalar coupling (unassigned)
 
 Couplings in Hz with two digits after the period separated by the
 [separator](/separator "wikilink").
@@ -96,7 +96,7 @@ with J=4.81 Hz.
 Following the couplings, labels may be given in parentheses to assign
 the coupling.
 
-### J= Scalar coupling (assigned)
+#### J= Scalar coupling (assigned)
 
 Scalar couplings are given with
 two digits following the period. For a signal assigned to "a":
@@ -113,7 +113,7 @@ See also, the [<NMREDATA_J>
 tag](/NMReDATA_tag_format#.3CNMREDATA_J.3E "wikilink") where assigned
 coupling should be compiled.
 
-## N= number of nuclei 
+#### N= number of nuclei 
 
 For 1D <sup>1</sup>H spectra: 1 for CH, 2 for
 CH<sub>2</sub>, *N* for multiplet, where *N* is the number of protons in
@@ -132,19 +132,19 @@ tag). Keep in mind the
 of unambiguous assignment [when
 level\>2](/NMReDATA_tag_format#.3CNMREDATA_LEVEL.3E "wikilink").
 
-## E= Signal Integral
+#### E= Signal Integral
 
 E integral (in arbitrary units).
 
-## I= Signal intensity
+#### I= Signal intensity
 
 I intensity (in arbitrary units).
 
-## W= Signal width
+#### W= Signal width
 
 W width of the signal at half height (in Hz).
 
-## T1/T2= Relaxation time 
+#### T1/T2= Relaxation time 
 
 Results of relaxation measurements, T1, T2,
 etc. can be given in seconds as:
