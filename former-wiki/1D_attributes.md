@@ -125,13 +125,13 @@ CH<sub>*N*</sub>, where *N* is the number of protons bound to the carbon
 This reflects the value of the integrals, but it is not the value of the
 integral. The value of the integral can be specified using the "E="
 attribute.
+#### L= Label
 
-== L= Label == The label (according to list in the <NMR_ASSIGNMENT>
+The label (according to list in the <NMR_ASSIGNMENT>
 tag). Keep in mind the
 [possibility](/NMReDATA_tag_format#Ambiguous_assignment_of_signals_.28ONLY_WITH_LEVEL.3E0.29 "wikilink")
 of unambiguous assignment [when
 level\>2](/NMReDATA_tag_format#.3CNMREDATA_LEVEL.3E "wikilink").
-
 #### E= Signal Integral
 
 E integral (in arbitrary units).
