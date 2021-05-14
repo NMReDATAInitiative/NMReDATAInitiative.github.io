@@ -110,7 +110,7 @@ When using interchangeable and ambiguous assignment, set to 3 (=2+1).
 
 ## "/<NMREDATA_ID/>" (Very important for reference)
 
-## "/<"NMREDATA_ID/>" (Very important for reference)
+## /<NMREDATA_ID/> (Very important for reference)
 
 ## '<NMREDATA_ID>' (Very important for reference)
 
