@@ -4,6 +4,7 @@ layout: default
 This site is under construction!!!
 
 Migration from the wiki page is at the final stage of fine editing.
+[Link to the new pages (formerly wikimedia pages)](./former-wiki/Main_Page.md).
 
 *Issues:*
 
@@ -18,27 +19,26 @@ with:
 ````
 Replace:
 [Link ...](main_Page).
-with:
+with :
 [Link ...](Main_Page).
 ````
 
-- For insert:
+- For code blocks, replace the in-line with blocks:
 ````
 Replace:
 `a`
 `b`
 `c`
-with:
-\`\`\`\`
+with (but ignore the \):
+\````
 a
 b
 c
-\`\`\`\`
+\````
 ````
 
 For now, please refer to the main normal site at [nmredata.org](http://nmredata.org)
 
-[Link to formerly wikimedia pages](./former-wiki/Main_Page.md).
 
 # Header 1
 
