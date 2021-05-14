@@ -50,10 +50,10 @@ about the NMR dataset.
 
 This tag is used to specify the “VERSION” of the file format. Current
 version : 1.1
-
-`>  <NMREDATA_VERSION>`
-`1.1`<span style="color:#0808F8">**`\`**</span>
-
+````
+>  <NMREDATA_VERSION>
+1.1\
+````
 Note the <span style="color:#0808F8"> addition of the "**\\**" before
 the end-of-line character. If is optional for tags with a single line,
 but mandatory to reparate lines [(more
@@ -91,11 +91,12 @@ Instead of using a single label in the assignment of signals,
 this level allows to list the possible candidate labels to the signal.
 
 For example,
-
-`(a, b)`
-`(a,b) `
-`(<"Unit1,C1">,<Unit2,C1>) `
-`(<"1/C1">,<2/C1>)`
+````
+(a, b)
+(a,b) 
+(<"Unit1,C1">,<Unit2,C1>)
+(<"1/C1">,<2/C1>)
+````
 
 Indicates that the assignment is ambiguous and corresponds to either *a*
 or *b*. Note that here we don't require the space after the ",".
@@ -110,34 +111,38 @@ This tag is optional but very much encouraged, in particular when data
 are stored as NMR record with a DOI. The following are defined by the
 NMReDATA format:
 
-`>  `<NMREDATA_ID>
-`Doi= doi of the NMR record`<span style="color:#0808F8">**`\`**</span>
-`Record= URL pointing to the ziped file of the NMR record`<span style="color:#0808F8">**`\`**</span>
-`Path= pointer to the nmredata.sdf file relative to the root of the ziped NMR record`<span style="color:#0808F8">**`\`**</span>
-`...`
+````
+>  <NMREDATA_ID>
+Doi= doi of the NMR record\
+Record= URL pointing to the ziped file of the NMR record\
+Path= pointer to the nmredata.sdf file relative to the root of the ziped NMR record\
+...
+````
 
 Here is an working example:
-
+````
 `>  `<NMREDATA_ID>
 `Doi=10.5281/zenodo.1146869`<span style="color:#0808F8">**`\`**</span>
 `Record=`[`https://zenodo.org/record/1146869/files/sample1.zip`](https://zenodo.org/record/1146869/files/sample1.zip)<span style="color:#0808F8">**`\`**</span>
 `Path=compound1.nmredata.sdf`<span style="color:#0808F8">**`\`**</span>
+````
 
 When copied from database to database, multiple ID's may be included.
 These will be defined by database manager and software producers. They
 could have the following form:
-
-`...`
-`DB_ID= the code or number is assigned by the hosting database\`
-`Title= Full analysis of whatever from methanol extract  \`
-`Comment= Here more details could be given on the record.\`
-`Comment1= Here more details could be given on the record.\`
-`Comment2= Here more details could be given on the record.\`
-`Comment3= Here more details could be given on the record.\`
-`AUTHOR=Doe John, University of Tougalpa, Swinerland (optional)\`
-`ORIGIN_ONE=2345627486 (could be about the sample name)\`
-`ORIGIN_TWO=323212KKDKKS (could give a date or other reference)\`
-`Title_L1=after sep. hplc (this could be extracted from the first line of the title in the 1H spectrum)\`
+````
+...`
+DB_ID= the code or number is assigned by the hosting database\
+Title= Full analysis of whatever from methanol extract  \
+Comment= Here more details could be given on the record.\
+Comment1= Here more details could be given on the record.\
+Comment2= Here more details could be given on the record.\
+Comment3= Here more details could be given on the record.\
+AUTHOR=Doe John, University of Tougalpa, Swinerland (optional)\
+ORIGIN_ONE=2345627486 (could be about the sample name)\
+ORIGIN_TWO=323212KKDKKS (could give a date or other reference)\
+Title_L1=after sep. hplc (this could be extracted from the first line of the title in the 1H spectrum)\
+````
 
 One or more identifier can be given under "ID". The ID will be generated
 by the software generating data and/or the database storing the data,
@@ -153,8 +158,10 @@ the data is able to specify it. CAS-number if it already exists.
 Here should come the chemical formula of the compound. (optional, but if
 possible, it should be included!)
 
-`>  `<NMREDATA_FORMULA>
-`C6H12O6`
+````
+>  <NMREDATA_FORMULA>
+C6H12O6
+````
 
 #### <NMREDATA_SMILES> (optional but desired)
 
@@ -185,17 +192,23 @@ should be included!)
 
 The solvent is specified using this tag.
 
-`>  `<NMREDATA_SOLVENT>
-`CDCl3`
+````
+>  <NMREDATA_SOLVENT>
+CDCl3
+````
 
 For mixture of solvents, the most abundant is first and they are
 separated by "/" followed by the ratio in % separated by ":"
 
-`>  `<NMREDATA_SOLVENT>
-`CDCl3/DMSO 80:20`
+````
+>  <NMREDATA_SOLVENT>
+CDCl3/DMSO 80:20
+````
 
-`>  `<NMREDATA_SOLVENT>
-`CDCl3/DMSO/D2O 80:10:10`
+````
+>  <NMREDATA_SOLVENT>
+CDCl3/DMSO/D2O 80:10:10
+````
 
 By default, the numbers are percentages in volumes. This can be modified
 when other units are necessary as for describing buffers:
