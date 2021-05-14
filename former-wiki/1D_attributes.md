@@ -33,9 +33,11 @@ Chemical shifts are given with four digits after the period (minimum).
 Examples of a doublet in 1D <sup>1</sup>H spectrum: "4.182 (*s*, 2H,
 H-(C3))"
 
-`4.1823, S=d, N=2, L=H-(C3)   `
-`4.1823, S=d, N=2, L=<>  `
-`4.1820-4.1815, S=d, N=2, L=H-(C3) `
+````
+4.1823, S=d, N=2, L=H-(C3)
+4.1823, S=d, N=2, L=<>
+4.1820-4.1815, S=d, N=2, L=H-(C3)
+````
 
 Examples of a typical signals in 1D <sup>13</sup>C spectra: "14.1823
 CH<sub>2</sub>,C(5)"
