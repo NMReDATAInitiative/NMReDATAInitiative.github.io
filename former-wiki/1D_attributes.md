@@ -12,7 +12,7 @@ of signal attributes (1D spectra)
 **Note that they should apear in this order! All labels are optional,
 the shift value is mandatory.**
 
-[S= Multiplicity](/#S=_Multiplicity "wikilink") (***string***)
+[S= Multiplicity](#s-multiplicity "wikilink") (***string***)
 
 [J= Scalar coupling](/#J=_Scalar_coupling "wikilink") (***string***)
 
