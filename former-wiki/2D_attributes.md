@@ -20,19 +20,19 @@ List of signal attributes ("D spectra)
 
 **Note that they should apear in this order!**
 
-[I= Intensity](/#I=_Signal_intensity "wikilink") (***float***)
+[I= Intensity](/#Signal_intensity "wikilink") (***float***)
 
-[E= Volume](/#E=_Signal_Volume "wikilink") (crude integrals) (***float***)
+[E= Volume](/#Signal_Volume "wikilink") (crude integrals) (***float***)
 
-[Ja= Active scalar coupling](/#Ja=_Active_scalar_coupling "wikilink") (***string***)
+[Ja= Active scalar coupling](/#Active_scalar_coupling "wikilink") (***string***)
 
-[J1= F1 passive coupling](/#J1/J2=_Passive_scalar_coupling "wikilink") (***string***)
+[J1= F1 passive coupling](/#Passive_scalar_coupling "wikilink") (***string***)
 
-[J2= F2 passive coupling](/#J1/J2=_Passive_scalar_coupling "wikilink") (***string***)
+[J2= F2 passive coupling](/#Passive_scalar_coupling "wikilink") (***string***)
 
-[W1= F1 signal width](/#W1/J2=_Signal_width "wikilink") (***float***)
+[W1= F1 signal width](/#Signal_width "wikilink") (***float***)
 
-[W2= F2 signal width](/#W1/J2=_Signal_width "wikilink") (***float***)
+[W2= F2 signal width](/#Signal_width "wikilink") (***float***)
 
 Examples attributes of 2D signal
 ================================
@@ -60,13 +60,18 @@ If the signal is not assigned, the chemical shift replaces the labels
 Attributes
 ==========
 
-== I= Signal intensity == This provides the signal intensity == E=
-Signal Volume == This provides the signal volume
+Signal intensity
+----------------
+I: This provides the signal intensity 
 
-Scalar coupling
----------------
+Signal volume
+-------------
+E: This provides the signal volume
 
-=== Ja= Active scalar coupling === Couplings in Hz with two digits after
+Active scalar coupling
+----------------------
+
+Ja: Couplings in Hz with two digits after
 the period separated by the [separator](/separator "wikilink"). For a
 correlation between *i* & *j* (F1 first):
 
@@ -74,7 +79,10 @@ correlation between *i* & *j* (F1 first):
 
 means the active coupling (between *i* & *j* ) is 9.3 Hz
 
-=== J1/J2= Passive scalar coupling === For a correlation between *i* &
+Passive scalar coupling
+-----------------------
+
+J1/J2: For a correlation between *i* &
 *j* :
 
 `i/j, J1=9.30`
@@ -92,7 +100,10 @@ means:J(i,b)=9.30 Hz J(i,a)=4.80 Hz(in the F1 dimension).
 
 See also, <NMREDATA_J> tag where assigned coupling should be compiled.
 
-=== W1/W2= Signal width === Signal widht in F1/F2 in Hz
+Signal width
+------------
+
+W1/W2: Signal widht in F1/F2 in Hz
 
 `W1=6.0`
 `W2=1.2`
