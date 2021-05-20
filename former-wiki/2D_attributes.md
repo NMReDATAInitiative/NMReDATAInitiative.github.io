@@ -20,19 +20,19 @@ List of signal attributes ("D spectra)
 
 **Note that they should apear in this order!**
 
-[I= Intensity](/2D_attributes/#Signal_intensity "wikilink") (***float***)
+[I= Intensity](/2D_attributes/#signal-intensity "wikilink") (***float***)
 
-[E= Volume](/2D_attributes/#Signal_Volume "wikilink") (crude integrals) (***float***)
+[E= Volume](/2D_attributes/#signal-Volume "wikilink") (crude integrals) (***float***)
 
-[Ja= Active scalar coupling](/2D_attributes/#Active_scalar_coupling "wikilink") (***string***)
+[Ja= Active scalar coupling](/2D_attributes/#active-scalar-coupling "wikilink") (***string***)
 
-[J1= F1 passive coupling](/2D_attributes/#Passive_scalar_coupling "wikilink") (***string***)
+[J1= F1 passive coupling](/2D_attributes/#passive-scalar-coupling "wikilink") (***string***)
 
-[J2= F2 passive coupling](/2D_attributes/#Passive_scalar_coupling "wikilink") (***string***)
+[J2= F2 passive coupling](/2D_attributes/#passive-scalar-coupling "wikilink") (***string***)
 
-[W1= F1 signal width](/2D_attributes/#Signal_width "wikilink") (***float***)
+[W1= F1 signal width](/2D_attributes/#signal-width "wikilink") (***float***)
 
-[W2= F2 signal width](/2D_attributes/#Signal_width "wikilink") (***float***)
+[W2= F2 signal width](/2D_attributes/#signal-width "wikilink") (***float***)
 
 Examples attributes of 2D signal
 ================================
