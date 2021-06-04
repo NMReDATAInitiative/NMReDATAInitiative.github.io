@@ -95,13 +95,13 @@ presentation)](../extra/NS.pdf "wikilink")
 
 -   13:30-15:10 **Short talks**
 
-:\***Robert Hanson**, St. Olaf College, Northfield, MN,
+\***Robert Hanson**, St. Olaf College, Northfield, MN,
 
-:: [*Putting it all together: Fully automated NMR spectrometer, web-based analysis, and spectral simulation with 2D/3D structure correlation for first-year organic chemistry*](/RH_abstract "wikilink")[(.pdf of the presentation)](../extra/RH.pdf "wikilink")
+[*Putting it all together: Fully automated NMR spectrometer, web-based analysis, and spectral simulation with 2D/3D structure correlation for first-year organic chemistry*](/RH_abstract "wikilink")[(.pdf of the presentation)](../extra/RH.pdf "wikilink")
 
-:\***Angel Herráez**, University of Alcalá, Spain
+\***Angel Herráez**, University of Alcalá, Spain
 
-:: [*NMReDATA J_reader: an HTML interface for displaying the contents of NMReDATA files, molecular structure, NMR data and spectra*](/AH_abstract "wikilink")[(.pdf of the presentation)](../extra/AH.pdf "wikilink")
+ [*NMReDATA J_reader: an HTML interface for displaying the contents of NMReDATA files, molecular structure, NMR data and spectra*](/AH_abstract "wikilink")[(.pdf of the presentation)](../extra/AH.pdf "wikilink")
 
 :\***Jean-Marc Nuzillard**, University of Champagne Ardenne, France co-authors: Stefan Kuhn and Nils Schloerer
 
