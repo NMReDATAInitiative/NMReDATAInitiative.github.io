@@ -344,7 +344,7 @@ HMBC correlations in symmetrical molecules
 
 Consider the following molecules:
 
-![sym.png](../extra/Hmbc_sym.png )
+![Hmbc_sym.png](../extra/Hmbc_sym.png )
 
 A <sup>3</sup>J<sub>C,H</sub> HMBC correlation will be visible between
 the proton ***a*** and C(1) that seems to be the directly bound carbon.
