@@ -11,15 +11,26 @@ Migration from the wiki page is at the final stage of fine editing.
 
 *Issues:*
 
-Bold in code block
+Dont know how to make bold in code block
 ```
 Replace:
 ## <NMREDATA_VERSION>
 with: *bold*
 with: **bold**
+<strong>bold text</strong>
 with: <bold>bold</bold>
 ## \<NMREDATA_VERSION\>
 ```
+
+````
+Replace:
+## <NMREDATA_VERSION>
+with: *bold*
+with: **bold**
+<strong>bold text</strong>
+with: <bold>bold</bold>
+## \<NMREDATA_VERSION\>
+````
 
 
 - In titles (with one or more #) the < and > char have to escaped using `\`
