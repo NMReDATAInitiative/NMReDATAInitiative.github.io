@@ -15,18 +15,18 @@ Chemical structure
 For the structure part originating from the .mol part of the SDF file:
 
 `object.structure (from the .mol part of the file)`
+````
+object.structure.atom[`*`n`*`] (for each atom `*`n`*`) 
+object.structure.atom[`*`n`*`].N `***`integer`***` atomic number of atom N) 
+object.structure.atom[`*`n`*`].X `***`float`***` x coordinate in A 
+object.structure.atom[`*`n`*`].Y `***`float`***` y coordinate in A 
+object.structure.atom[`*`n`*`].Z `***`float`***` z coordinate in A 
 
-`object.structure.atom[`*`n`*`] (for each atom `*`n`*`) `
-`object.structure.atom[`*`n`*`].N `***`integer`***` atomic number of atom N) `
-`object.structure.atom[`*`n`*`].X `***`float`***` x coordinate in A `
-`object.structure.atom[`*`n`*`].Y `***`float`***` y coordinate in A `
-`object.structure.atom[`*`n`*`].Z `***`float`***` z coordinate in A `
-
-`object.structure.bond[`*`m`*`] (for each bond `*`m`*`)`
-`object.structure.bond[`*`m`*`].a1 `***`int`***` first atom (1 to number of atoms)`
-`object.structure.bond[`*`m`*`].a2 `***`int`***` second atom (1 to number of atoms)`
-`object.structure.bond[`*`m`*`].type `***`int`***` 1:for single bond, 2: for double bond, 3: for triple bond`
-
+object.structure.bond[`*`m`*`] (for each bond `*`m`*`)
+object.structure.bond[`*`m`*`].a1 `***`int`***` first atom (1 to number of atoms)
+object.structure.bond[`*`m`*`].a2 `***`int`***` second atom (1 to number of atoms)
+object.structure.bond[`*`m`*`].type `***`int`***` 1:for single bond, 2: for double bond, 3: for triple bond
+````
 Sample data
 ===========
 
