@@ -71,6 +71,24 @@ var fun = <!--<bold>function</bold>--> lang(l) {
 ```
 
 
+```md
+// Javascript code with syntax highlighting.
+var fun = *function* lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
+```md
+// Javascript code with syntax highlighting.
+var fun = <bold>function</bold> lang(l) {
+var fun = <!--<bold>function</bold>--> lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
+
 ```jsx title="title"
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
