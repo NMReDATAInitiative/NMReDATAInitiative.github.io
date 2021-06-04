@@ -70,13 +70,15 @@ var fun = <!--<bold>function</bold>--> lang(l) {
 }
 ```
 
-```js title="this is the title"
+
+```jsx title="title"
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
   dateformat.i18n = require('./lang/' + l)
   return true;
 }
 ```
+
 
 ```js
 // Javascript code with syntax highlighting.
