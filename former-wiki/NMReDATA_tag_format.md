@@ -124,7 +124,7 @@ Path= pointer to the nmredata.sdf file relative to the root of the z
 Here is an working example:
 
 ````
->  `<NMREDATA_ID>
+>  <NMREDATA_ID>
 Doi=10.5281/zenodo.1146869\
 Record=`[`https://zenodo.org/record/1146869/files/sample1.zip`](https://zenodo.org/record/1146869/files/sample1.zip)\
 Path=compound1.nmredata.sdf\
@@ -244,7 +244,7 @@ it when relevant.
 When known, the concentration should be given. Only “mM” are allowed,
 but the unit is specified.
 
-<NMREDATA_CONCENTRATION>
+\<NMREDATA_CONCENTRATION\>
 
 ````
 12.3 mM
