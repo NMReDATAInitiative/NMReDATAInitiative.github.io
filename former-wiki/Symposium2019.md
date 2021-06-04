@@ -28,7 +28,7 @@ Organization Committee
 Program
 -------
 
-[Program in the .pdf format.](/Media:Final_program.pdf "wikilink")
+[Program in the .pdf format.](../extra/Final_program.pdf)
 
 [Archive including the .pdf files of most
 presentations.](/Media:Presentations.zip "wikilink")
