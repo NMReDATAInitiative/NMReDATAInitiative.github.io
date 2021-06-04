@@ -56,8 +56,7 @@ version : 1.1
 ````
 Note the <span style="color:#0808F8"> addition of the "**\\**" before
 the end-of-line character. If is optional for tags with a single line,
-but mandatory to reparate lines [(more
-details)](/End-of-line "link").
+but mandatory to reparate lines [(more details)](/End-of-line.md "link").
 
 #### \<NMREDATA_LEVEL\>
 
@@ -526,10 +525,10 @@ this is not part of the format, this is only to facilitate the work of
 software developers.
 
 ````
-`>  `<NMREDATA_J>
-`a, b, 7.00 ;`<sup>`3`</sup>`JHH`<span style="color:#080808">**`\`**</span>
-`A, a, 150.3 ;`<sup>`1`</sup>`JCH`<span style="color:#080808">**`\`**</span>
-`B, a, 7.50 ;`<sup>`3`</sup>`JCH`<span style="color:#080808">**`\`**</span>
+>  <NMREDATA_J>
+a, b, 7.00 ;`<sup>`3`</sup>`JHH`<span style="color:#080808">**`\**</span>
+A, a, 150.3 ;`<sup>`1`</sup>`JCH`<span style="color:#080808">**`\**</span>
+B, a, 7.50 ;`<sup>`3`</sup>`JCH`<span style="color:#080808">**`\**</span>
 ````
 
 This may include J<sub>H,H</sub> (from 1D <sup>1</sup>H, or from COSY)
@@ -547,48 +546,48 @@ observed.
 For the <sup>1</sup>H and <sup>19</sup>F of 1,3,5-trifluoro benzene:
 
 ````
-`>  `<NMREDATA_ASSIGNMENT>
-`a, 8.301, 7\`
-`b, 8.301, 8\`
-`c, 8.301, 9\`
-`F1, 118.301, 10\ `
-`F2, 118.301, 11\`
-`F3, 118.301, 12\`
-`Equivalent a, b, c\  `
-`Equivalent F1,F2,F3\ `
-`...`
-`>  `<NMREDATA_J>
-`a, F1, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**`\`**</span>` `
-`a, F2, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**`\`**</span>
-`a, F3, 7.00 ;`<sup>`5`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**`\`**</span>
-`b, F2, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**`\`**</span>` `
-`b, F3, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**`\`**</span>
-`b, F1, 7.00 ;`<sup>`5`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**`\`**</span>
-`c, F3, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**`\`**</span>` `
-`c, F1, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**`\`**</span>
-`c, F2, 7.00 ;`<sup>`5`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**`\`**</span>
-`Equivalent a/F1,a/F2,b/F2,b/F2,c/F3,c/F1 `
-`Equivalent a/F3,b/F1,c/F2`
+>  <NMREDATA_ASSIGNMENT>
+a, 8.301, 7\
+b, 8.301, 8\
+c, 8.301, 9\
+F1, 118.301, 10\
+F2, 118.301, 11\
+F3, 118.301, 12\
+Equivalent a, b, c\
+Equivalent F1,F2,F3\
+...
+>  <NMREDATA_J>
+a, F1, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
+a, F2, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
+a, F3, 7.00 ;`<sup>`5`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
+b, F2, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
+b, F3, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
+b, F1, 7.00 ;`<sup>`5`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
+c, F3, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
+c, F1, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
+c, F2, 7.00 ;`<sup>`5`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
+Equivalent a/F1,a/F2,b/F2,b/F2,c/F3,c/F1 
+Equivalent a/F3,b/F1,c/F2
 ````
 
 for the protons of Cl-CH2-CH2-Br
 
 ````
-`>  `<NMREDATA_ASSIGNMENT>
-`a, 3.301, 5\`
-`a', 3.301, 6\`
-`b, 4.301, 7\ `
-`b', 4.301, 8\`
-`Equivalent a, a'\  `
-`Equivalent b,b'\ `
-`...`
-`>  `<NMREDATA_J>
-`a, b, 7.00\`
-`a', b', 7.00\`
-`a', b, 5.00\`
-`a, b', 5.00\`
-`Equivalent a/b, a'/b' `
-`Equivalent a/b', a'/b`
+>  <NMREDATA_ASSIGNMENT>
+a, 3.301, 5\
+a', 3.301, 6\
+b, 4.301, 7\
+b', 4.301, 8\
+Equivalent a, a\
+Equivalent b,b\ 
+...
+>  <NMREDATA_J>
+a, b, 7.00\
+a', b', 7.00\
+a', b, 5.00\
+a, b', 5.00\
+Equivalent a/b, a'/b' 
+Equivalent a/b', a'/b
 ````
 
 Individual spectra tags
@@ -616,7 +615,7 @@ Example of a 1D spectrum:
 For other isotopes:
 
 ````
-`<NMREDATA_1D_`*`isotope`*`> `
+<NMREDATA_1D_`*`isotope`*`> 
 ````
 
 Each 1D "signal" line start with a chemical shift (x.xxxx) or a
@@ -635,12 +634,12 @@ For 2D spectra the general format is
 Example of HSQC spectrum:
 
 ````
-`>  `<NMREDATA_2D_13C_1J_1H>
-`Larmor=125.7567\`
-`Spectrum_Location=`[`file:./nmr/11/1/pdata/1\`](file:./nmr/11/1/pdata/1\)
-`C1/H-C1\`
-`C2/H-C2\`
-`...`
+>  <NMREDATA_2D_13C_1J_1H>
+Larmor=125.7567\ d
+Spectrum_Location=[file:./nmr/11/1/pdata/1\](file:./nmr/11/1/pdata/1\)
+C1/H-C1\
+C2/H-C2\
+...
 ````
 
 Definition of the [signal attributes for 1D
@@ -714,13 +713,13 @@ Example:
 MD5 are not mandatory, but recommended if they can be easily generated
 
 ````
-`>  `<NMREDATA_1D_1H>` `
-`Larmor=500.13\`
-`MD5_1r=5E77AB5838AA4C860BA8884A5B0BD9ED\`
-`MD5_fid=ED8AD88199996436B40AAE283F0FB6F6\`
-`4.8000, S=q, N=2, L=a, J=7.00\`
-`2.1000, S=bs, N=1, L=b\`
-`1.5000, S=t, N=3, L=c, J=7.10\`
+>  <NMREDATA_1D_1H>
+Larmor=500.13\
+MD5_1r=5E77AB5838AA4C860BA8884A5B0BD9ED\
+MD5_fid=ED8AD88199996436B40AAE283F0FB6F6\
+4.8000, S=q, N=2, L=a, J=7.00\
+2.1000, S=bs, N=1, L=b\
+1.5000, S=t, N=3, L=c, J=7.10\
 ````
 
 where N is the number of protons, S the multiplicity, *etc*. More
@@ -730,7 +729,7 @@ details about the [attributes of 1D spectra](/1D_attributes "link")
 For multiple coupling:
 
 ````
-`4.8000, S=dd, N=1, L=a, J=9.30, 4.89\`
+4.8000, S=dd, N=1, L=a, J=9.30, 4.89\
 ````
 
 Note that the coupling can be [assigned](/1D_attributes "link").
