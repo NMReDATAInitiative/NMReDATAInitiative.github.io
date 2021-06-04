@@ -25,30 +25,31 @@ manager, *etc.*
 
 Example:
 
-`>  `<NMREDATA_AUTHOR>
-`Author=0000-0001-7018-4288 `<span style="color:#0808F8">**`\`**</span>` `
-`Role=Assignment, Supervisor`<span style="color:#0808F8">**`\`**</span>` `
-`Organization=`[`http://www.isni.org/isni/0000000121752154`](http://www.isni.org/isni/0000000121752154)<span style="color:#0808F8">**`\`**</span>
-`Department=`*`isni`` ``of`` ``the`` ``Department`` ``if`` ``it`` ``exist`*` `<span style="color:#0808F8">**`\`**</span>
-`Author=van Halle, John`<span style="color:#0808F8">**`\`**</span>` `
-`Organization=De Montfort University, Lancaster, UK`<span style="color:#0808F8">**`\`**</span>
-`Department=Department of chemical sciences`<span style="color:#0808F8">**`\`**</span>
-
+````
+>  <NMREDATA_AUTHOR>
+Author=0000-0001-7018-4288 `<span style="color:#0808F8">**`\`**</span>` 
+Role=Assignment, Supervisor`<span style="color:#0808F8">**`\`**</span>` 
+Organization=`[`http://www.isni.org/isni/0000000121752154`](http://www.isni.org/isni/0000000121752154)<span style="color:#0808F8">**`\`**</span>
+Department=`*`isni`` ``of`` ``the`` ``Department`` ``if`` ``it`` ``exist`*` `<span style="color:#0808F8">**`\`**</span>
+Author=van Halle, John`<span style="color:#0808F8">**`\`**</span>` 
+Organization=De Montfort University, Lancaster, UK`<span style="color:#0808F8">**`\`**</span>
+Department=Department of chemical sciences`<span style="color:#0808F8">**`\`**</span>
+````
 If a record is updated, the history of the authors/versions are listed
 with version numbers:
-
-`Version=1`<span style="color:#0808F8">**`\`**</span>` `
-`Author=van Halle, John`<span style="color:#0808F8">**`\`**</span>` `
-`Role=Assignment`<span style="color:#0808F8">**`\`**</span>` `
-`Version=2`<span style="color:#0808F8">**`\`**</span>` `
-`Author=Doe, Peter`<span style="color:#0808F8">**`\`**</span>
-`Role=Assignment, correction of assignement of C1 an C3`<span style="color:#0808F8">**`\`**</span>
-
+````
+Version=1`<span style="color:#0808F8">**`\`**</span>` 
+Author=van Halle, John`<span style="color:#0808F8">**`\`**</span>` 
+Role=Assignment`<span style="color:#0808F8">**`\`**</span>` 
+Version=2`<span style="color:#0808F8">**`\`**</span>` 
+Author=Doe, Peter`<span style="color:#0808F8">**`\**</span>
+Role=Assignment, correction of assignement of C1 an C3`<span style="color:#0808F8">**`\`**</span>
+````
 For automated changes, the software is given as Software name and
 version, comma, source of the software.
 
 Example:
-
+````
 `>  `<NMREDATA_AUTHOR>
 `...`
 `Version=2`<span style="color:#0808F8">**`\`**</span>` `
@@ -56,7 +57,7 @@ Example:
 `Role=Assignment`<span style="color:#0808F8">**`\`**</span>` `
 `Organization=`[`http://www.isni.org/isni/0000000121752154`](http://www.isni.org/isni/0000000121752154)<span style="color:#0808F8">**`\`**</span>
 `Department=`*`isni`` ``of`` ``the`` ``Department`` ``if`` ``it`` ``exist`*` `<span style="color:#0808F8">**`\`**</span>
-
+````
 3D structures
 =============
 
@@ -200,15 +201,15 @@ would require no new developments of Jcamp. We "only" have to define the
 **names of the fields and the type of accepted data**.
 
 Example of reference to the JCAMP file (**in bold**):
-
-`>  `<NMREDATA_1D_1H>
-`Larmor=500.13`
-`Spectrum_Location=`[`file:./nmr/10/1/pdata/1`](file:./nmr/10/1/pdata/1)` `
-**`Spectrum_Jcamp=`[`file:./jcamp_folder/spectrum1.jcp`](file:./jcamp_folder/spectrum1.jcp)**`  `
-`Signal 1`
-`Signal 2`
-`...`
-
+````
+>  <NMREDATA_1D_1H>
+Larmor=500.13
+Spectrum_Location=`[`file:./nmr/10/1/pdata/1`](file:./nmr/10/1/pdata/1)` 
+**`Spectrum_Jcamp=`[`file:./jcamp_folder/spectrum1.jcp`](file:./jcamp_folder/spectrum1.jcp)**`  
+Signal 1
+Signal 2
+...
+````
 You will find below, for both 1D and 2D spectra, the prefered format,
 and the alternatively accepted format to increase compatibility.
 
@@ -220,20 +221,23 @@ should be given in the camp file as well.
 
 Preferred format to be used for new developments
 [example](/jcamp_example2 "wikilink"):
+````
 
 `Frequency of the first point (left side) `***`FIRSTX=`***
 `Frequency of the last point (right side) `***`LASTX=`***` `
 `Larmor frequency (to allow to switch to ppm scale) `***`LARMOR=`***` (or `***`.OBSERVE`` ``FREQUENCY=`***` accepted for compatibility)`
 `Number of points `***`NPOINTS=`***
 *`NPOINTS`*` data points (`*`int`*` or `*`float`*` text or binary ????)`
+````
 
 Alternative accepted parameters (Bruker type...):
-
-`Spectral width in ppm `***`SW=`***
-`Chemical shift of the center of the spectrum '`**`'SFO1=`**` ''`
-`Larmor frequency (to allow to switch to Hz scale) `***`BF1=`***` `
-`Number of points `***`SI=`***
-*`SI`*` data points (`*`int`*` or `*`float`*` text or binary ????)`
+````
+Spectral width in ppm ***SW=***
+Chemical shift of the center of the spectrum '`**`'SFO1=`**` ''
+Larmor frequency (to allow to switch to Hz scale) `***`BF1=`***` 
+Number of points ***SI=***
+*`SI`*` data points (`*`int`*` or `*`float`*` text or binary ????)
+````
 
 The reader should be able to manage both types of parameters.
 Interconvertion of (FIRSTX LASTX LARMOR NPOINTS) into (SW SFO1 BF1 SI)
@@ -251,14 +255,15 @@ Preferred format (for new developments use this...)
 
 "**D**" is for *direct* dimension "**I**" stands for *indirect*
 dimension.
-
-`Type of indirect dimension: `***`TYPE_F1_SCALE=`***` "ppm", "Hz", "dq", "diff"`
-`Spectral within ppm in the direct and indirect dimensions '`**`'SWD=`` ``/`` ``SWI=`**` `
-`Chemical shift of the first point (bottom / left side) `***`FIRSTXD=`` ``/`` ``FIRSTXI=`***
-`Chemical shift of the last point (top / right side) `***`LASTXD=`` ``/`` ``LASTXI=`***
-`Larmor frequencies (to allow switch to Hz) `***`LARMORD=`` ``/`` ``LARMORI=`***` (0 if not relevant - for type "Hz")`
-`Number of points in the direct and indirect dimensions, `***`NPOINTSD=`` ``/`` ``NPOINTSI=`***` `
-*`NPOINTSDxNPOINTSI`*` data points (int or float text or binary ????) (all points of the direct dimension before starting the second point of the indirect dimension)`
+````
+Type of indirect dimension: `***`TYPE_F1_SCALE=`***` "ppm", "Hz", "dq", "diff"
+Spectral within ppm in the direct and indirect dimensions '`**`'SWD=`` ``/`` ``SWI=`**` 
+Chemical shift of the first point (bottom / left side) `***`FIRSTXD=`` ``/`` ``FIRSTXI=***
+Chemical shift of the last point (top / right side) `***`LASTXD=`` ``/`` ``LASTXI=***
+Larmor frequencies (to allow switch to Hz) `***`LARMORD=`` ``/`` ``LARMORI=`***(0 if not relevant - for type "Hz")`
+Number of points in the direct and indirect dimensions, `***`NPOINTSD=`` ``/`` ``NPOINTSI=`***` 
+*NPOINTSDxNPOINTSI* data points (int or float text or binary ????) (all points of the direct dimension before starting the second point of the indirect dimension)
+````
 
 For compatibility with existing Bruker JCAMP
 
@@ -267,9 +272,10 @@ determined.
 
 A line "$$ Bruker specific parameters for F1" separates F2 from F1
 parameters with the same names
-
-`Spectral within ppm in the direct and indirect dimensions '`**`'SW=`**` `
-`Chemical shift of center of the spectrum (bottom / left side) `***`SFO1=`***
-`Larmor frequencies (to allow switch to Hz) `***`BF1=`***` (0 if not relevant - for type "Hz")`
-`Number of points in the direct and indirect dimensions, `***`SI=`***` `
-*`SI(1)xSI(2)`*` data points (int or float text or binary ????) (all points of the direct dimension before starting the second point of the indirect dimension)`
+````
+Spectral within ppm in the direct and indirect dimensions '`**`'SW=`**` 
+Chemical shift of center of the spectrum (bottom / left side) ***SFO1=***
+Larmor frequencies (to allow switch to Hz) `***`BF1=`***` (0 if not relevant - for type "Hz")
+Number of points in the direct and indirect dimensions, `***`SI=`***` 
+*`SI(1)xSI(2)`*` data points (int or float text or binary ????) (all points of the direct dimension before starting the second point of the indirect dimension)
+````
