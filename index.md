@@ -70,6 +70,13 @@ var fun = <!--<bold>function</bold>--> lang(l) {
 }
 ```
 
+```js title="/src/components/HelloCodeTitle.js"
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
 
 ```js
 // Javascript code with syntax highlighting.
