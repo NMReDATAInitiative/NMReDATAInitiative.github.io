@@ -13,7 +13,7 @@ Migration from the wiki page is at the final stage of fine editing.
 
 Dont know how to make bold in code block
 ```
-Replace:
+Replace:3
 ## <NMREDATA_VERSION>
 with: *bold*
 with: **bold**
@@ -23,7 +23,7 @@ with: <bold>bold</bold>
 ```
 
 ````
-Replace:
+Replace:4
 ## <NMREDATA_VERSION>
 with: *bold*
 with: **bold**
