@@ -4,19 +4,19 @@ permalink: /NMReDATA_tag_format/
 ---
 
 Direct link to the [1D spectra attributes
-page](/1D_attributes "wikilink").
+page](/1D_attributes "link").
 
 Direct link to the [2D spectra attributes
-page](/2D_attributes "wikilink").
+page](/2D_attributes "link").
 
 Possible [object structure of
-NMReDATA](/nmredata_object_structure "wikilink").
+NMReDATA](/Nmredata_object_structure "link").
 
 [Note for programmers about reading and writing NMReDATA SDF
-files](/parser "wikilink").
+files](/Parser "link").
 
 Direct link to a list of example [example of NMR records and NMReDATA
-files](/examples "wikilink").
+files](/Examples "link").
 
 **Important note on separators:** In general we use ", " (comma + space)
 as separator. The space after the “,” may become optional in future
@@ -644,10 +644,10 @@ Example of HSQC spectrum:
 ````
 
 Definition of the [signal attributes for 1D
-spectra](/1D_attributes "wikilink").
+spectra](/1D_attributes "link").
 
 Definition of the [signal attributes for 2D
-spectra](/2D_attributes "wikilink").
+spectra](/2D_attributes "link").
 
 ### Link to the spectra
 
