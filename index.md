@@ -16,6 +16,8 @@ Bold in code block
 Replace:
 ## <NMREDATA_VERSION>
 with: *bold*
+with: **bold**
+with: <bold>bold</bold>
 ## \<NMREDATA_VERSION\>
 ```
 
