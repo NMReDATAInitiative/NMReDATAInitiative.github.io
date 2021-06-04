@@ -25,6 +25,9 @@ Replace:
 with :
 [Link ...](Main_Page).
 ````
+- link to image
+
+![sym.png](../extra/Hmbc_sym.png "png")
 
 - For code blocks, replace the in-line with blocks:
 ````
