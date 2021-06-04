@@ -129,9 +129,8 @@ attribute.
 
 The label (according to list in the <NMR_ASSIGNMENT>
 tag). Keep in mind the
-[possibility](/NMReDATA_tag_format#Ambiguous_assignment_of_signals_.28ONLY_WITH_LEVEL.3E0.29 "link")
-of unambiguous assignment [when
-level\>2](/NMReDATA_tag_format#.3CNMREDATA_LEVEL.3E "link").
+[possibility](/NMReDATA_tag_format "link")
+of unambiguous assignment [when level\>2](/NMReDATA_tag_format#.3CNMREDATA_LEVEL.3E "link").
 #### E= Signal Integral
 
 E integral (in arbitrary units).
