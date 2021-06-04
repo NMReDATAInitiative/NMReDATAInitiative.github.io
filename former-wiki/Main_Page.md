@@ -61,7 +61,7 @@ record*.
 
 2\) The SDF file(s) including the NMReDATA (*.nmredata.sdf* file)
 
-[600px\|center\|NMR record](/File:Nmr_record.png "wikilink") A more
+[600px\|center\|NMR record](../extra/Nmr_record.png "png") A more
 detailed picture (see [600px\|center\|pictorial representation of NMR
 record and example of SDF file](/File:test-2.pdf "wikilink")) was
 presented in the
