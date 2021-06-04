@@ -11,6 +11,15 @@ Migration from the wiki page is at the final stage of fine editing.
 
 *Issues:*
 
+Bold in code block
+```
+Replace:
+## <NMREDATA_VERSION>
+with: *bold*
+## \<NMREDATA_VERSION\>
+```
+
+
 - In titles (with one or more #) the < and > char have to escaped using `\`
 ````
 Replace:
