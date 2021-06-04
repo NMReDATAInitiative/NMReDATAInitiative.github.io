@@ -81,7 +81,7 @@ elements in the tabel.
 1D spectra
 ==========
 
-See also [1D spectra attributes page](/1D_attributes "wikilink").
+See also [1D spectra attributes page](/1D_attributes "link").
 
 `object.spectrum1d[`*`n`*`] (for each 1D spectrum `*`n`*`)`
 `object.spectrum1d[`*`n`*`].S Multiplicity (`***`string`***`)`
@@ -97,7 +97,7 @@ See also [1D spectra attributes page](/1D_attributes "wikilink").
 2D spectra
 ==========
 
-See also [2D spectra attributes page](/2D_attributes "wikilink").
+See also [2D spectra attributes page](/2D_attributes "link").
 
 `object.spectrum2d[`*`n`*`] (for each 2D spectrum `*`n`*`)`
 `object.spectrum2d[`*`n`*`].L1 Label of the signal in F1(`***`string`***`) (if the signal is not assigned, the chemical shift is given as a string)`

@@ -220,7 +220,7 @@ Note that the Larmor frequency can also be found in the .sdf file, but
 should be given in the camp file as well.
 
 Preferred format to be used for new developments
-[example](/jcamp_example2 "wikilink"):
+[example](/Jcamp_example2 "link"):
 ````
 
 `Frequency of the first point (left side) `***`FIRSTX=`***

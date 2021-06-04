@@ -12,7 +12,7 @@ has taken place on September 26th 2019 as a satellite meeting of the
 SMASH 2019 Conference in Porto, Portugal.
 
 The attendance to the sumposium was free of charge thanks to our
-[**sponsors**](/Sympsium2019sponsors "wikilink").
+[**sponsors**](/Sympsium2019sponsors "link").
 
 Organization Committee
 ----------------------
@@ -45,19 +45,19 @@ Program
 
 
 [*What can we do with RAW NMR data and spin
-parameters*](/JB_abstract "wikilink")[(.pdf of the presentation)](../extra/JB.pdf "pdf")
+parameters*](/JB_abstract "link")[(.pdf of the presentation)](../extra/JB.pdf "pdf")
 
 -   10:00-10:40 **Short talks**
 
 **Wolfgang Robien**, University of Vienna, Austria
 
- [*A few remarks on wrong structures in the literature*](/WR_abstract "wikilink")[(.pdf of the presentation)](../extra/WR.pdf "pdf")
+ [*A few remarks on wrong structures in the literature*](/WR_abstract "link")[(.pdf of the presentation)](../extra/WR.pdf "pdf")
 
 **Nils Schloerer**, University of Cologne, Germany
 
 
 
-[*Teaching NMR data handling, electronic assignment and CASE at the university*](/NS_abstract "wikilink")[( pdf of the presentation)](../extra/NS.pdf "pdf")
+[*Teaching NMR data handling, electronic assignment and CASE at the university*](/NS_abstract "link")[( pdf of the presentation)](../extra/NS.pdf "pdf")
 
 -   10:40-11:00 Coffee Break
 
@@ -67,15 +67,15 @@ parameters*](/JB_abstract "wikilink")[(.pdf of the presentation)](../extra/JB.pd
 
 **Stefan Kuhn**, De Montfort University, Leicester, UK
 
-[*NMReDATA software and nmrshiftdb2*](/SK_abstract "wikilink")[(.pdf of the presentation)](../extra/SK.pdf "pdf")
+[*NMReDATA software and nmrshiftdb2*](/SK_abstract "link")[(.pdf of the presentation)](../extra/SK.pdf "pdf")
 
 **Pavel Kessler**, Bruker Biospin, Germany,
 
-[*Bruker implementation of NMReData*](/PK_abstract "wikilink")[(.pdf of the presentation)](../extra/PK.pdf "pdf")
+[*Bruker implementation of NMReData*](/PK_abstract "link")[(.pdf of the presentation)](../extra/PK.pdf "pdf")
 
 **Mitcheell Maestre-Martinez**, Mestrelab, Spain
 
- [*Mnova meets NMReData: automation workflows and new opportunities*](/CC_abstract "wikilink")[(.pdf of the presentation)](../extra/MM.pdf "pdf")
+ [*Mnova meets NMReData: automation workflows and new opportunities*](/CC_abstract "link")[(.pdf of the presentation)](../extra/MM.pdf "pdf")
 
 **Dimitris Argyropoulos**, ACD/Labs, Canada,
 
@@ -85,7 +85,7 @@ parameters*](/JB_abstract "wikilink")[(.pdf of the presentation)](../extra/JB.pd
 
 
 
-[*LOGS - a natural fit for NMReData*](/JL_abstract "wikilink")[(.pdf of the presentation)](../extra/SK2.pdf "pdf")
+[*LOGS - a natural fit for NMReData*](/JL_abstract "link")[(.pdf of the presentation)](../extra/SK2.pdf "pdf")
 
 -   12:40-13:30 Lunch Break
 
@@ -95,15 +95,15 @@ parameters*](/JB_abstract "wikilink")[(.pdf of the presentation)](../extra/JB.pd
 
 **Robert Hanson**, St. Olaf College, Northfield, MN,
 
-[*Putting it all together: Fully automated NMR spectrometer, web-based analysis, and spectral simulation with 2D/3D structure correlation for first-year organic chemistry*](/RH_abstract "wikilink")[(.pdf of the presentation)](../extra/RH.pdf "pdf")
+[*Putting it all together: Fully automated NMR spectrometer, web-based analysis, and spectral simulation with 2D/3D structure correlation for first-year organic chemistry*](/RH_abstract "link")[(.pdf of the presentation)](../extra/RH.pdf "pdf")
 
 **Angel Herráez**, University of Alcalá, Spain
 
- [*NMReDATA J_reader: an HTML interface for displaying the contents of NMReDATA files, molecular structure, NMR data and spectra*](/AH_abstract "wikilink")[(.pdf of the presentation)](../extra/AH.pdf "pdf")
+ [*NMReDATA J_reader: an HTML interface for displaying the contents of NMReDATA files, molecular structure, NMR data and spectra*](/AH_abstract "link")[(.pdf of the presentation)](../extra/AH.pdf "pdf")
 
 **Jean-Marc Nuzillard**, University of Champagne Ardenne, France co-authors: Stefan Kuhn and Nils Schloerer
 
-[*NMReDATA file validation through Computer-Assisted Structure Elucidation*](/JMN-abstract "wikilink") [(.pdf of the presentation)](../extra/JMN.pdf "pdf")
+[*NMReDATA file validation through Computer-Assisted Structure Elucidation*](/JMN-abstract "link") [(.pdf of the presentation)](../extra/JMN.pdf "pdf")
 
 **Damien Jeannerat**, NMRprocess.ch, Switzerland,
 
@@ -119,7 +119,7 @@ parameters*](/JB_abstract "wikilink")[(.pdf of the presentation)](../extra/JB.pd
 
 #### Round table discussion
 
--   15:40 - 16:20 :[Future version of the format](/Future_version "wikilink") and Admistration of the NMReDATA Initiative[(.pdf of the presentation)](../extra/DJ3.pdf "pdf")
+-   15:40 - 16:20 :[Future version of the format](/Future_version "link") and Admistration of the NMReDATA Initiative[(.pdf of the presentation)](../extra/DJ3.pdf "pdf")
 
 :Discussion of open issues with the format.
 

@@ -6,14 +6,14 @@ permalink: /Main_Page/
 **Quick links**
 
 Direct link to the page describing the [format of the NMREDATA tags
-(version 1.0/1.1)](/NMReDATA_tag_format "wikilink") and [format of the
-NMREDATA tags (version 2.0)](/NMReDATA_tag_format_2.0 "wikilink").
+(version 1.0/1.1)](/NMReDATA_tag_format "link") and [format of the
+NMREDATA tags (version 2.0)](/NMReDATA_tag_format_2.0 "link").
 
 List of [compatible software and
 webtools](/Compatible_software "Compatible software")
 
 Tentative instruction for [journal submission of
-NMReDATA](/Submission_NMReDATA "wikilink").
+NMReDATA](/Submission_NMReDATA "link").
 
 Link to the [GitHub page](https://github.com/NMReDATAInitiative) of the
 NMReDATA Initiative.
@@ -23,7 +23,7 @@ Introduction
 
 The [NMReDATA working group](http://www.nmredata.org/partners.html)
 decided to include data extracted from NMR spectra of small molecules in
-[SDF files](/Sdf_files "wikilink") using SD tags.
+[SDF files](/Sdf_files "link") using SD tags.
 
 Link to the [MRC
 article](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrc.4737) on
@@ -31,7 +31,7 @@ the NMReDATA format.
 
 An important task of the group is to define the format of the content of
 the "\<NMREDATA_...\>" tags. [More details
-here!](/NMReDATA_tag_format "wikilink").
+here!](/NMReDATA_tag_format "link").
 
 The version 1.0 has been decided in September at the "Round table" of
 the Smash 2017 conference at Baveno, Italy.
@@ -44,7 +44,7 @@ Record"* the combination of the spectra and the SDF file.
 A 1.1 version was released to fix a problem in 1.0.
 
 Version 2.0 adds extensions and was released after the [**1st NMReDATA
-symposium**](/Symposium2019 "wikilink") (Sept. 16, Porto, Portugal).
+symposium**](/Symposium2019 "link") (Sept. 16, Porto, Portugal).
 
 NMR records
 ===========
@@ -61,7 +61,7 @@ record*.
 
 2\) The SDF file(s) including the NMReDATA (*.nmredata.sdf* file)
 
-[600px\|center\|NMR record](/File:nmr_record.png "wikilink") A more
+[600px\|center\|NMR record](/File:Nmr_record.png "wikilink") A more
 detailed picture (see [600px\|center\|pictorial representation of NMR
 record and example of SDF file](/File:test-2.pdf "wikilink")) was
 presented in the
@@ -79,7 +79,7 @@ nmredata.sdf file opened by the software which will access automatically
 to the associated spectra.
 
 The full description can be found [in the NMReDATA tag format
-page](/NMReDATA_tag_format "wikilink").
+page](/NMReDATA_tag_format "link").
 
 An example (**probably obsolete**) of .nmredata.sdf files with the
 spectra can be found
@@ -111,7 +111,7 @@ Database
 The NMReDATA Inititiative define the format and rules for hosting and
 provide data, but hosting data is not part of our mission.
 
-Discussion on [about database providers](/database_policy "wikilink")
+Discussion on [about database providers](/Database_policy "link")
 
 Versions
 ========
@@ -119,7 +119,7 @@ Versions
 Changes to Versions 1.1
 -----------------------
 
--   [Addition of backslash](/end-of-line "wikilink") at the end of the
+-   [Addition of backslash](/End-of-line "link") at the end of the
     line of NMReDATA tags.
 
 Changes to Versions 2.0
@@ -133,7 +133,7 @@ Changes to Versions 2.0
     integration of these metadata in repositories).
 
 For details, see [the
-specification](/NMReDATA_tag_format_2.0 "wikilink").
+specification](/NMReDATA_tag_format_2.0 "link").
 
 Changes to Versions 2.1 (future version)
 ----------------------------------------
@@ -142,12 +142,12 @@ Changes to Versions 2.1 (future version)
 are welcome! '' </span>
 
 -   Possibility to include [J-coupling assignment
-    data](/Jassign "wikilink") (coupling network and J-graph data).
+    data](/Jassign "link") (coupling network and J-graph data).
 
 Discussion and complete list on [future versions of the NMReDATA
-format](/Future_version "wikilink")
+format](/Future_version "link")
 
 Jmol integration in this wiki
 -----------------------------
 
-NMReDATA is being integrated with [Jmol/JspecView](/Jmol "wikilink")
+NMReDATA is being integrated with [Jmol/JspecView](/Jmol "link")

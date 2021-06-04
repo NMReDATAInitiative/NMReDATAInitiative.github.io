@@ -144,8 +144,8 @@ four types of tags:
 -   NMREDATA_2D_ ...
 
 For NMREDATA_1D_ and NMREDATA_2D_ see
-[1D_attributes](/1D_attributes "wikilink") and
-[2D_attributes](/2D_attributes "wikilink").
+[1D_attributes](/1D_attributes "link") and
+[2D_attributes](/2D_attributes "link").
 
 We recommend the store the list as an array of array of characters, and
 analyse it later. We suggest that when analysing a tag, each line is

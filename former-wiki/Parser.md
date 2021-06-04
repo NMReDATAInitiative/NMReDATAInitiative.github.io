@@ -27,7 +27,7 @@ We recommend to
 -   Close the file
 
 Analyses/check the molblock if needed (see [possible object structure of
-NMReDATA](/nmredata_object_structure "wikilink")).
+NMReDATA](/Nmredata_object_structure "link")).
 
 ### Determine how to read the NMREDATA tags
 
@@ -35,7 +35,7 @@ Scan the tags and list the index of the ones including NMREDATA_ in
 their name
 
 Read the NMReDATA tags (see below). Keep in mind the [end of line
-problem](/end-of-line "wikilink").
+problem](/End-of-line "link").
 
 First read and analyse the NMREDATA_VERSION to
 
@@ -92,8 +92,8 @@ complex tags:
 -   NMREDATA_2D_ ...
 
 For NMREDATA_1D_ and NMREDATA_2D_ see the caracteristics of lists:
-[1D_attributes](/1D_attributes "wikilink") and
-[2D_attributes](/2D_attributes "wikilink").
+[1D_attributes](/1D_attributes "link") and
+[2D_attributes](/2D_attributes "link").
 
 We recommend the store the list as an array of array of characters, and
 analyse it later. We suggest that when analysing a tag, each line is
@@ -114,7 +114,7 @@ later.
 ### Labels
 
 Keep it mind the
-[possibility](/NMReDATA_tag_format#Labels_including_comma_or_other_special_characters "wikilink")
+[possibility](/NMReDATA_tag_format#Labels_including_comma_or_other_special_characters "link")
 that labels are put in \<""\> and the assignment may be vague!
 
 A good idea may be to convert all labels into index numbers as a

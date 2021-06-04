@@ -12,25 +12,25 @@ of signal attributes (1D spectra)
 **Note that they should apear in this order! All labels are optional,
 the shift value is mandatory.**
 
-[S= Multiplicity](#s-multiplicity "wikilink") (***string***)
+[S= Multiplicity](#s-multiplicity "link") (***string***)
 
-[J= Scalar coupling](/#j-scalar_coupling "wikilink") (***string***)
+[J= Scalar coupling](/#j-scalar_coupling "link") (***string***)
 
-[N= number of nuclei](/#n-number_of_nuclei "wikilink") (rounded number of atoms) (***int***)
+[N= number of nuclei](/#n-number_of_nuclei "link") (rounded number of atoms) (***int***)
 
-[L= Label of the signal](/#l-label "wikilink") (***string***)
+[L= Label of the signal](/#l-label "link") (***string***)
 
-[E= Integral](/#e-signal_Integral "wikilink") (crude integrals) (***float***)
+[E= Integral](/#e-signal_Integral "link") (crude integrals) (***float***)
 
-[I= Intensity](/#i-signal_intensity "wikilink") (***float***)
+[I= Intensity](/#i-signal_intensity "link") (***float***)
 
-[W= Width](/#w-signal_width "wikilink") (***float***)
+[W= Width](/#w-signal_width "link") (***float***)
 
-[T1= T1 relaxation time](/#t1t2-relaxation_time "wikilink") in second (***float***)
+[T1= T1 relaxation time](/#t1t2-relaxation_time "link") in second (***float***)
 
-[T2= T2 relaxation time](/#t1t2-Relaxation_time "wikilink") in second (***float***)
+[T2= T2 relaxation time](/#t1t2-Relaxation_time "link") in second (***float***)
 
-[Diff= for diffusion rate](/#diff-diffusion_rate "wikilink") in m<sup>2</sup>/s<sup>-1</sup>(***float***)
+[Diff= for diffusion rate](/#diff-diffusion_rate "link") in m<sup>2</sup>/s<sup>-1</sup>(***float***)
 
 Examples of signal attribute in 1D spectrum
 ===========================================
@@ -82,7 +82,7 @@ look as a triplet, can be called "t".
 ##### J= Scalar coupling (unassigned)
 
 Couplings in Hz with two digits after the period separated by the
-[separator](/separator "wikilink").
+[separator](/Separator "link").
 
 `4.1823, S=dd, N=1, L=a, J=9.30,4.81`
 
@@ -110,7 +110,7 @@ means: J(a,b)=9.32 Hz
 means: J(a,b)=9.32 Hz and J(a,c)=4.80 Hz
 
 See also, the [<NMREDATA_J>
-tag](/NMReDATA_tag_format#.3CNMREDATA_J.3E "wikilink") where assigned
+tag](/NMReDATA_tag_format#.3CNMREDATA_J.3E "link") where assigned
 coupling should be compiled.
 
 #### N= number of nuclei 
@@ -129,9 +129,9 @@ attribute.
 
 The label (according to list in the <NMR_ASSIGNMENT>
 tag). Keep in mind the
-[possibility](/NMReDATA_tag_format#Ambiguous_assignment_of_signals_.28ONLY_WITH_LEVEL.3E0.29 "wikilink")
+[possibility](/NMReDATA_tag_format#Ambiguous_assignment_of_signals_.28ONLY_WITH_LEVEL.3E0.29 "link")
 of unambiguous assignment [when
-level\>2](/NMReDATA_tag_format#.3CNMREDATA_LEVEL.3E "wikilink").
+level\>2](/NMReDATA_tag_format#.3CNMREDATA_LEVEL.3E "link").
 #### E= Signal Integral
 
 E integral (in arbitrary units).
@@ -183,5 +183,5 @@ follows the "," is a number (the next J value) if what follows the ","
 is the next attribute, what follows the "," is alphanumerical and "=".
 
 Keep in mind the [possible issue with labels
-including](/NMReDATA_tag_format#Labels_including_comma_or_other_special_characters "wikilink")
+including](/NMReDATA_tag_format#Labels_including_comma_or_other_special_characters "link")
 ",", " ", etc.

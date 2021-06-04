@@ -37,4 +37,4 @@ extracted from the NMR spectra in SDF files.
 The labels of the NMReDATA tags all start with "NMREDATA_".
 
 Direct link to page describing the [format of the "\<NMREDATA_...\>"
-tags](/NMReDATA_tag_format "wikilink").
+tags](/NMReDATA_tag_format "link").

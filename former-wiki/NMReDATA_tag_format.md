@@ -57,7 +57,7 @@ version : 1.1
 Note the <span style="color:#0808F8"> addition of the "**\\**" before
 the end-of-line character. If is optional for tags with a single line,
 but mandatory to reparate lines [(more
-details)](/end-of-line "Wikilink").
+details)](/End-of-line "link").
 
 #### \<NMREDATA_LEVEL\>
 
@@ -724,7 +724,7 @@ MD5 are not mandatory, but recommended if they can be easily generated
 ````
 
 where N is the number of protons, S the multiplicity, *etc*. More
-details about the [attributes of 1D spectra](/1D_attributes "wikilink")
+details about the [attributes of 1D spectra](/1D_attributes "link")
 (N=, S= , etc.).
 
 For multiple coupling:
@@ -733,7 +733,7 @@ For multiple coupling:
 `4.8000, S=dd, N=1, L=a, J=9.30, 4.89\`
 ````
 
-Note that the coupling can be [assigned](/1D_attributes "wikilink").
+Note that the coupling can be [assigned](/1D_attributes "link").
 
 Only the first number (the chemical shift) is mandatory. The other
 fields are all optional. Because of overlap, there may be more than one
@@ -757,7 +757,7 @@ Ranges are accepted as small-to-large and large-to-small:
 ````
 
 For the results of diffusion measurements, Diff, etc. are given in the
-[proper units](/1D_attributes#Diff.3D_Diffusion_rate "wikilink"):
+[proper units](/1D_attributes#Diff.3D_Diffusion_rate "link"):
 
 ````
 4.8, S=q, N=2, L=a, Diff=1.7e-11
@@ -805,7 +805,7 @@ sequence (i.e. DEPT, APT, etc.) this is specified using an additional
 label “Sequence”:
 
 ````
->  <NMREDATA_1D_13C>` or other isotopes
+>  <NMREDATA_1D_13C> or other isotopes
 Larmor=125.0\
 Decoupled=1H\
 Sequence=DEPT135 (or DEPT45, DEPT90, ATP)\
@@ -889,7 +889,7 @@ The Larmor frequency is the one of the detected isotope (last in the tag
 label). “Types” and “Pulseprogram” can be specified.
 
 More details about the [attributes of 2D
-spectra](/2D_attributes "wikilink").
+spectra](/2D_attributes "link").
 
 When signals are assigned, only their labels are given (no chemical
 shifts). If a crosspeak is reported without assignment or partial
@@ -958,7 +958,7 @@ heteronuclear couplings may be listed as :
 `a/C1, Ja=155\`
 
 (more details about the [attributes of 2D
-spectra](/2D_attributes "wikilink")).
+spectra](/2D_attributes "link")).
 
 #### 2D COSY \<NMREDATA_2D_1H_NJ_1H\>
 
@@ -968,7 +968,7 @@ A COSY spectrum will be coded with,
 
 ````
 >  <NMREDATA_2D_1H_NJ_1H>
-[CorType](/CorType "wikilink")=HSQC(COSY; HSQC; HMBC; ?? exact list is still to be defined. Consider this one tentative)
+[CorType](/CorType "link")=HSQC(COSY; HSQC; HMBC; ?? exact list is still to be defined. Consider this one tentative)
 Larmor=500\
 a/b, I=1.2, S=100\
 b/a, I=1.2\
