@@ -20,11 +20,11 @@ Instructions for chemistry journals
 -----------------------------------
 
 Damien Jeannerat's [one-sentence
-instructions](/one-sentence_instructions "wikilink") for the submission
+instructions](/One-sentence_instructions "wikilink") for the submission
 of supplentary data for typical chemistry journals.
 
 Damien Jeannerat's [one-paragraph
-instructions](/one-paragraph_instructions "wikilink") for the submission
+instructions](/One-paragraph_instructions "wikilink") for the submission
 of supplentary data for typical chemistry journals.
 
 Instructions for NMR journals

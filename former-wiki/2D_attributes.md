@@ -20,19 +20,19 @@ List of signal attributes ("D spectra)
 
 **Note that they should apear in this order!**
 
-[I= Intensity](/2D_attributes/#signal-intensity "wikilink") (***float***)
+[I= Intensity](/2D_attributes/#signal-intensity "link") (***float***)
 
-[E= Volume](/2D_attributes/#signal-Volume "wikilink") (crude integrals) (***float***)
+[E= Volume](/2D_attributes/#signal-Volume "link") (crude integrals) (***float***)
 
-[Ja= Active scalar coupling](/2D_attributes/#active-scalar-coupling "wikilink") (***string***)
+[Ja= Active scalar coupling](/2D_attributes/#active-scalar-coupling "link") (***string***)
 
-[J1= F1 passive coupling](/2D_attributes/#passive-scalar-coupling "wikilink") (***string***)
+[J1= F1 passive coupling](/2D_attributes/#passive-scalar-coupling "link") (***string***)
 
-[J2= F2 passive coupling](/2D_attributes/#passive-scalar-coupling "wikilink") (***string***)
+[J2= F2 passive coupling](/2D_attributes/#passive-scalar-coupling "link") (***string***)
 
-[W1= F1 signal width](/2D_attributes/#signal-width "wikilink") (***float***)
+[W1= F1 signal width](/2D_attributes/#signal-width "link") (***float***)
 
-[W2= F2 signal width](/2D_attributes/#signal-width "wikilink") (***float***)
+[W2= F2 signal width](/2D_attributes/#signal-width "link") (***float***)
 
 Examples attributes of 2D signal
 ================================
@@ -72,7 +72,7 @@ Active scalar coupling
 ----------------------
 
 Ja: Couplings in Hz with two digits after
-the period separated by the [separator](/separator "wikilink"). For a
+the period separated by the [separator](/Separator "link"). For a
 correlation between *i* & *j* (F1 first):
 
 `i/j, Ja=9.30`
