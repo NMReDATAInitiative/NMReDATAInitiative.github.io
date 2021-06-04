@@ -233,22 +233,25 @@ The NMR data may originate from DFT calculations or any other type of
 predictor of chemical shifts, and/or coupling. In such a case, a general
 tag is added to provide information about the software. For example:
 
-`>  `<NMREDATA_ORIGIN>
-`Source=Calculation`
-`method=DFT`
-`Geometry=method/basis set`
-`Shielding=method_basis set`
-`Coupling=method_basis set`
-`Software=...`
-`Version=...`
+````
+>  <NMREDATA_ORIGIN>
+Source=Calculation
+method=DFT
+Geometry=method/basis set
+Shielding=method_basis set
+Coupling=method_basis set
+Software=...
+Version=...
+````
 
 References to addition files located in a folder called
 "DFT_GIAO_calculations" could be added. They could include: -the
 equation used to convert sheelding in chemical shifts (for 1H, 13C)
-
-`csH=((Sxx+Syy+Szz)/3-60)*0.98+5"`
-`csC=((Sxx+Syy+Szz)/3-130)*1.1+3.1" `
-`JHH=((???)/3-130)*1.1+3.1"`
+````
+csH=((Sxx+Syy+Szz)/3-60)*0.98+5"
+csC=((Sxx+Syy+Szz)/3-130)*1.1+3.1" 
+JHH=((???)/3-130)*1.1+3.1"
+````
 
 -the list of conformers calculated, their energies ?, the Boltzman ratio
 ?
@@ -267,26 +270,31 @@ data](https://www.dropbox.com/sh/yfx82u28qpitiuz/AACVJ8J1Ozgzq82I4GQzXrwUa?dl=0)
 SDF files generated from literature data
 ========================================
 
-<span style="color:#FF8C00"> ''This is a working proposition under
-review '' </span>
+<span style="color:#FF8C00"> ''This is a working proposition under review '' </span>
 
 When the NMR data originate from publications, a reference to the
 published paper/book/thesis is given in the NMREDATA_LITERATURE tag.
 
+````
 `>  `<NMREDATA_LITERATURE>
-`Source=Journal`
-`DOI=DOI_HERE (if Reference field is DOI specify it here)`
-`CompoundNumber=label used in the reference to designate the compound (typically a number in boldface)`
+`ource=Journal
+DOI=DOI_HERE (if Reference field is DOI specify it here
+CompoundNumber=label used in the reference to designate the compound (typically a number in boldface)`
+````
 
-`>  `<NMREDATA_LITERATURE>
-`Source=Book`
-`ISBN=ISBN_HERE (if Reference field is DOI specify it here)`
-`CompoundNumber=label used in the reference to designate the compound (typically a number in boldface)`
+````
+>  <NMREDATA_LITERATURE>
+Source=Book
+ISBN=ISBN_HERE (if Reference field is DOI specify it here)
+CompoundNumber=label used in the reference to designate the compound (typically a number in boldface)
+````
 
-`>  `<NMREDATA_LITERATURE>` `
-`Source=Thesis`
-`Thesis=HTML link here (if available if not "LastName, Firstname(s), institution providing the degree, city, country, year of publication.`
-`CompoundNumber=label used in the reference to designate the compound (typically a number in boldface)`
+````
+>  <NMREDATA_LITERATURE>
+Source=Thesis
+Thesis=HTML link here (if available if not "LastName, Firstname(s), institution providing the degree, city, country, year of publication.
+CompoundNumber=label used in the reference to designate the compound (typically a number in boldface)
+````
 
 SDF files generated after revision of existing SDF files
 ========================================================
@@ -295,12 +303,13 @@ Assignment records may be generated after revision from experimental,
 literature, prediction data, etc. Ideally, the original .sdf files
 should also be generated to facilitate comparison or exist somewhere and
 be referred to. In both cases reference should be given.
-
-`>  `<NMREDATA_UPDATE>
-`Source=Record`
-`Record_number=ref_to_the_original_record (multiple reference is allowed for aggregation of records – separated by “,”).`
-`Date =date.... standard format for date`
-`Correction="fixed assignments of C(13) and C(15)"`
+````
+>  <NMREDATA_UPDATE>
+Source=Record
+Record_number=ref_to_the_original_record (multiple reference is allowed for aggregation of records – separated by “,”).
+Date =date.... standard format for date
+Correction="fixed assignments of C(13) and C(15)"
+````
 
 This is also to be refined according to future developments.
 
