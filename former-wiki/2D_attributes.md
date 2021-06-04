@@ -48,8 +48,7 @@ description of the attributes)...
 
 `a/b, I=133.6`
 
-... Including the extrcted coupling constants (from a high-resolution
-DQF-COSY spectrum):
+... Including the extracted coupling constants (from a high-resolution DQF-COSY spectrum):
 
 `H4eq/H6eq, Ja=2.2, J1= 3.0(H8ax), 3.2(H5e1), 3.3(H5ax), 12.75(H4ax), J2=4.0 (H8ax), 4.5(H10ax), 12.09(H6ax) [see paper...]`
 
