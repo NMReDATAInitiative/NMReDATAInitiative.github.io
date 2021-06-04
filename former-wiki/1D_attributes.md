@@ -138,7 +138,6 @@ E integral (in arbitrary units).
 #### I= Signal intensity
 
 I intensity (in arbitrary units).
-
 #### W= Signal width
 
 W width of the signal at half height (in Hz).
