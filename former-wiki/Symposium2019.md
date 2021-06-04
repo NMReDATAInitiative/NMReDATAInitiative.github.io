@@ -45,13 +45,13 @@ Program
 
 
 [*What can we do with RAW NMR data and spin
-parameters*](/JB_abstract "wikilink")[(.pdf of the presentation)](../extra/JB.pdf "wikilink")
+parameters*](/JB_abstract "wikilink")[(.pdf of the presentation)](../extra/JB.pdf "pdf")
 
 -   10:00-10:40 **Short talks**
 
 :\***Wolfgang Robien**, University of Vienna, Austria
 
-:: [*A few remarks on wrong structures in the literature*](/WR_abstract "wikilink")[(.pdf of the presentation)](../extra/WR.pdf "wikilink")
+:: [*A few remarks on wrong structures in the literature*](/WR_abstract "wikilink")[(.pdf of the presentation)](../extra/WR.pdf "pdf")
 
 :\***Nils Schloerer**, University of Cologne, Germany
 
@@ -59,7 +59,7 @@ parameters*](/JB_abstract "wikilink")[(.pdf of the presentation)](../extra/JB.pd
 
 [*Teaching NMR data handling, electronic assignment and CASE at the
 university*](/NS_abstract "wikilink")[(.pdf of the
-presentation)](../extra/NS.pdf "wikilink")
+presentation)](../extra/NS.pdf "pdf")
 
 -   10:40-11:00 Coffee Break
 
@@ -69,15 +69,15 @@ presentation)](../extra/NS.pdf "wikilink")
 
 :\***Stefan Kuhn**, De Montfort University, Leicester, UK
 
-::[*NMReDATA software and nmrshiftdb2*](/SK_abstract "wikilink")[(.pdf of the presentation)](../extra/SK.pdf "wikilink")
+::[*NMReDATA software and nmrshiftdb2*](/SK_abstract "wikilink")[(.pdf of the presentation)](../extra/SK.pdf "pdf")
 
 :\***Pavel Kessler**, Bruker Biospin, Germany,
 
-::[*Bruker implementation of NMReData*](/PK_abstract "wikilink")[(.pdf of the presentation)](../extra/PK.pdf "wikilink")
+::[*Bruker implementation of NMReData*](/PK_abstract "wikilink")[(.pdf of the presentation)](../extra/PK.pdf "pdf")
 
 :\***Mitcheell Maestre-Martinez**, Mestrelab, Spain
 
-:: [*Mnova meets NMReData: automation workflows and new opportunities*](/CC_abstract "wikilink")[(.pdf of the presentation)](../extra/MM.pdf "wikilink")
+:: [*Mnova meets NMReData: automation workflows and new opportunities*](/CC_abstract "wikilink")[(.pdf of the presentation)](../extra/MM.pdf "pdf")
 
 :\***Dimitris Argyropoulos**, ACD/Labs, Canada,
 
@@ -87,7 +87,7 @@ presentation)](../extra/NS.pdf "wikilink")
 
 
 
-[*LOGS - a natural fit for NMReData*](/JL_abstract "wikilink")[(.pdf of the presentation)](../extra/SK2.pdf "wikilink")
+[*LOGS - a natural fit for NMReData*](/JL_abstract "wikilink")[(.pdf of the presentation)](../extra/SK2.pdf "pdf")
 
 -   12:40-13:30 Lunch Break
 
@@ -97,31 +97,31 @@ presentation)](../extra/NS.pdf "wikilink")
 
 \***Robert Hanson**, St. Olaf College, Northfield, MN,
 
-[*Putting it all together: Fully automated NMR spectrometer, web-based analysis, and spectral simulation with 2D/3D structure correlation for first-year organic chemistry*](/RH_abstract "wikilink")[(.pdf of the presentation)](../extra/RH.pdf "wikilink")
+[*Putting it all together: Fully automated NMR spectrometer, web-based analysis, and spectral simulation with 2D/3D structure correlation for first-year organic chemistry*](/RH_abstract "wikilink")[(.pdf of the presentation)](../extra/RH.pdf "pdf")
 
 \***Angel Herráez**, University of Alcalá, Spain
 
- [*NMReDATA J_reader: an HTML interface for displaying the contents of NMReDATA files, molecular structure, NMR data and spectra*](/AH_abstract "wikilink")[(.pdf of the presentation)](../extra/AH.pdf "wikilink")
+ [*NMReDATA J_reader: an HTML interface for displaying the contents of NMReDATA files, molecular structure, NMR data and spectra*](/AH_abstract "wikilink")[(.pdf of the presentation)](../extra/AH.pdf "pdf")
 
 :\***Jean-Marc Nuzillard**, University of Champagne Ardenne, France co-authors: Stefan Kuhn and Nils Schloerer
 
-::[*NMReDATA file validation through Computer-Assisted Structure Elucidation*](/JMN-abstract "wikilink") [(.pdf of the presentation)](../extra/JMN.pdf "wikilink")
+::[*NMReDATA file validation through Computer-Assisted Structure Elucidation*](/JMN-abstract "wikilink") [(.pdf of the presentation)](../extra/JMN.pdf "pdf")
 
 :\***Damien Jeannerat**, NMRprocess.ch, Switzerland,
 
-::*Validation of NMReDATA by spectral simulation*[(.pdf of the presentation)](../extra/DJ2.pdf "wikilink")
+::*Validation of NMReDATA by spectral simulation*[(.pdf of the presentation)](../extra/DJ2.pdf "pdf")
 
 :\***Tomas Lebl**, St Andrews University, UK
 
 
 
-*NOMAD - NMR Online Management and Datastore*[(.pdf of the presentation)](../extra/TL.pdf "wikilink")
+*NOMAD - NMR Online Management and Datastore*[(.pdf of the presentation)](../extra/TL.pdf "pdf")
 
 -   15:10 - 15:40 Coffee break
 
 #### Round table discussion
 
--   15:40 - 16:20 :[Future version of the format](/Future_version "wikilink") and Admistration of the NMReDATA Initiative[(.pdf of the presentation)](../extra/DJ3.pdf "wikilink")
+-   15:40 - 16:20 :[Future version of the format](/Future_version "wikilink") and Admistration of the NMReDATA Initiative[(.pdf of the presentation)](../extra/DJ3.pdf "pdf")
 
 :\*Discussion of open issues with the format.
 
