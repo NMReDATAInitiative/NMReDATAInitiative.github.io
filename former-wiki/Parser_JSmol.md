@@ -6,8 +6,8 @@ permalink: /Parser_JSmol/
 Introduction: using JSmol in a parser for NMReDATA zipfiles
 -----------------------------------------------------------
 
-*This page copies some contents in [Parser](/Parser "wikilink") and
-portions of [NMReDATA tag format](/NMReDATA_tag_format "wikilink") with
+*This page copies some contents in [Parser](/Parser "link") and
+portions of [NMReDATA tag format](/NMReDATA_tag_format "link") with
 added annotations of what is being implemented in the NMReDATA file
 reader, HTML application using JSmol. It also includes the result of
 email discussions.*
@@ -15,26 +15,26 @@ email discussions.*
 Reading the packaged contents
 -----------------------------
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") The
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") The
 content of the input is kept in memory so that it can be written later.
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") Files
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") Files
 contained in the zipfile are listed in a folder and file tree on the
 left column, alphabetically sorted. The tree is interactive in order to
 display contents of those files.
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") In the
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") In the
 case of file not found (filename called from a button) or non-zip
 format, a warning is displayed.
 
 Reading the SDF file
 --------------------
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") The 3
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") The 3
 header lines of the sdf file are displayed, for information, at the
 bottom of the central section, for all models in the file.
 
-[<File:Data-parser.png>](/File:Data-parser.png "wikilink") *(For
+[<File:Data-parser.png>](../extra/Data-parser.png "link_") *(For
 debugging)* The full contents of the sdf file may be examined via the
 right-click menu on the file tree.
 
@@ -44,7 +44,7 @@ The SDF file may contain more than one structure, each one (molblock)
 with its own tags. We expect that the NMReDATA tags will be included
 only on the first model, but it might be otherwise.
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") All
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") All
 tags for all models are displayed in the central section, first the
 group of NMReDATA tags and then the group with all other tags. If
 needed, a number is added in front to identify the model number when
@@ -54,7 +54,7 @@ The first model will usually be 2D. It is desirable to be 3D but this
 will not always happen. Right now, we exepct the first model to be 2D
 and, if available, a second model is the 3D structure.
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") All
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") All
 structure models are transferred to the JSmol panel, and displayed there
 one at a time. Buttons are added below to switch the display from one
 model to another. The 2D or 3D nature is detected using two methods: the
@@ -68,7 +68,7 @@ the chirality is given by the *fourth column* of the bond list in the
 molblock (more precisely, characters 10 to 12, according to the MOL/SDF
 V2000 format specification).
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink")
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK")
 Explicit H atoms with stereo information in their bond are coloured
 light salmon (*bisque*, bond up) or light blue (*powderBlue*, bond down)
 in the JSmol structure. They are also moved 0.4Å up or down in the Z
@@ -79,7 +79,7 @@ axis direction for better viewing.
 The SDF files may contain diverse tags (not only the NMREDATA tags). Be
 ready for the tags to appear in any order.
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") They
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") They
 are accepted in any order and are displayed as they arrive, except that
 NMREDATA tags are grouped first. (We might sort them if needed)
 
@@ -91,10 +91,10 @@ order.
 Scan the tags and list the index of the ones including NMREDATA_ in
 their name. Read the NMReDATA tags.
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") Both
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") Both
 NMReDATA tags and any others are displayed, with their contents.
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") Keep in
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") Keep in
 mind the end of line problem.
 
 1.  Any <EOL> characters inside the tag contents are removed when this
@@ -156,7 +156,7 @@ This allows to have a single functions testing properties.
 
 ### Edit and save the NMREDATA tags
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") The
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") The
 content of NMREDATA tags may be edited and will be immediately saved
 into memory; eventually, if the file is saved, the updated tag will be
 included. The effect of the change may be tested immediately on the
@@ -174,12 +174,12 @@ not understood) to be written later.
 
 ### <NMREDATA_ASSIGNMENT>
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") List of
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") List of
 assignments is read and displayed on the structure using labels on each
 atom referenced. Labels for implicit Hydrogens are added to those of the
 heavy atom, as 2nd, 3rd lines.
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") Labels
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") Labels
 must come enclosed in \<""\> when they include "," "/" "\\" "\|" or "&"
 characters. All these have been tested and are properly working:
 
@@ -218,7 +218,7 @@ characters. All these have been tested and are properly working:
 </tr>
 </table>
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") The
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") The
 possibility that the assignment may be vague. Interchangeable or
 ambiguous assignment, with the keyword "Interchangeable=".
 
@@ -227,7 +227,7 @@ ambiguous assignment, with the keyword "Interchangeable=".
     to the generic label colour. A warning alert is also displayed, with
     the count.
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink")
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK")
 Equivalent spins, with the keyword "Equivalent=".
 
 -   If such option is selected (drop-down menu), the labels of each pair
@@ -244,7 +244,7 @@ might need one ASSIGNMENT tag per structure.
     lines. *This has not been examined, but most likely it can be solved
     by manual inspection and editing of the tag contents.*
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") This is
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") This is
 conflictive, and we will not do it in such a way. A second model needs
 its own ASSIGNMENT tag and that's the one that will be applied. We are
 expecting the 2nd model to be 3D and have the implicit H's included
@@ -252,7 +252,7 @@ explicitly, so they receive now their own labels. The new, modified, tag
 is being created when 2nd model comes from the user-assisted 3D
 generation routine in the reader.
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink")
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK")
 <NMREDATA_SIGNALS> (present in files using older versions of the format)
 is detected and processed like <NMREDATA_ASSIGNMENT>. However, editing
 the contents of this tag is not supported (i.e. any changes will not be
@@ -260,7 +260,7 @@ kept).
 
 ### <NMREDATA_J> (couplings)
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") This
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") This
 tag includes atom labels defined in <NMREDATA_ASSIGNMENT>.
 
 -   Couplings are displayed on the structure using a line that connects
@@ -290,18 +290,18 @@ tag includes atom labels defined in <NMREDATA_ASSIGNMENT>.
 
 Spectrum data, also contains atom labels and couplings.
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") If a
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") If a
 line starts with `Jcamp_location=file:` followed by the path to a file
 in JCAMP format (inside the zipfile), the spectrum will be displayed in
 the right-hand section at the same time the contents of the tag are
 displayed in the central section.
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink")
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK")
 
 -   Coupling information inside the 1D_XX tags may be used for display
     instead of that coming from the J tag, via a drop-down menu.
 
-[<File:Data-parser.png>](/File:Data-parser.png "wikilink")
+[<File:Data-parser.png>](../extra/Data-parser.png "link_")
 
 -   If there is content about couplings in the NMREDATA_J tag, should we
     ignore the coupling information inside the 1D_1H tag?
@@ -325,21 +325,21 @@ displayed in the central section.
 Here should come the *ALATIS* code of the compound. (If possible, it
 should be included!)
 
-[<File:Data-parser.png>](/File:Data-parser.png "wikilink")
+[<File:Data-parser.png>](../extra/Data-parser.png "link_")
 Pre-implemented: access the ALATIS server, send the 2D SDF moldata and
 retrieve both the 3D structure, the ALATIS Key code and the InChI.
 
 Problem: the model coming from Alatis has lost the original atom
 numbering, so we cannot use the assignments on it.
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") A
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") A
 button allows to transfer the ALATIS Key code and the InChI to newly
 created NMReDATA tags.
 
 Reading other files in the NMReDATA zipfile
 -------------------------------------------
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") When
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") When
 clicked on an item in the directory (file tree),
 
 -   If the file is known to be in **plain-text** format, its content is
@@ -385,7 +385,7 @@ Caveats:
 -   The added H atoms (now explicit) need to be relabelled in the
     ASSIGNMENT tag, J couplings tag or spectrum tags.
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") Two
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") Two
 methods are currently available for calculating a reasonable 3D
 structure. They also involve adding the implicit hydrogens which are not
 included in the original 2D structure.
@@ -420,12 +420,12 @@ In both cases, further runs of optimisation may be necessary, driven by
 the user with the aid of numerical reports of the drop in energy
 (convergence of he minimisation).
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") Once
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") Once
 the 3D model with added H atoms is accepted, the now explicit H atoms
 are relabelled in the new ASSIGNMENT tag for this model. The new
 labelling is also used for display of couplings on the 3D model.
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") On the
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") On the
 3D model (before transfer to the main structure panel), the user may
 pick atoms that will be tagged as either **interchangeable** or
 **equivalent** in the resulting ASSIGNMENT tag for the 3D model.
@@ -461,12 +461,12 @@ of the 3D model and its labeling?
 Resaving files
 --------------
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") Any
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") Any
 modification of the contents (added or edited tags, added 3D structure,
 added or removed files) may be saved as an NMReDATA package to a
 zipfile.
 
-[<File:Data-parser-ok.png>](/File:Data-parser-ok.png "wikilink") The
+[<File:Data-parser-ok.png>](../extra/Data-parser-ok.png "link_OK") The
 changes applied (edited tags, 3D model added, files added or removed
 from the package, manual assignment of interchangeable atoms) are
 logged. The log may be checked at any time and is included as an extra
