@@ -40,7 +40,7 @@ Program
     Jeannerat[(.pdf of the presentation)](../extra/DJ1.pdf "pdf")
 -   9:15-10:00 **Feature presentation**
 
-:\***Jonathan Bisson**, University of Illinois Chicago, USA
+**Jonathan Bisson**, University of Illinois Chicago, USA
 
 
 
@@ -49,17 +49,15 @@ parameters*](/JB_abstract "wikilink")[(.pdf of the presentation)](../extra/JB.pd
 
 -   10:00-10:40 **Short talks**
 
-:\***Wolfgang Robien**, University of Vienna, Austria
+**Wolfgang Robien**, University of Vienna, Austria
 
-:: [*A few remarks on wrong structures in the literature*](/WR_abstract "wikilink")[(.pdf of the presentation)](../extra/WR.pdf "pdf")
+ [*A few remarks on wrong structures in the literature*](/WR_abstract "wikilink")[(.pdf of the presentation)](../extra/WR.pdf "pdf")
 
-:\***Nils Schloerer**, University of Cologne, Germany
+**Nils Schloerer**, University of Cologne, Germany
 
 
 
-[*Teaching NMR data handling, electronic assignment and CASE at the
-university*](/NS_abstract "wikilink")[(.pdf of the
-presentation)](../extra/NS.pdf "pdf")
+[*Teaching NMR data handling, electronic assignment and CASE at the university*](/NS_abstract "wikilink")[( pdf of the presentation)](../extra/NS.pdf "pdf")
 
 -   10:40-11:00 Coffee Break
 
@@ -67,23 +65,23 @@ presentation)](../extra/NS.pdf "pdf")
 
 -   11:00-12:40 **Short talks**
 
-:\***Stefan Kuhn**, De Montfort University, Leicester, UK
+**Stefan Kuhn**, De Montfort University, Leicester, UK
 
 ::[*NMReDATA software and nmrshiftdb2*](/SK_abstract "wikilink")[(.pdf of the presentation)](../extra/SK.pdf "pdf")
 
-:\***Pavel Kessler**, Bruker Biospin, Germany,
+:**Pavel Kessler**, Bruker Biospin, Germany,
 
 ::[*Bruker implementation of NMReData*](/PK_abstract "wikilink")[(.pdf of the presentation)](../extra/PK.pdf "pdf")
 
-:\***Mitcheell Maestre-Martinez**, Mestrelab, Spain
+:**Mitcheell Maestre-Martinez**, Mestrelab, Spain
 
 :: [*Mnova meets NMReData: automation workflows and new opportunities*](/CC_abstract "wikilink")[(.pdf of the presentation)](../extra/MM.pdf "pdf")
 
-:\***Dimitris Argyropoulos**, ACD/Labs, Canada,
+:**Dimitris Argyropoulos**, ACD/Labs, Canada,
 
 :: *Implementing the NMReDATA format into your workflows using ACD/Labs software*
 
-:\***Sina Kazemi**, SIGNALS, Germany
+:**Sina Kazemi**, SIGNALS, Germany
 
 
 
@@ -95,23 +93,23 @@ presentation)](../extra/NS.pdf "pdf")
 
 -   13:30-15:10 **Short talks**
 
-\***Robert Hanson**, St. Olaf College, Northfield, MN,
+**Robert Hanson**, St. Olaf College, Northfield, MN,
 
 [*Putting it all together: Fully automated NMR spectrometer, web-based analysis, and spectral simulation with 2D/3D structure correlation for first-year organic chemistry*](/RH_abstract "wikilink")[(.pdf of the presentation)](../extra/RH.pdf "pdf")
 
-\***Angel Herráez**, University of Alcalá, Spain
+**Angel Herráez**, University of Alcalá, Spain
 
  [*NMReDATA J_reader: an HTML interface for displaying the contents of NMReDATA files, molecular structure, NMR data and spectra*](/AH_abstract "wikilink")[(.pdf of the presentation)](../extra/AH.pdf "pdf")
 
-:\***Jean-Marc Nuzillard**, University of Champagne Ardenne, France co-authors: Stefan Kuhn and Nils Schloerer
+:**Jean-Marc Nuzillard**, University of Champagne Ardenne, France co-authors: Stefan Kuhn and Nils Schloerer
 
 ::[*NMReDATA file validation through Computer-Assisted Structure Elucidation*](/JMN-abstract "wikilink") [(.pdf of the presentation)](../extra/JMN.pdf "pdf")
 
-:\***Damien Jeannerat**, NMRprocess.ch, Switzerland,
+:**Damien Jeannerat**, NMRprocess.ch, Switzerland,
 
 ::*Validation of NMReDATA by spectral simulation*[(.pdf of the presentation)](../extra/DJ2.pdf "pdf")
 
-:\***Tomas Lebl**, St Andrews University, UK
+:**Tomas Lebl**, St Andrews University, UK
 
 
 
@@ -123,9 +121,9 @@ presentation)](../extra/NS.pdf "pdf")
 
 -   15:40 - 16:20 :[Future version of the format](/Future_version "wikilink") and Admistration of the NMReDATA Initiative[(.pdf of the presentation)](../extra/DJ3.pdf "pdf")
 
-:\*Discussion of open issues with the format.
+:Discussion of open issues with the format.
 
-:\*Decide how the NMReDATA Initiative should be structured, funded,
+:Decide how the NMReDATA Initiative should be structured, funded,
 coordinated, etc.
 
 -   16:20 - 16:30 Closing remarks
