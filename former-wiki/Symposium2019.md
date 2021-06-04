@@ -30,8 +30,7 @@ Program
 
 [Program in the .pdf format.](../extra/Final_program.pdf)
 
-[Archive including the .pdf files of most
-presentations.](/Media:Presentations.zip "wikilink")
+[Archive including the .pdf files of most presentations.](../extra/Presentations.zip "wikilink")
 
 -   8:45-9:00 Registration
 
