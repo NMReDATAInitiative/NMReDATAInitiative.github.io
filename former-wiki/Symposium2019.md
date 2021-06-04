@@ -67,21 +67,21 @@ parameters*](/JB_abstract "wikilink")[(.pdf of the presentation)](../extra/JB.pd
 
 **Stefan Kuhn**, De Montfort University, Leicester, UK
 
-::[*NMReDATA software and nmrshiftdb2*](/SK_abstract "wikilink")[(.pdf of the presentation)](../extra/SK.pdf "pdf")
+[*NMReDATA software and nmrshiftdb2*](/SK_abstract "wikilink")[(.pdf of the presentation)](../extra/SK.pdf "pdf")
 
-:**Pavel Kessler**, Bruker Biospin, Germany,
+**Pavel Kessler**, Bruker Biospin, Germany,
 
-::[*Bruker implementation of NMReData*](/PK_abstract "wikilink")[(.pdf of the presentation)](../extra/PK.pdf "pdf")
+[*Bruker implementation of NMReData*](/PK_abstract "wikilink")[(.pdf of the presentation)](../extra/PK.pdf "pdf")
 
-:**Mitcheell Maestre-Martinez**, Mestrelab, Spain
+**Mitcheell Maestre-Martinez**, Mestrelab, Spain
 
-:: [*Mnova meets NMReData: automation workflows and new opportunities*](/CC_abstract "wikilink")[(.pdf of the presentation)](../extra/MM.pdf "pdf")
+ [*Mnova meets NMReData: automation workflows and new opportunities*](/CC_abstract "wikilink")[(.pdf of the presentation)](../extra/MM.pdf "pdf")
 
-:**Dimitris Argyropoulos**, ACD/Labs, Canada,
+**Dimitris Argyropoulos**, ACD/Labs, Canada,
 
-:: *Implementing the NMReDATA format into your workflows using ACD/Labs software*
+ *Implementing the NMReDATA format into your workflows using ACD/Labs software*
 
-:**Sina Kazemi**, SIGNALS, Germany
+**Sina Kazemi**, SIGNALS, Germany
 
 
 
@@ -101,15 +101,15 @@ parameters*](/JB_abstract "wikilink")[(.pdf of the presentation)](../extra/JB.pd
 
  [*NMReDATA J_reader: an HTML interface for displaying the contents of NMReDATA files, molecular structure, NMR data and spectra*](/AH_abstract "wikilink")[(.pdf of the presentation)](../extra/AH.pdf "pdf")
 
-:**Jean-Marc Nuzillard**, University of Champagne Ardenne, France co-authors: Stefan Kuhn and Nils Schloerer
+**Jean-Marc Nuzillard**, University of Champagne Ardenne, France co-authors: Stefan Kuhn and Nils Schloerer
 
-::[*NMReDATA file validation through Computer-Assisted Structure Elucidation*](/JMN-abstract "wikilink") [(.pdf of the presentation)](../extra/JMN.pdf "pdf")
+[*NMReDATA file validation through Computer-Assisted Structure Elucidation*](/JMN-abstract "wikilink") [(.pdf of the presentation)](../extra/JMN.pdf "pdf")
 
-:**Damien Jeannerat**, NMRprocess.ch, Switzerland,
+**Damien Jeannerat**, NMRprocess.ch, Switzerland,
 
-::*Validation of NMReDATA by spectral simulation*[(.pdf of the presentation)](../extra/DJ2.pdf "pdf")
+*Validation of NMReDATA by spectral simulation*[(.pdf of the presentation)](../extra/DJ2.pdf "pdf")
 
-:**Tomas Lebl**, St Andrews University, UK
+**Tomas Lebl**, St Andrews University, UK
 
 
 
