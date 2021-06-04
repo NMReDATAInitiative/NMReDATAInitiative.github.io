@@ -84,17 +84,19 @@ Passive scalar coupling
 
 J1/J2: For a correlation between *i* &
 *j* :
-
-`i/j, J1=9.30`
-`i/j, J1=9.30, 4.80`
+````
+i/j, J1=9.30
+i/j, J1=9.30, 4.80`
+````
 
 means: *i*, the spin in the F1 dimension, is coupled to one or more spin
 (not the active coupling *j*) with J=9.3 and 4.8 Hz
 
 For a correlation between *i* & *j* :
-
-`i/j, J1=9.30(b)`
-`i/j, J1=9.30(b), 4.80(a)`
+````
+i/j, J1=9.30(b)
+i/j, J1=9.30(b), 4.80(a)
+````
 
 means:J(i,b)=9.30 Hz J(i,a)=4.80 Hz(in the F1 dimension).
 
@@ -104,6 +106,7 @@ Signal width
 ------------
 
 W1/W2: Signal widht in F1/F2 in Hz
-
-`W1=6.0`
-`W2=1.2`
+````
+W1=6.0
+W2=1.2
+````
