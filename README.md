@@ -447,4 +447,4 @@ between analytical instrumentation and chemists. **Mestrelab will explore best w
 
 [**Contact: **Damien Jeannerat (coordinator)](mailto:damien.jeannerat@nmredata.org?subject=Interest%20of%20the%20NMReDATA%20initiative) to join the initiative!
 
-Managed by D. Jeannerat, university of Geneva
+Managed by D. Jeannerat, NMRprocess.ch
