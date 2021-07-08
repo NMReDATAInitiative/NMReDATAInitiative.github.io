@@ -20,7 +20,9 @@ https://img.shields.io/endpoint.svg?url=https%3A//raw.githubusercontent.com/chri
 
 <a href="https://www.npmjs.com/package/simple-icons"><img src="https://img.shields.io/endpoint.svg?url=https%3A//raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json"/></a>
 
-more info : https://github.com/marketplace/actions/dynamic-badges
+more info : ![https://github.com/marketplace/actions/dynamic-badges]
+
+more info : !(https://github.com/marketplace/actions/dynamic-badges)
 
 about shields : https://shields.io/category/monitoring
 
