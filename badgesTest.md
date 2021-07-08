@@ -5,7 +5,7 @@ The spectra can be opened with [NMRium](https://www.nmrium.org/nmrium#?toc=https
 
 # Playing with badges
 
-Working from https://github.com/badges/shields/discussions/6716#discussioncomment-981096
+Working from [https://github.com/badges/shields/discussions/6716#discussioncomment-981096](https://github.com/badges/shields/discussions/6716#discussioncomment-981096)
 
 ```
 https://raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json
@@ -22,7 +22,7 @@ https://img.shields.io/endpoint.svg?url=https%3A//raw.githubusercontent.com/chri
 
 [more info on dynamic-badges](https://github.com/marketplace/actions/dynamic-badges)
 
-about shields : https://shields.io/category/monitoring
+about shields : [https://shields.io/category/monitoring](https://shields.io/category/monitoring)
 
 [adding-custom-badges-to-gitlab](https://medium.com/@iffi33/adding-custom-badges-to-gitlab-a9af8e3f3569}
 
