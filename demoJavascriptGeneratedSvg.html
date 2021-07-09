@@ -52,9 +52,7 @@
     svg.appendChild(polygon.node);
     document.body.appendChild(svg);
 
-    container = document.getElementById("ContainerBox");
-   newdiv = document.createElementNS("http://www.w3.org/1999/xhtml", "div");
-   txtnode = document.createTextNode("This is text that was constructed dynamically with createElementNS and createTextNode then inserted into the document using appendChild.");
+  var newdiv = document.createElementNS("http://www.w3.org/1999/xhtml", "div");
    newdiv.appendChild(polygon.node);
    container.appendChild(newdiv);
     
