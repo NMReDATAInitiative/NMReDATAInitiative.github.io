@@ -53,7 +53,7 @@
     document.body.appendChild(svg);
 
    var newdiv = document.createElementNS("http://www.w3.org/1999/xhtml", "div");
-   txtnode = document.createTextNode("This is text that was constructed dynamically with createElementNS and createTextNode then inserted into the document using appendChild.");
+   var txtnode = document.createTextNode("This is text that was constructed dynamically with createElementNS and createTextNode then inserted into the document using appendChild.");
    newdiv.appendChild(txtnode);
     
     
