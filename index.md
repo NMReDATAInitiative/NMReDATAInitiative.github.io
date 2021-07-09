@@ -11,6 +11,9 @@ Migration from the wiki page is at the final stage of fine editing.
 
 [Testing badges (formerly wikimedia pages)](./badgesTest.md).
 
+[create demo svg](./demoJavascriptGeneratedSvg.html).
+
+
 
 *Issues:*
 
