@@ -51,9 +51,14 @@
     var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     svg.appendChild(polygon.node);
     document.body.appendChild(svg);
-    var txt = document.createElementNS("http://www.w3.org/1999/xhtml", "HTML");
-    txt.appendChild(polygon.node);
-    document.body.appendChild(txt);
+
+    container = document.getElementById("ContainerBox");
+   newdiv = document.createElementNS("http://www.w3.org/1999/xhtml", "div");
+   txtnode = document.createTextNode("This is text that was constructed dynamically with createElementNS and createTextNode then inserted into the document using appendChild.");
+   newdiv.appendChild(polygon.node);
+   container.appendChild(newdiv);
+    
+    
 </script>
 </body>
 </html>
