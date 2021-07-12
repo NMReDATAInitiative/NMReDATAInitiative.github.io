@@ -76,7 +76,6 @@ First working with embed
 
 Simple svg circle2
 
-
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Zerply</title><circle cx="12" cy="12" r="5" style="fill: blue; stroke: black; stroke-width: 2px;" /></svg>
 
 PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+WmVycGx5PC90aXRsZT48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI1IiBzdHlsZT0iZmlsbDogYmx1ZTsgc3Ryb2tlOiBibGFjazsgc3Ryb2tlLXdpZHRoOiAycHg7IiAvPjwvc3ZnPg==
@@ -85,24 +84,17 @@ PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3Jn
 ![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+WmVycGx5PC90aXRsZT48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI1IiBzdHlsZT0iZmlsbDogYmx1ZTsgc3Ryb2tlOiBibGFjazsgc3Ryb2tlLXdpZHRoOiAycHg7IiAvPjwvc3ZnPg==)
 
 
-<svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="5" style="fill: blue; stroke: black; stroke-width: 1px;" /></svg>
-
-PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiI+PGNpcmNsZSBjeD0iNiIgY3k9IjYiIHI9IjUiIHN0eWxlPSJmaWxsOiBibHVlOyBzdHJva2U6IGJsYWNrOyBzdHJva2Utd2lkdGg6IDFweDsiIC8+PC9zdmc+DQo=
-
-![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg,<svg height="16" width="16"><circle cx="6" cy="6" r="5" style="fill: blue; stroke: black; stroke-width: 1px;" /></svg>)
-
-![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgc3R5bGU9ImZpbGw6IGJsdWU7IHN0cm9rZTogYmxhY2s7IHN0cm9rZS13aWR0aDogMnB4OyIgLz48L3N2Zz4NCg==)
-
-![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiI+PGNpcmNsZSBjeD0iNiIgY3k9IjYiIHI9IjUiIHN0eWxlPSJmaWxsOiBibHVlOyBzdHJva2U6IGJsYWNrOyBzdHJva2Utd2lkdGg6IDFweDsiIC8+PC9zdmc+DQo=)
 
 
-<svg height="16" width="16"><circle cx="6" cy="6" r="5" style="fill: blue; stroke: black; stroke-width: 1px;" /></svg>
+Simple svg circle3
 
-PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiPjxjaXJjbGUgY3g9IjYiIGN5PSI2IiByPSI1IiBzdHlsZT0iZmlsbDogYmx1ZTsgc3Ryb2tlOiBibGFjazsgc3Ryb2tlLXdpZHRoOiAxcHg7IiAvPjwvc3ZnPg0K
+<svg role="img" height="16" width="16" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><title>Zerply</title><circle cx="25" cy="25" r="20" style="fill: blue; stroke: black; stroke-width: 2px;" /></svg>
 
-![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiPjxjaXJjbGUgY3g9IjYiIGN5PSI2IiByPSI1IiBzdHlsZT0iZmlsbDogYmx1ZTsgc3Ryb2tlOiBibGFjazsgc3Ryb2tlLXdpZHRoOiAxcHg7IiAvPjwvc3ZnPg0K)
+PHN2ZyByb2xlPSJpbWciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDUwIDUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZT5aZXJwbHk8L3RpdGxlPjxjaXJjbGUgY3g9IjI1IiBjeT0iMjUiIHI9IjIwIiBzdHlsZT0iZmlsbDogYmx1ZTsgc3Ryb2tlOiBibGFjazsgc3Ryb2tlLXdpZHRoOiAycHg7IiAvPjwvc3ZnPg0K
 
-![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiPjxjaXJjbGUgY3g9IjYiIGN5PSI2IiByPSI1IiBzdHlsZT0iZmlsbDogYmx1ZTsgc3Ryb2tlOiBibGFjazsgc3Ryb2tlLXdpZHRoOiAxcHg7IiAvPjwvc3ZnPg0K)
+![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDUwIDUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZT5aZXJwbHk8L3RpdGxlPjxjaXJjbGUgY3g9IjI1IiBjeT0iMjUiIHI9IjIwIiBzdHlsZT0iZmlsbDogYmx1ZTsgc3Ryb2tlOiBibGFjazsgc3Ryb2tlLXdpZHRoOiAycHg7IiAvPjwvc3ZnPg0K)
+
+
 
 
 
