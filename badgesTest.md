@@ -13,6 +13,7 @@ Working from https://github.com/badges/shields/discussions/6716#discussioncommen
 https://nmredatainitiative.github.io/myjsondemo.json
 
 
+
 https://nmredatainitiative.github.io/myBadgeWithLogo.json
 
 try replace end my pointer
