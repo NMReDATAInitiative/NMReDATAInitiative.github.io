@@ -41,19 +41,10 @@ more option :..logoWidth=40?
 
 <a href="https://nmredata.org"><img src="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40"/></a>
 
-lnks2
-
-
-<a href="https://nmredata.org"><img src="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40"/></a>
 
 
 
- links w? somethong to fix change from img to object but what...
-
-<a href="https://nmredata.org"><img src="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40&link=https://chemedata.org&link=https://nmredata.org"/></a>
-
-work here object:
-
+work here object OK ?:
 
 
 <a href="https://nmredata.org"><object data="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40&link=https://chemedata.org&link=https://nmredata.org"></object></a>
