@@ -41,7 +41,7 @@ more option :..logoWidth=40?
 <a href="https://nmredata.org"><img src="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40"/></a>
 
 
-work here with all desired options!! (does not preview well on visual studio code 2  d)
+All desired options object html tag. (does not preview well on visual studio code)
 
 
 <a href="https://githug.org"><object data="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&link=https://chemedata.org&link=https://nmredata.org"></object></a>
