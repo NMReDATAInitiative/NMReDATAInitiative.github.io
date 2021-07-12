@@ -66,24 +66,6 @@ svg from shields
 
 converted circle to base64 (see below): not working...?
 
-First working with embed 
-
-<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Zerply</title><path d="M20.779 18.746c-.747.714-1.562 1.017-2.543 1.017-1.32 0-3.322-.61-4.846-1.66-1.629-1.119-3.765-2.237-5.562-2.271 1.323-1.798 3.39-3.628 5.322-5.798.713-.78 4.983-5.7 5.73-6.586.54-.645.813-1.424.813-2.205 0-.3-.033-.585-.101-.855-2.035.405-3.561.601-6.001.601-2.677.015-4.607-.314-5.73-.989-.78 1.018-1.56 2.373-1.56 3.12 0 .948.918 1.728 3.189 1.728.746 0 1.965-.034 3.66-.169-3.492 4.5-6.949 8.16-9.016 10.47-.713.781-1.121 1.83-1.121 2.881 0 .405.075.81.18 1.185.645-.104 1.291-.179 1.965-.179 1.395 0 2.79.299 4.081.839C11.805 21.014 14.205 24 16.921 24c2.204 0 4.065-1.741 4.065-4.036 0-.404-.061-.825-.195-1.229l-.012.011z"/></svg>
-
-
-![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+WmVycGx5PC90aXRsZT48cGF0aCBkPSJNMjAuNzc5IDE4Ljc0NmMtLjc0Ny43MTQtMS41NjIgMS4wMTctMi41NDMgMS4wMTctMS4zMiAwLTMuMzIyLS42MS00Ljg0Ni0xLjY2LTEuNjI5LTEuMTE5LTMuNzY1LTIuMjM3LTUuNTYyLTIuMjcxIDEuMzIzLTEuNzk4IDMuMzktMy42MjggNS4zMjItNS43OTguNzEzLS43OCA0Ljk4My01LjcgNS43My02LjU4Ni41NC0uNjQ1LjgxMy0xLjQyNC44MTMtMi4yMDUgMC0uMy0uMDMzLS41ODUtLjEwMS0uODU1LTIuMDM1LjQwNS0zLjU2MS42MDEtNi4wMDEuNjAxLTIuNjc3LjAxNS00LjYwNy0uMzE0LTUuNzMtLjk4OS0uNzggMS4wMTgtMS41NiAyLjM3My0xLjU2IDMuMTIgMCAuOTQ4LjkxOCAxLjcyOCAzLjE4OSAxLjcyOC43NDYgMCAxLjk2NS0uMDM0IDMuNjYtLjE2OS0zLjQ5MiA0LjUtNi45NDkgOC4xNi05LjAxNiAxMC40Ny0uNzEzLjc4MS0xLjEyMSAxLjgzLTEuMTIxIDIuODgxIDAgLjQwNS4wNzUuODEuMTggMS4xODUuNjQ1LS4xMDQgMS4yOTEtLjE3OSAxLjk2NS0uMTc5IDEuMzk1IDAgMi43OS4yOTkgNC4wODEuODM5QzExLjgwNSAyMS4wMTQgMTQuMjA1IDI0IDE2LjkyMSAyNGMyLjIwNCAwIDQuMDY1LTEuNzQxIDQuMDY1LTQuMDM2IDAtLjQwNC0uMDYxLS44MjUtLjE5NS0xLjIyOWwtLjAxMi4wMTF6Ii8+PC9zdmc+)
-
-
-
-Simple svg circle3
-
-<svg role="img" height="16" width="16" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><title>Zerply</title><circle cx="25" cy="25" r="20" style="fill: blue; stroke: black; stroke-width: 2px;" /></svg>
-
-PHN2ZyByb2xlPSJpbWciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDUwIDUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZT5aZXJwbHk8L3RpdGxlPjxjaXJjbGUgY3g9IjI1IiBjeT0iMjUiIHI9IjIwIiBzdHlsZT0iZmlsbDogYmx1ZTsgc3Ryb2tlOiBibGFjazsgc3Ryb2tlLXdpZHRoOiAycHg7IiAvPjwvc3ZnPg0K
-
-![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDUwIDUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZT5aZXJwbHk8L3RpdGxlPjxjaXJjbGUgY3g9IjI1IiBjeT0iMjUiIHI9IjIwIiBzdHlsZT0iZmlsbDogYmx1ZTsgc3Ryb2tlOiBibGFjazsgc3Ryb2tlLXdpZHRoOiAycHg7IiAvPjwvc3ZnPg0K)
-
-Copy paste from illustrator file may part...
 
 
 From illustrator
@@ -100,7 +82,7 @@ Central part
 ```
 Note total size  and set in the viewBox
 
-<svg role="img" height="16" width="16" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><title>Zerply</title><polygon fill="#ED2088" points="67.071,12.727 98.79,32.5 98.797,85.674 67.071,102.844 "/><path fill="none" stroke="#FFFFFF"  stroke-width="8.7373" stroke-linecap="round" stroke-linejoin="round" d="M52.918,111.116L6.875,84.511L6.868,31.345L52.918,4.757c0,0.01,16.041,9.268,16.041,9.268l30,17.32l0.008,53.174L52.918,111.116z"/><line fill="none" stroke="#FFFFFF"  stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" x1="67.241" y1="13.032" x2="67.241" y2="102.844"/><text transform="matrix(1 0 0 1 18.897 86.6025)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="87.3729">S</text></svg>
+<svg role="img" height="16" width="16" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><title>Zerply</title><polygon fill="#ED2088" points="67.071,12.727 98.79,32.5 98.797,85.674 67.071,102.844 "/><path fill="none" stroke="#FFFFFF"  stroke-width="8.7373" stroke-linecap="round" stroke-linejoin="round" d="M52.918,111.116L6.875,84.511L6.868,31.345L52.918,4.757c0,0.01,16.041,9.268,16.041,9.268l30,17.32l0.008,53.174L52.918,111.116z"/><line fill="none" stroke="#FFFFFF"  stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" x1="67.241" y1="13.032" x2="67.241" y2="102.844"/><text transform="matrix(1 0 0 1 18.897 86.6025)" fill="#FFFFFF" font-family="'Verdana'" font-size="87.3729">S</text></svg>
 
 
 PHN2ZyByb2xlPSJpbWciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDEyMCAxMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlplcnBseTwvdGl0bGU+PHBvbHlnb24gZmlsbD0iI0VEMjA4OCIgcG9pbnRzPSI2Ny4wNzEsMTIuNzI3IDk4Ljc5LDMyLjUgOTguNzk3LDg1LjY3NCA2Ny4wNzEsMTAyLjg0NCAiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiICBzdHJva2Utd2lkdGg9IjguNzM3MyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNTIuOTE4LDExMS4xMTZMNi44NzUsODQuNTExTDYuODY4LDMxLjM0NUw1Mi45MTgsNC43NTdjMCwwLjAxLDE2LjA0MSw5LjI2OCwxNi4wNDEsOS4yNjhsMzAsMTcuMzJsMC4wMDgsNTMuMTc0TDUyLjkxOCwxMTEuMTE2eiIvPjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgIHN0cm9rZS13aWR0aD0iNi4wIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHgxPSI2Ny4yNDEiIHkxPSIxMy4wMzIiIHgyPSI2Ny4yNDEiIHkyPSIxMDIuODQ0Ii8+PHRleHQgdHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgMSAxOC44OTcgODYuNjAyNSkiIGZpbGw9IiNGRkZGRkYiIGZvbnQtZmFtaWx5PSInTXlyaWFkUHJvLVJlZ3VsYXInIiBmb250LXNpemU9Ijg3LjM3MjkiPlM8L3RleHQ+PC9zdmc+
@@ -116,9 +98,9 @@ Letter is coded near the end:
 
 ![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDEyMCAxMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlplcnBseTwvdGl0bGU+PHBvbHlnb24gZmlsbD0iI0VEMjA4OCIgcG9pbnRzPSI2Ny4wNzEsMTIuNzI3IDk4Ljc5LDMyLjUgOTguNzk3LDg1LjY3NCA2Ny4wNzEsMTAyLjg0NCAiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiICBzdHJva2Utd2lkdGg9IjguNzM3MyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNTIuOTE4LDExMS4xMTZMNi44NzUsODQuNTExTDYuODY4LDMxLjM0NUw1Mi45MTgsNC43NTdjMCwwLjAxLDE2LjA0MSw5LjI2OCwxNi4wNDEsOS4yNjhsMzAsMTcuMzJsMC4wMDgsNTMuMTc0TDUyLjkxOCwxMTEuMTE2eiIvPjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgIHN0cm9rZS13aWR0aD0iNi4wIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHgxPSI2Ny4yNDEiIHkxPSIxMy4wMzIiIHgyPSI2Ny4yNDEiIHkyPSIxMDIuODQ0Ii8+PHRleHQgdHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgMSAxOC44OTcgODYuNjAyNSkiIGZpbGw9IiNGRkZGRkYiIGZvbnQtZmFtaWx5PSInTXlyaWFkUHJvLVJlZ3VsYXInIiBmb250LXNpemU9Ijg3LjM3MjkiPmQ8L3RleHQ+PC9zdmc+)
 
-Changed colors and slightly shifted texcct left:
+Changed colors and slightly shifted texcct left and Verdana font ansd ize 80:
 
-![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDEyMCAxMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlplcnBseTwvdGl0bGU+PHBvbHlnb24gZmlsbD0iI0EyQTJBMiIgcG9pbnRzPSI2Ny4wNzEsMTIuNzI3IDk4Ljc5LDMyLjUgOTguNzk3LDg1LjY3NCA2Ny4wNzEsMTAyLjg0NCAiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiICBzdHJva2Utd2lkdGg9IjguNzM3MyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNTIuOTE4LDExMS4xMTZMNi44NzUsODQuNTExTDYuODY4LDMxLjM0NUw1Mi45MTgsNC43NTdjMCwwLjAxLDE2LjA0MSw5LjI2OCwxNi4wNDEsOS4yNjhsMzAsMTcuMzJsMC4wMDgsNTMuMTc0TDUyLjkxOCwxMTEuMTE2eiIvPjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgIHN0cm9rZS13aWR0aD0iNi4wIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHgxPSI2Ny4yNDEiIHkxPSIxMy4wMzIiIHgyPSI2Ny4yNDEiIHkyPSIxMDIuODQ0Ii8+PHRleHQgdHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgMSAxNS4wIDg2LjYwMjUpIiBmaWxsPSIjRkZGRkZGIiBmb250LWZhbWlseT0iJ015cmlhZFByby1SZWd1bGFyJyIgZm9udC1zaXplPSI4Ny4zNzI5Ij5kPC90ZXh0Pjwvc3ZnPg==)
+![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDEyMCAxMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlplcnBseTwvdGl0bGU+PHBvbHlnb24gZmlsbD0iI0EyQTJBMiIgcG9pbnRzPSI2Ny4wNzEsMTIuNzI3IDk4Ljc5LDMyLjUgOTguNzk3LDg1LjY3NCA2Ny4wNzEsMTAyLjg0NCAiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiICBzdHJva2Utd2lkdGg9IjguNzM3MyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNTIuOTE4LDExMS4xMTZMNi44NzUsODQuNTExTDYuODY4LDMxLjM0NUw1Mi45MTgsNC43NTdjMCwwLjAxLDE2LjA0MSw5LjI2OCwxNi4wNDEsOS4yNjhsMzAsMTcuMzJsMC4wMDgsNTMuMTc0TDUyLjkxOCwxMTEuMTE2eiIvPjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgIHN0cm9rZS13aWR0aD0iNi4wIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHgxPSI2Ny4yNDEiIHkxPSIxMy4wMzIiIHgyPSI2Ny4yNDEiIHkyPSIxMDIuODQ0Ii8+PHRleHQgdHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgMSAxNS4wIDgxLjApIiBmaWxsPSIjRkZGRkZGIiBmb250LWZhbWlseT0iJ1ZlcmRhbmEnIiBmb250LXNpemU9IjcwLjAiPmQ8L3RleHQ+PC9zdmc+)
 
 
 
