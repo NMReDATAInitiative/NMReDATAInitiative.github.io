@@ -42,25 +42,11 @@ more option :..logoWidth=40?
 <a href="https://nmredata.org"><img src="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40"/></a>
 
 
+work here with all desired options!! (does not preview well on visual studio code)
 
 
-work here object OK ?:
+<a href="https://nmredata.org"><object data="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&link=https://chemedata.org&link=https://nmredata.org"></object></a>
 
-
-<a href="https://nmredata.org"><object data="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40&link=https://chemedata.org&link=https://nmredata.org"></object></a>
-
-
-
-work here object:
-
-
-<a href="https://nmredata.org"><object src="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40&link=https://chemedata.org&link=https://nmredata.org"></object></a>
-
-
-follow this links works....
-
-
-https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40&link=https://chemedata.org&link=https://nmredata.org
 
 
 ```
