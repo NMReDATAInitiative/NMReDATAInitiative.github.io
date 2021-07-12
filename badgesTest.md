@@ -5,7 +5,23 @@ The spectra can be opened with [NMRium](https://www.nmrium.org/nmrium#?toc=https
 
 # Playing with badges
 
+
+
 Working from [https://github.com/badges/shields/discussions/6716#discussioncomment-981096](https://github.com/badges/shields/discussions/6716#discussioncomment-981096)
+
+
+https://raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json
+
+Html link_
+
+<a href="https://nmredata.org"><img src="https://img.shields.io/endpoint.svg?url=https%3A//raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json"/></a>
+
+
+try replace end my pointer
+
+
+<a href="https://nmredata.org"><img src="https://img.shields.io/endpoint.svg?url=https%3A//raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json"/></a>
+
 
 ```
 https://raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json
@@ -209,15 +225,19 @@ Example git.... from https://github.com/marketplace/actions/dynamic-badges
 
 ...
 
+
+
 link points to https://chemedata.org :
 <a href="https://chemedata.org" rel="nofollow"><img src="https://camo.githubusercontent.com/90c936c2933d72e74bc8e182a1e14b98ecd23b63d06bb60ad3f818ebb3f4ba85/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470733a2f2f676973742e67697468756275736572636f6e74656e742e636f6d2f7363686e656567616e732f32616238663164333836663133616165626363626438376461633934303638642f7261772f68656c6c6f2d776f726c642e6a736f6e" alt="badge" data-canonical-src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/schneegans/2ab8f1d386f13aaebccbd87dac94068d/raw/hello-world.json" style="max-width:100%;"></a> 
 
 
 
 link points https://chemedata.org and take data from my file:
-<a href="https://chemedata.org" rel="nofollow"><img src="https://camo.githubusercontent.com/90c936c2933d72e74bc8e182a1e14b98ecd23b63d06bb60ad3f818ebb3f4ba85/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470733a2f2f676973742e67697468756275736572636f6e74656e742e636f6d2f7363686e656567616e732f32616238663164333836663133616165626363626438376461633934303638642f7261772f68656c6c6f2d776f726c642e6a736f6e" alt="badge" data-canonical-src="https://img.shields.io/endpoint?url=NMReDATAInitiative.github.io/myjsondemo.json" style="max-width:100%;"></a> 
+<a href="https://chemedata.org" rel="nofollow"><img src="https://camo.githubusercontent.com/90c936c2933d72e74bc8e182a1e14b98ecd23b63d06bb60ad3f818ebb3f4ba85/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470733a2f2f676973742e67697468756275736572636f6e74656e742e636f6d2f7363686e656567616e732f32616238663164333836663133616165626363626438376461633934303638642f7261772f68656c6c6f2d776f726c642e6a736f6e" alt="badge" data-canonical-src="" style="max-width:100%;"></a> 
 
 ...
+
+
 </p>
 
 
