@@ -375,3 +375,9 @@ generates:
 </svg>
 ```
 End.
+
+
+
+
+[create demo svg](./demoJavascriptGeneratedSvg.html).
+
