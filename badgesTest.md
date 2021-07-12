@@ -1,5 +1,5 @@
 
-# Example of ink pointing to nmrium
+# Example of link pointing to nmrium
 
 The spectra can be opened with [NMRium](https://www.nmrium.org/nmrium#?toc=https%3A%2F%2Fcheminfo.github.io%2Fnmr-dataset3%2Fmultiplet%2Findex.json).
 
@@ -41,7 +41,6 @@ about shields : [https://shields.io/category/monitoring](https://shields.io/cate
  
  
  <a href="https://chemedata.org"><img src="https://img.shields.io/badge/playingggg-stationStop-blue.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIj48cGF0aCBkPSJNMTI5IDExMWMtNTUgNC05MyA2Ni05MyA3OEwwIDM5OGMtMiA3MCAzNiA5MiA2OSA5MWgxYzc5IDAgODctNTcgMTMwLTEyOGgyMDFjNDMgNzEgNTAgMTI4IDEyOSAxMjhoMWMzMyAxIDcxLTIxIDY5LTkxbC0zNi0yMDljMC0xMi00MC03OC05OC03OGgtMTBjLTYzIDAtOTIgMzUtOTIgNDJIMjM2YzAtNy0yOS00Mi05Mi00MmgtMTV6IiBmaWxsPSIjZmZmIi8+PC9zdmc+"  /></a>
- 
  
  variant works
  
@@ -103,7 +102,7 @@ Embed into the badge in the .md format:
 
 ![Custom badge](https://img.shields.io/badge/NMR%201D%201H%20Spectrum-Associated%20to%20a%20structure-green.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDEyMCAxMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlplcnBseTwvdGl0bGU+PHBvbHlnb24gZmlsbD0iI0VEMjA4OCIgcG9pbnRzPSI2Ny4wNzEsMTIuNzI3IDk4Ljc5LDMyLjUgOTguNzk3LDg1LjY3NCA2Ny4wNzEsMTAyLjg0NCAiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiICBzdHJva2Utd2lkdGg9IjguNzM3MyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNTIuOTE4LDExMS4xMTZMNi44NzUsODQuNTExTDYuODY4LDMxLjM0NUw1Mi45MTgsNC43NTdjMCwwLjAxLDE2LjA0MSw5LjI2OCwxNi4wNDEsOS4yNjhsMzAsMTcuMzJsMC4wMDgsNTMuMTc0TDUyLjkxOCwxMTEuMTE2eiIvPjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgIHN0cm9rZS13aWR0aD0iNi4wIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHgxPSI2Ny4yNDEiIHkxPSIxMy4wMzIiIHgyPSI2Ny4yNDEiIHkyPSIxMDIuODQ0Ii8+PHRleHQgdHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgMSAxOC44OTcgODYuNjAyNSkiIGZpbGw9IiNGRkZGRkYiIGZvbnQtZmFtaWx5PSInTXlyaWFkUHJvLVJlZ3VsYXInIiBmb250LXNpemU9Ijg3LjM3MjkiPmQ8L3RleHQ+PC9zdmc+)
 
-Changed colors and slightly shifted texcct left and Verdana font ansd size 70:
+Changed colors and slightly shifted text left and Verdana font and size 70:
 
 ![Custom badge](https://img.shields.io/badge/NMR%20Spectrum-No%20Assigned%20Compound%20or%20sample%20...-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDEyMCAxMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlplcnBseTwvdGl0bGU+PHBvbHlnb24gZmlsbD0iI0EyQTJBMiIgcG9pbnRzPSI2Ny4wNzEsMTIuNzI3IDk4Ljc5LDMyLjUgOTguNzk3LDg1LjY3NCA2Ny4wNzEsMTAyLjg0NCAiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiICBzdHJva2Utd2lkdGg9IjguNzM3MyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNTIuOTE4LDExMS4xMTZMNi44NzUsODQuNTExTDYuODY4LDMxLjM0NUw1Mi45MTgsNC43NTdjMCwwLjAxLDE2LjA0MSw5LjI2OCwxNi4wNDEsOS4yNjhsMzAsMTcuMzJsMC4wMDgsNTMuMTc0TDUyLjkxOCwxMTEuMTE2eiIvPjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgIHN0cm9rZS13aWR0aD0iNi4wIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHgxPSI2Ny4yNDEiIHkxPSIxMy4wMzIiIHgyPSI2Ny4yNDEiIHkyPSIxMDIuODQ0Ii8+PHRleHQgdHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgMSAxNS4wIDgxLjApIiBmaWxsPSIjRkZGRkZGIiBmb250LWZhbWlseT0iJ1ZlcmRhbmEnIiBmb250LXNpemU9IjcwLjAiPmQ8L3RleHQ+PC9zdmc+)
 
@@ -132,7 +131,7 @@ html offers more possibilities (two different links - not shown here... only in 
 
 [![DOI](https://img.shields.io/badge/MyLabel-MyMessssagee-<COLOR>)](https://doi.org/10.5281/zenodo.5081742)
 
-Customized
+#  badges with separation style content 
 
 Two styles same content 
 
@@ -141,7 +140,7 @@ Two styles same content
 ![Custom badge](https://img.shields.io/endpoint?logoColor=blue&style=plastic&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
 
 
-#  Back to simple examples... 
+#  Back to mix of examples and svg
 
 
 from github [github.com/marketplace/actions/dynamic-badges](https://github.com/marketplace/actions/dynamic-badges)
@@ -167,6 +166,8 @@ With a hot link... (and svg...)
 [![DOI](https://img.shields.io/badge/NMR%20Spectrum-No%20Assigned%20Compound%20or%20sample%20...-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDEyMCAxMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlplcnBseTwvdGl0bGU+PHBvbHlnb24gZmlsbD0iI0EyQTJBMiIgcG9pbnRzPSI2Ny4wNzEsMTIuNzI3IDk4Ljc5LDMyLjUgOTguNzk3LDg1LjY3NCA2Ny4wNzEsMTAyLjg0NCAiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiICBzdHJva2Utd2lkdGg9IjguNzM3MyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNTIuOTE4LDExMS4xMTZMNi44NzUsODQuNTExTDYuODY4LDMxLjM0NUw1Mi45MTgsNC43NTdjMCwwLjAxLDE2LjA0MSw5LjI2OCwxNi4wNDEsOS4yNjhsMzAsMTcuMzJsMC4wMDgsNTMuMTc0TDUyLjkxOCwxMTEuMTE2eiIvPjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgIHN0cm9rZS13aWR0aD0iNi4wIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHgxPSI2Ny4yNDEiIHkxPSIxMy4wMzIiIHgyPSI2Ny4yNDEiIHkyPSIxMDIuODQ0Ii8+PHRleHQgdHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgMSAxNS4wIDgxLjApIiBmaWxsPSIjRkZGRkZGIiBmb250LWZhbWlseT0iJ1ZlcmRhbmEnIiBmb250LXNpemU9IjcwLjAiPmQ8L3RleHQ+PC9zdmc+)](https://doi.org/10.5281/zenodo.5081742) 
 
 
+
+
 same compressed svg 
 
 ![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIj48cGF0aCBkPSJNMTI5IDExMWMtNTUgNC05MyA2Ni05MyA3OEwwIDM5OGMtMiA3MCAzNiA5MiA2OSA5MWgxYzc5IDAgODctNTcgMTMwLTEyOGgyMDFjNDMgNzEgNTAgMTI4IDEyOSAxMjhoMWMzMyAxIDcxLTIxIDY5LTkxbC0zNi0yMDljMC0xMi00MC03OC05OC03OGgtMTBjLTYzIDAtOTIgMzUtOTIgNDJIMjM2YzAtNy0yOS00Mi05Mi00MmgtMTV6IiBmaWxsPSIjZmZmIi8+PC9zdmc+)
@@ -188,18 +189,41 @@ TRY2
 
 SVG logo from [https://github.com/simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) from [https://shields.io/category/monitoring](https://shields.io/category/monitoring)
 
-```
+```xml
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Zerply</title><path d="M20.779 18.746c-.747.714-1.562 1.017-2.543 1.017-1.32 0-3.322-.61-4.846-1.66-1.629-1.119-3.765-2.237-5.562-2.271 1.323-1.798 3.39-3.628 5.322-5.798.713-.78 4.983-5.7 5.73-6.586.54-.645.813-1.424.813-2.205 0-.3-.033-.585-.101-.855-2.035.405-3.561.601-6.001.601-2.677.015-4.607-.314-5.73-.989-.78 1.018-1.56 2.373-1.56 3.12 0 .948.918 1.728 3.189 1.728.746 0 1.965-.034 3.66-.169-3.492 4.5-6.949 8.16-9.016 10.47-.713.781-1.121 1.83-1.121 2.881 0 .405.075.81.18 1.185.645-.104 1.291-.179 1.965-.179 1.395 0 2.79.299 4.081.839C11.805 21.014 14.205 24 16.921 24c2.204 0 4.065-1.741 4.065-4.036 0-.404-.061-.825-.195-1.229l-.012.011z"/></svg>
 ```
 
+```xml
 <?xml version="1.0"?>
 <xmlns="http://www.w3.org/2000/svg" height="178" width="172" viewBox="-86 -89 172 178">
 <rect width="172" height="178" x="-86" y="-89" fill="#f2f2f2"/><text style="letter-spacing:.2pt;font-weight:bold;fill:#a00;stroke-opacity:.5;text-anchor:middle;text-align:center;stroke:#700;stroke-width:1pt;font-family:sans-serif" transform="rotate(45) scale(.2)"><tspan y="-120" x="-5" font-size="125px">just an</tspan><tspan y="90" x="10" font-size="210px">Example</tspan></text></svg>
+```
+
+#  GitHub dynamic badge
 
 Example git.... from https://github.com/marketplace/actions/dynamic-badges
 
+<p>A badge like 
+
+<a href="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/schneegans/2ab8f1d386f13aaebccbd87dac94068d/raw/hello-world.json" rel="nofollow"><img src="https://camo.githubusercontent.com/90c936c2933d72e74bc8e182a1e14b98ecd23b63d06bb60ad3f818ebb3f4ba85/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470733a2f2f676973742e67697468756275736572636f6e74656e742e636f6d2f7363686e656567616e732f32616238663164333836663133616165626363626438376461633934303638642f7261772f68656c6c6f2d776f726c642e6a736f6e" alt="badge" data-canonical-src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/schneegans/2ab8f1d386f13aaebccbd87dac94068d/raw/hello-world.json" style="max-width:100%;"></a> 
+
+...
+
+link points to https://chemedata.org :
+<a href="https://chemedata.org" rel="nofollow"><img src="https://camo.githubusercontent.com/90c936c2933d72e74bc8e182a1e14b98ecd23b63d06bb60ad3f818ebb3f4ba85/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470733a2f2f676973742e67697468756275736572636f6e74656e742e636f6d2f7363686e656567616e732f32616238663164333836663133616165626363626438376461633934303638642f7261772f68656c6c6f2d776f726c642e6a736f6e" alt="badge" data-canonical-src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/schneegans/2ab8f1d386f13aaebccbd87dac94068d/raw/hello-world.json" style="max-width:100%;"></a> 
+
+
+
+link points more to https://chemedata.org :
+<a href="https://chemedata.org" rel="nofollow"><img src="https://camo.githubusercontent.com/90c936c2933d72e74bc8e182a1e14b98ecd23b63d06bb60ad3f818ebb3f4ba85/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470733a2f2f676973742e67697468756275736572636f6e74656e742e636f6d2f7363686e656567616e732f32616238663164333836663133616165626363626438376461633934303638642f7261772f68656c6c6f2d776f726c642e6a736f6e" alt="badge" data-canonical-src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/schneegans/2ab8f1d386f13aaebccbd87dac94068d/raw/hello-world.json" style="max-width:100%;"></a> 
+
+...
+</p>
+
 
 Badge: 
+
+https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/schneegans/2ab8f1d386f13aaebccbd87dac94068d/raw/hello-world.json
 
 badge clicking on the link
 https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/schneegans/2ab8f1d386f13aaebccbd87dac94068d/raw/hello-world.json
