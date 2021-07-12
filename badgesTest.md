@@ -5,23 +5,9 @@ The spectra can be opened with [NMRium](https://www.nmrium.org/nmrium#?toc=https
 
 # Playing with badges
 
+Working from https://github.com/badges/shields/discussions/6716#discussioncomment-981096
 
-
-Working from [https://github.com/badges/shields/discussions/6716#discussioncomment-981096](https://github.com/badges/shields/discussions/6716#discussioncomment-981096)
-
-
-[nmredatainitiative.github.io](https://raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json)
-
-this link wokks
-
-https://raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json
-
-Html link_
-
-<a href="nmredatainitiative.github.io"><img src="https://img.shields.io/endpoint.svg?url=https%3A//nmnmredatainitiative.github.io/myjsondemo.json"/></a>
-
-
-https://img.shields.io/endpoint.svg?url=https%3A//nmredatainitiative.github.io/myjsondemo.json
+<a href="nmredatainitiative.github.io"><img src="https://img.shields.io/endpoint.svg?url=https%3A//nmredatainitiative.github.io/myjsondemo.json"/></a>
 
 
 https://nmredatainitiative.github.io/myjsondemo.json
