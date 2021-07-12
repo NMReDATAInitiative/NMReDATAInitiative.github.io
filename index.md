@@ -11,6 +11,9 @@ Migration from the wiki page is at the final stage of fine editing.
 
 [Testing badges (formerly wikimedia pages)](./badgesTest.md).
 
+Preview of future NMReDATA objects 
+<a href=""><object data="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/demoChemedataBadge.json&link=https://chemedata.org&link=https://nmredata.org"></object></a>
+
 [create demo svg](./demoJavascriptGeneratedSvg.html).
 
 
@@ -74,6 +77,7 @@ c
 For now, please refer to the main normal web site at [nmredata.org](http://nmredata.org).
 
 For now, please refer to the main wiki site at [nmredata.org/wiki](https://nmredata.org/wiki/Main_Page).
+
 
 
 # Header 1
