@@ -52,11 +52,11 @@ lnks2
 
 <a href="https://nmredata.org"><img src="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40&link=https://chemedata.org&link=https://nmredata.org"/></a>
 
-work here:
+work here object:
 
 
 
-<a href="https://nmredata.org"><object src="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40&link=https://chemedata.org&link=https://nmredata.org"></object></a>
+<a href="https://nmredata.org"><object data="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40&link=https://chemedata.org&link=https://nmredata.org"></object></a>
 
 
 
