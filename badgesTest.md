@@ -64,14 +64,33 @@ svg from shields
 
 ![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIj48cGF0aCBkPSJNMTI5IDExMWMtNTUgNC05MyA2Ni05MyA3OEwwIDM5OGMtMiA3MCAzNiA5MiA2OSA5MWgxYzc5IDAgODctNTcgMTMwLTEyOGgyMDFjNDMgNzEgNTAgMTI4IDEyOSAxMjhoMWMzMyAxIDcxLTIxIDY5LTkxbC0zNi0yMDljMC0xMi00MC03OC05OC03OGgtMTBjLTYzIDAtOTIgMzUtOTIgNDJIMjM2YzAtNy0yOS00Mi05Mi00MmgtMTV6IiBmaWxsPSIjZmZmIi8+PC9zdmc+)
 
-converted circle to base64 (see below): not working...
-
-![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiPjxjaXJjbGUgY3g9IjgiIGN5PSI4IiByPSI1MCIgc3R5bGU9ImZpbGw6IGJsdWU7IHN0cm9rZTogYmxhY2s7IHN0cm9rZS13aWR0aDogMnB4OyIgLz48L3N2Zz4=)
+converted circle to base64 (see below): not working...?
 
 
-other try 
 
-![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+WmVycGx5PC90aXRsZT48cGF0aCBkPSJNMjAuNzc5IDE4Ljc0NmMtLjc0Ny43MTQtMS41NjIgMS4wMTctMi41NDMgMS4wMTctMS4zMiAwLTMuMzIyLS42MS00Ljg0Ni0xLjY2LTEuNjI5LTEuMTE5LTMuNzY1LTIuMjM3LTUuNTYyLTIuMjcxIDEuMzIzLTEuNzk4IDMuMzktMy42MjggNS4zMjItNS43OTguNzEzLS43OCA0Ljk4My01LjcgNS43My02LjU4Ni41NC0uNjQ1LjgxMy0xLjQyNC44MTMtMi4yMDUgMC0uMy0uMDMzLS41ODUtLjEwMS0uODU1LTIuMDM1LjQwNS0zLjU2MS42MDEtNi4wMDEuNjAxLTIuNjc3LjAxNS00LjYwNy0uMzE0LTUuNzMtLjk4OS0uNzggMS4wMTgtMS41NiAyLjM3My0xLjU2IDMuMTIgMCAuOTQ4LjkxOCAxLjcyOCAzLjE4OSAxLjcyOC43NDYgMCAxLjk2NS0uMDM0IDMuNjYtLjE2OS0zLjQ5MiA0LjUtNi45NDkgOC4xNi05LjAxNiAxMC40Ny0uNzEzLjc4MS0xLjEyMSAxLjgzLTEuMTIxIDIuODgxIDAgLjQwNS4wNzUuODEuMTggMS4xODUuNjQ1LS4xMDQgMS4yOTEtLjE3OSAxLjk2NS0uMTc5IDEuMzk1IDAgMi43OS4yOTkgNC4wODEuODM5QzExLjgwNSAyMS4wMTQgMTQuMjA1IDI0IDE2LjkyMSAyNGMyLjIwNCAwIDQuMDY1LTEuNzQxIDQuMDY1LTQuMDM2IDAtLjQwNC0uMDYxLS44MjUtLjE5NS0xLjIyOWwtLjAxMi4wMTF6Ii8+PC9zdmc+)
+
+naked svg 
+
+<svg height="16" width="16" viewBox="0 0 120 120"><circle cx="60" cy="60" r="50" style="fill: blue; stroke: black; stroke-width: 2px;" /></svg>
+
+PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgc3R5bGU9ImZpbGw6IGJsdWU7IHN0cm9rZTogYmxhY2s7IHN0cm9rZS13aWR0aDogMnB4OyIgLz48L3N2Zz4NCg==
+
+<svg height="16" width="16" viewBox="0 0 16 16"><circle cx="6" cy="6" r="5" style="fill: blue; stroke: black; stroke-width: 1px;" /></svg>
+
+PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiI+PGNpcmNsZSBjeD0iNiIgY3k9IjYiIHI9IjUiIHN0eWxlPSJmaWxsOiBibHVlOyBzdHJva2U6IGJsYWNrOyBzdHJva2Utd2lkdGg6IDFweDsiIC8+PC9zdmc+DQo=
+
+![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgc3R5bGU9ImZpbGw6IGJsdWU7IHN0cm9rZTogYmxhY2s7IHN0cm9rZS13aWR0aDogMnB4OyIgLz48L3N2Zz4NCg==)
+
+![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiI+PGNpcmNsZSBjeD0iNiIgY3k9IjYiIHI9IjUiIHN0eWxlPSJmaWxsOiBibHVlOyBzdHJva2U6IGJsYWNrOyBzdHJva2Utd2lkdGg6IDFweDsiIC8+PC9zdmc+DQo=)
+
+
+<svg height="16" width="16"><circle cx="6" cy="6" r="5" style="fill: blue; stroke: black; stroke-width: 1px;" /></svg>
+
+PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiPjxjaXJjbGUgY3g9IjYiIGN5PSI2IiByPSI1IiBzdHlsZT0iZmlsbDogYmx1ZTsgc3Ryb2tlOiBibGFjazsgc3Ryb2tlLXdpZHRoOiAxcHg7IiAvPjwvc3ZnPg0K
+
+![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiPjxjaXJjbGUgY3g9IjYiIGN5PSI2IiByPSI1IiBzdHlsZT0iZmlsbDogYmx1ZTsgc3Ryb2tlOiBibGFjazsgc3Ryb2tlLXdpZHRoOiAxcHg7IiAvPjwvc3ZnPg0K)
+
+![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiPjxjaXJjbGUgY3g9IjYiIGN5PSI2IiByPSI1IiBzdHlsZT0iZmlsbDogYmx1ZTsgc3Ryb2tlOiBibGFjazsgc3Ryb2tlLXdpZHRoOiAxcHg7IiAvPjwvc3ZnPg0K)
 
 
 
