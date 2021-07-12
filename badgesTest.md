@@ -5,7 +5,6 @@ The spectra can be opened with [NMRium](https://www.nmrium.org/nmrium#?toc=https
 
 # Playing with badges
 
-Working from https://github.com/badges/shields/discussions/6716#discussioncomment-981096
 
 <a href="nmredatainitiative.github.io"><img src="https://img.shields.io/endpoint.svg?url=https%3A//nmredatainitiative.github.io/myjsondemo.json"/></a>
 
@@ -42,11 +41,14 @@ more option :..logoWidth=40?
 <a href="https://nmredata.org"><img src="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40"/></a>
 
 
-work here with all desired options!! (does not preview well on visual studio code)
+work here with all desired options!! (does not preview well on visual studio code 2  d)
 
 
 <a href="https://githug.org"><object data="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&link=https://chemedata.org&link=https://nmredata.org"></object></a>
 
+
+
+Working from ![https://github.com/badges/shields/discussions/6716#discussioncomment-981096]
 
 
 ```
