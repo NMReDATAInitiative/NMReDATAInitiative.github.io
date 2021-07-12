@@ -13,15 +13,25 @@ Working from https://github.com/badges/shields/discussions/6716#discussioncommen
 https://nmredatainitiative.github.io/myjsondemo.json
 
 
+https://nmredatainitiative.github.io/myBadgeWithLogo.json
+
 try replace end my pointer
 
 
 <a href="https://nmredata.org"><img src="https://img.shields.io/endpoint.svg?url=https%3A//raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json"/></a>
 
 
+<a href="https://nmredata.org"><img src="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json"/></a>
+
+
+
+
+
+
 ```
 https://raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json
 https://img.shields.io/endpoint.svg?url=https%3A//raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json
+https://raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json
 ```
 
 [githubusercontent](https://raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json)
@@ -29,6 +39,8 @@ https://img.shields.io/endpoint.svg?url=https%3A//raw.githubusercontent.com/chri
 
 [shields](https://img.shields.io/endpoint.svg?url=https%3A//raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json)
 
+
+[content](https://raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json)
 
 <a href="https://www.npmjs.com/package/simple-icons"><img src="https://img.shields.io/endpoint.svg?url=https%3A//raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json"/></a>
 
