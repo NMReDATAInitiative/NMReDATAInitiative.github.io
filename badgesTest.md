@@ -66,7 +66,9 @@ svg from shields
 
 converted circle to base64 (see below): not working...?
 
+First working with embedd 
 
+![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiPjxjaXJjbGUgY3g9IjgiIGN5PSI4IiByPSI1MCIgc3R5bGU9ImZpbGw6IGJsdWU7IHN0cm9rZTogYmxhY2s7IHN0cm9rZS13aWR0aDogMnB4OyIgLz48L3N2Zz4=)
 
 
 naked svg 
