@@ -14,9 +14,6 @@ Migration from the wiki page is at the final stage of fine editing.
 Preview of future NMReDATA objects 
 <a href=""><object data="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/demoChemedataBadge.json&link=https://chemedata.org&link=https://nmredata.org"></object></a>
 
-[create demo svg](./demoJavascriptGeneratedSvg.html).
-
-
 
 *Issues:*
 
