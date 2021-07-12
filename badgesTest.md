@@ -118,9 +118,9 @@ Format with clickable link
 
 base64 interconverter [https://base64.guru/converter](https://base64.guru/converter)
 
-[jakearchibald.github.io/svgomg](https://jakearchibald.github.io/svgomg/)
+#  badges with links ... 
 
-html 
+html offers more possibilities (two different links - not shown here... only in html)
 
 <a href="https://packagist.org/packages/simple-icons/simple-icons"><img src="https://img.shields.io/packagist/v/simple-icons/simple-icons?logo=packagist&logoColor=yellow" alt="Build status" /></a>
 
@@ -140,12 +140,9 @@ Two styles same content
 
 ![Custom badge](https://img.shields.io/endpoint?logoColor=blue&style=plastic&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
 
-With svg  
 
+#  Back to simple examples... 
 
-
-
-othertry
 
 from github [github.com/marketplace/actions/dynamic-badges](https://github.com/marketplace/actions/dynamic-badges)
 
@@ -153,10 +150,12 @@ from github [github.com/marketplace/actions/dynamic-badges](https://github.com/m
 
 ![Custom badge](https://img.shields.io/endpoint?logoColor=blue&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
 
-With a hot link... (not svg...)
+With a hot link... (no svg...)
 
 
 [![DOI](https://img.shields.io/badge/MyLabel-MyMessssagee-green)](https://doi.org/10.5281/zenodo.5081742) 
+
+With a hot link... (and svg...)
 
 
 [![DOI](https://img.shields.io/badge/MyLabel-MyMessssagee-green.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDEyMCAxMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlplcnBseTwvdGl0bGU+PHBvbHlnb24gZmlsbD0iI0EyQTJBMiIgcG9pbnRzPSI2Ny4wNzEsMTIuNzI3IDk4Ljc5LDMyLjUgOTguNzk3LDg1LjY3NCA2Ny4wNzEsMTAyLjg0NCAiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiICBzdHJva2Utd2lkdGg9IjguNzM3MyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNTIuOTE4LDExMS4xMTZMNi44NzUsODQuNTExTDYuODY4LDMxLjM0NUw1Mi45MTgsNC43NTdjMCwwLjAxLDE2LjA0MSw5LjI2OCwxNi4wNDEsOS4yNjhsMzAsMTcuMzJsMC4wMDgsNTMuMTc0TDUyLjkxOCwxMTEuMTE2eiIvPjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgIHN0cm9rZS13aWR0aD0iNi4wIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHgxPSI2Ny4yNDEiIHkxPSIxMy4wMzIiIHgyPSI2Ny4yNDEiIHkyPSIxMDIuODQ0Ii8+PHRleHQgdHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgMSAxNS4wIDgxLjApIiBmaWxsPSIjRkZGRkZGIiBmb250LWZhbWlseT0iJ1ZlcmRhbmEnIiBmb250LXNpemU9IjcwLjAiPmQ8L3RleHQ+PC9zdmc+)](https://doi.org/10.5281/zenodo.5081742) 
