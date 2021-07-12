@@ -74,15 +74,15 @@ First working with embed
 ![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+WmVycGx5PC90aXRsZT48cGF0aCBkPSJNMjAuNzc5IDE4Ljc0NmMtLjc0Ny43MTQtMS41NjIgMS4wMTctMi41NDMgMS4wMTctMS4zMiAwLTMuMzIyLS42MS00Ljg0Ni0xLjY2LTEuNjI5LTEuMTE5LTMuNzY1LTIuMjM3LTUuNTYyLTIuMjcxIDEuMzIzLTEuNzk4IDMuMzktMy42MjggNS4zMjItNS43OTguNzEzLS43OCA0Ljk4My01LjcgNS43My02LjU4Ni41NC0uNjQ1LjgxMy0xLjQyNC44MTMtMi4yMDUgMC0uMy0uMDMzLS41ODUtLjEwMS0uODU1LTIuMDM1LjQwNS0zLjU2MS42MDEtNi4wMDEuNjAxLTIuNjc3LjAxNS00LjYwNy0uMzE0LTUuNzMtLjk4OS0uNzggMS4wMTgtMS41NiAyLjM3My0xLjU2IDMuMTIgMCAuOTQ4LjkxOCAxLjcyOCAzLjE4OSAxLjcyOC43NDYgMCAxLjk2NS0uMDM0IDMuNjYtLjE2OS0zLjQ5MiA0LjUtNi45NDkgOC4xNi05LjAxNiAxMC40Ny0uNzEzLjc4MS0xLjEyMSAxLjgzLTEuMTIxIDIuODgxIDAgLjQwNS4wNzUuODEuMTggMS4xODUuNjQ1LS4xMDQgMS4yOTEtLjE3OSAxLjk2NS0uMTc5IDEuMzk1IDAgMi43OS4yOTkgNC4wODEuODM5QzExLjgwNSAyMS4wMTQgMTQuMjA1IDI0IDE2LjkyMSAyNGMyLjIwNCAwIDQuMDY1LTEuNzQxIDQuMDY1LTQuMDM2IDAtLjQwNC0uMDYxLS44MjUtLjE5NS0xLjIyOWwtLjAxMi4wMTF6Ii8+PC9zdmc+)
 
 
-Simple svg circle
+Simple svg circle2
 
 
-<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Zerply</title><circle cx="60" cy="60" r="50" style="fill: blue; stroke: black; stroke-width: 2px;" /></svg>
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Zerply</title><circle cx="12" cy="12" r="5" style="fill: blue; stroke: black; stroke-width: 2px;" /></svg>
 
-PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+WmVycGx5PC90aXRsZT48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgc3R5bGU9ImZpbGw6IGJsdWU7IHN0cm9rZTogYmxhY2s7IHN0cm9rZS13aWR0aDogMnB4OyIgLz48L3N2Zz4=
+PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+WmVycGx5PC90aXRsZT48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI1IiBzdHlsZT0iZmlsbDogYmx1ZTsgc3Ryb2tlOiBibGFjazsgc3Ryb2tlLXdpZHRoOiAycHg7IiAvPjwvc3ZnPg==
 
 
-![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+WmVycGx5PC90aXRsZT48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgc3R5bGU9ImZpbGw6IGJsdWU7IHN0cm9rZTogYmxhY2s7IHN0cm9rZS13aWR0aDogMnB4OyIgLz48L3N2Zz4=)
+![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+WmVycGx5PC90aXRsZT48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI1IiBzdHlsZT0iZmlsbDogYmx1ZTsgc3Ryb2tlOiBibGFjazsgc3Ryb2tlLXdpZHRoOiAycHg7IiAvPjwvc3ZnPg==)
 
 
 <svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="5" style="fill: blue; stroke: black; stroke-width: 1px;" /></svg>
