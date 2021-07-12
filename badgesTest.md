@@ -9,6 +9,17 @@ Working from https://github.com/badges/shields/discussions/6716#discussioncommen
 
 <a href="nmredatainitiative.github.io"><img src="https://img.shields.io/endpoint.svg?url=https%3A//nmredatainitiative.github.io/myjsondemo.json"/></a>
 
+add stuff
+
+
+![Custom badge](https://img.shields.io/endpoint?logoColor=blue&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
+
+![Custom badge](https://img.shields.io/endpoint?logoColor=blue&style=plastic&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
+
+fdsd
+
+<a href="nmredatainitiative.github.io"><img src="https://img.shields.io/endpoint.svg?url=https%3A//nmredatainitiative.github.io/myjsondemo.json"/></a>
+
 
 https://nmredatainitiative.github.io/myjsondemo.json
 
@@ -16,17 +27,43 @@ https://nmredatainitiative.github.io/myjsondemo.json
 
 https://nmredatainitiative.github.io/myBadgeWithLogo.json
 
-try replace end my pointer
 
 
 <a href="https://nmredata.org"><img src="https://img.shields.io/endpoint.svg?url=https%3A//raw.githubusercontent.com/chris48s/shields-endpoint-test/2958b1745abdc566152d54d336550a29c1ccb553/badge1.json"/></a>
 
 
+points to my file:
+
+
 <a href="https://nmredata.org"><img src="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json"/></a>
 
+more option :..logoWidth=40?
+
+<a href="https://nmredata.org"><img src="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40"/></a>
+
+lnks2
+
+
+<a href="https://nmredata.org"><img src="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40"/></a>
 
 
 
+ links w? somethong to fix change from img to object but what...
+
+<a href="https://nmredata.org"><img src="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40&link=https://chemedata.org&link=https://nmredata.org"/></a>
+
+work here:
+
+
+
+<a href="https://nmredata.org"><object src="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40&link=https://chemedata.org&link=https://nmredata.org"></object></a>
+
+
+
+follow this links works....
+
+
+https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&logoWidth=40&link=https://chemedata.org&link=https://nmredata.org
 
 
 ```
