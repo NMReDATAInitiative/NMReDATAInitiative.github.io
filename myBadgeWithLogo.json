@@ -3,5 +3,6 @@
   "label": "hello",
   "message": "sweet world",
   "color": "orange",
-  "logoSvg": '<svg role="img" height="16" width="16" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><title>Zerply</title><polygon fill="#A2A2A2" points="67.071,12.727 98.79,32.5 98.797,85.674 67.071,102.844 "/><path fill="none" stroke="#FFFFFF"  stroke-width="8.7373" stroke-linecap="round" stroke-linejoin="round" d="M52.918,111.116L6.875,84.511L6.868,31.345L52.918,4.757c0,0.01,16.041,9.268,16.041,9.268l30,17.32l0.008,53.174L52.918,111.116z"/><line fill="none" stroke="#FFFFFF"  stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" x1="67.241" y1="13.032" x2="67.241" y2="102.844"/><text transform="matrix(1 0 0 1 15.0 81.0)" fill="#FFFFFF" font-family="'Verdana'" font-size="70.0">d</text></svg>'
-  }
+  "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 40 40\"><path d=\"M0 0h40v40H0V0z\" fill=\"#cb0000\"/><path fill=\"#fff\" d=\"M7 7h26v26h-7V14h-6v19H7z\"/></svg>",
+  "logoSvg2": "<svg role=\"img\" height=\"16\" width=\"16\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\"><title>Zerply</title><polygon fill=\"#A2A2A2\" points=\"67.071,12.727 98.79,32.5 98.797,85.674 67.071,102.844 \"/><path fill=\"none\" stroke=\"#FFFFFF\"  stroke-width=\"8.737\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M52.918,111.116L6.875,84.511L6.868,31.345L52.918,4.757c0,0.01,16.041,9.268,16.041,9.268l30,17.32l0.008,53.174L52.918,111.116z\"/><line fill=\"none\" stroke=\"#FFFFFF\"  stroke-width=\"6.0\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"67.241\" y1=\"13.032\" x2=\"67.241\" y2=\"102.844\"/><text transform=\"matrix(1 0 0 1 15.0 81.0)\" fill=\"#FFFFFF\" font-family=\"'Verdana'\" font-size=\"70.0\">d</text></svg>"
+}
