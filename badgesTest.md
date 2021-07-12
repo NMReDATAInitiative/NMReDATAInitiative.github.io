@@ -72,27 +72,31 @@ From svg editor, take central part (the plot part):
 Eg:
 
 ```xml
-<polygon fill="#ED2088" points="67.071,12.727 98.79,32.5 98.797,85.674 67.071,102.844 "/>
-<path fill="none" stroke="#FFFFFF" stroke-width="8.7373" stroke-linecap="round" stroke-linejoin="round" d="M52.918,111.116
-	L6.875,84.511L6.868,31.345L52.918,4.757c0,0.01,16.041,9.268,16.041,9.268l30,17.32l0.008,53.174L52.918,111.116z"/>
-<line fill="none" stroke="#FFFFFF" stroke-width="6.553" stroke-linecap="round" stroke-linejoin="round" x1="67.241" y1="13.032" x2="67.241" y2="102.844"/>
-<text transform="matrix(1 0 0 1 18.897 86.6025)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="87.3729">S</text>
+<polygon fill="#A2A2A2" points="67.071,12.727 98.79,32.5 98.797,85.674 67.071,102.844 "/>
+<path fill="none" stroke="#FFFFFF"  stroke-width="8.7373" stroke-linecap="round" stroke-linejoin="round" d="M52.918,111.116L6.875,84.511L6.868,31.345L52.918,4.757c0,0.01,16.041,9.268,16.041,9.268l30,17.32l0.008,53.174L52.918,111.116z"/><line fill="none" stroke="#FFFFFF"  stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" x1="67.241" y1="13.032" x2="67.241" y2="102.844"/>
+<text transform="matrix(1 0 0 1 15.0 81.0)" fill="#FFFFFF" font-family="'Verdana'" font-size="70.0">d</text>
 ```
 
 Set viewBox according to plot min/max position (take into account the line widths):
 
 ```xml
-<svg role="img" height="16" width="16" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><title>Zerply</title><polygon fill="#ED2088" points="67.071,12.727 98.79,32.5 98.797,85.674 67.071,102.844 "/><path fill="none" stroke="#FFFFFF"  stroke-width="8.7373" stroke-linecap="round" stroke-linejoin="round" d="M52.918,111.116L6.875,84.511L6.868,31.345L52.918,4.757c0,0.01,16.041,9.268,16.041,9.268l30,17.32l0.008,53.174L52.918,111.116z"/><line fill="none" stroke="#FFFFFF"  stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" x1="67.241" y1="13.032" x2="67.241" y2="102.844"/><text transform="matrix(1 0 0 1 18.897 86.6025)" fill="#FFFFFF" font-family="'Verdana'" font-size="87.3729">S</text></svg>
+<svg role="img" height="16" width="16" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><title>Zerply</title><polygon fill="#A2A2A2" points="67.071,12.727 98.79,32.5 98.797,85.674 67.071,102.844 "/><path fill="none" stroke="#FFFFFF"  stroke-width="8.7373" stroke-linecap="round" stroke-linejoin="round" d="M52.918,111.116L6.875,84.511L6.868,31.345L52.918,4.757c0,0.01,16.041,9.268,16.041,9.268l30,17.32l0.008,53.174L52.918,111.116z"/><line fill="none" stroke="#FFFFFF"  stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" x1="67.241" y1="13.032" x2="67.241" y2="102.844"/><text transform="matrix(1 0 0 1 15.0 81.0)" fill="#FFFFFF" font-family="'Verdana'" font-size="70.0">d</text></svg>
 ```
 
+convert into [httbinary64](https://base64.guru/converter) 
+
+```
 
 PHN2ZyByb2xlPSJpbWciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDEyMCAxMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlplcnBseTwvdGl0bGU+PHBvbHlnb24gZmlsbD0iI0VEMjA4OCIgcG9pbnRzPSI2Ny4wNzEsMTIuNzI3IDk4Ljc5LDMyLjUgOTguNzk3LDg1LjY3NCA2Ny4wNzEsMTAyLjg0NCAiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiICBzdHJva2Utd2lkdGg9IjguNzM3MyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNTIuOTE4LDExMS4xMTZMNi44NzUsODQuNTExTDYuODY4LDMxLjM0NUw1Mi45MTgsNC43NTdjMCwwLjAxLDE2LjA0MSw5LjI2OCwxNi4wNDEsOS4yNjhsMzAsMTcuMzJsMC4wMDgsNTMuMTc0TDUyLjkxOCwxMTEuMTE2eiIvPjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgIHN0cm9rZS13aWR0aD0iNi4wIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHgxPSI2Ny4yNDEiIHkxPSIxMy4wMzIiIHgyPSI2Ny4yNDEiIHkyPSIxMDIuODQ0Ii8+PHRleHQgdHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgMSAxOC44OTcgODYuNjAyNSkiIGZpbGw9IiNGRkZGRkYiIGZvbnQtZmFtaWx5PSInTXlyaWFkUHJvLVJlZ3VsYXInIiBmb250LXNpemU9Ijg3LjM3MjkiPlM8L3RleHQ+PC9zdmc+
+```
 
-Letter is coded near the end: 
+Embed into the badge in the .md format:
+
+
+```md
+![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDEyMCAxMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlplcnBseTwvdGl0bGU+PHBvbHlnb24gZmlsbD0iI0VEMjA4OCIgcG9pbnRzPSI2Ny4wNzEsMTIuNzI3IDk4Ljc5LDMyLjUgOTguNzk3LDg1LjY3NCA2Ny4wNzEsMTAyLjg0NCAiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiICBzdHJva2Utd2lkdGg9IjguNzM3MyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNTIuOTE4LDExMS4xMTZMNi44NzUsODQuNTExTDYuODY4LDMxLjM0NUw1Mi45MTgsNC43NTdjMCwwLjAxLDE2LjA0MSw5LjI2OCwxNi4wNDEsOS4yNjhsMzAsMTcuMzJsMC4wMDgsNTMuMTc0TDUyLjkxOCwxMTEuMTE2eiIvPjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgIHN0cm9rZS13aWR0aD0iNi4wIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHgxPSI2Ny4yNDEiIHkxPSIxMy4wMzIiIHgyPSI2Ny4yNDEiIHkyPSIxMDIuODQ0Ii8+PHRleHQgdHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgMSAxOC44OTcgODYuNjAyNSkiIGZpbGw9IiNGRkZGRkYiIGZvbnQtZmFtaWx5PSInTXlyaWFkUHJvLVJlZ3VsYXInIiBmb250LXNpemU9Ijg3LjM3MjkiPlM8L3RleHQ+PC9zdmc+)
 ```
-... OM 8L3RleHQ+PC9zdmc+ for S
-... mQ 8L3RleHQ+PC9zdmc+ for d
-```
+
 
 ![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDEyMCAxMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlplcnBseTwvdGl0bGU+PHBvbHlnb24gZmlsbD0iI0VEMjA4OCIgcG9pbnRzPSI2Ny4wNzEsMTIuNzI3IDk4Ljc5LDMyLjUgOTguNzk3LDg1LjY3NCA2Ny4wNzEsMTAyLjg0NCAiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiICBzdHJva2Utd2lkdGg9IjguNzM3MyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNTIuOTE4LDExMS4xMTZMNi44NzUsODQuNTExTDYuODY4LDMxLjM0NUw1Mi45MTgsNC43NTdjMCwwLjAxLDE2LjA0MSw5LjI2OCwxNi4wNDEsOS4yNjhsMzAsMTcuMzJsMC4wMDgsNTMuMTc0TDUyLjkxOCwxMTEuMTE2eiIvPjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgIHN0cm9rZS13aWR0aD0iNi4wIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHgxPSI2Ny4yNDEiIHkxPSIxMy4wMzIiIHgyPSI2Ny4yNDEiIHkyPSIxMDIuODQ0Ii8+PHRleHQgdHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgMSAxOC44OTcgODYuNjAyNSkiIGZpbGw9IiNGRkZGRkYiIGZvbnQtZmFtaWx5PSInTXlyaWFkUHJvLVJlZ3VsYXInIiBmb250LXNpemU9Ijg3LjM3MjkiPlM8L3RleHQ+PC9zdmc+)
 
