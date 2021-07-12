@@ -79,6 +79,8 @@ PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4
 
 PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiI+PGNpcmNsZSBjeD0iNiIgY3k9IjYiIHI9IjUiIHN0eWxlPSJmaWxsOiBibHVlOyBzdHJva2U6IGJsYWNrOyBzdHJva2Utd2lkdGg6IDFweDsiIC8+PC9zdmc+DQo=
 
+![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg,<svg height="16" width="16"><circle cx="6" cy="6" r="5" style="fill: blue; stroke: black; stroke-width: 1px;" /></svg>)
+
 ![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgc3R5bGU9ImZpbGw6IGJsdWU7IHN0cm9rZTogYmxhY2s7IHN0cm9rZS13aWR0aDogMnB4OyIgLz48L3N2Zz4NCg==)
 
 ![Custom badge](https://img.shields.io/badge/other-namedjtest-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiI+PGNpcmNsZSBjeD0iNiIgY3k9IjYiIHI9IjUiIHN0eWxlPSJmaWxsOiBibHVlOyBzdHJva2U6IGJsYWNrOyBzdHJva2Utd2lkdGg6IDFweDsiIC8+PC9zdmc+DQo=)
