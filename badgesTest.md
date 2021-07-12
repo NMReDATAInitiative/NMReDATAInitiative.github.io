@@ -44,7 +44,13 @@ more option :..logoWidth=40?
 All desired options object html tag. (does not preview well on visual studio code)
 
 
-<a href="https://githug.org"><object data="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&link=https://chemedata.org&link=https://nmredata.org"></object></a>
+<a href="https://github.org"><object data="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&link=https://chemedata.org&link=https://nmredata.org"></object></a>
+
+
+Rmoved the unused githugds..
+
+
+<a href=""><object data="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&link=https://chemedata.org&link=https://nmredata.org"></object></a>
 
 # more details how arived there
 
