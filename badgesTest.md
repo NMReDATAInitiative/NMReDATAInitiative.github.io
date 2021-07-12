@@ -46,9 +46,10 @@ All desired options object html tag. (does not preview well on visual studio cod
 
 <a href="https://githug.org"><object data="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/myBadgeWithLogo.json&link=https://chemedata.org&link=https://nmredata.org"></object></a>
 
+# more details how arived there
 
 
-Working from ![https://github.com/badges/shields/discussions/6716#discussioncomment-981096]
+Discussion [shields discussion](https://github.com/badges/shields/discussions/6716#discussioncomment-981096)
 
 
 ```
