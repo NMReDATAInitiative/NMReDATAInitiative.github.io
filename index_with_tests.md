@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+[Testing badges (formerly wikimedia pages)](./badgesTest.md).
 
 Preview of future NMReDATA objects 
 <a href=""><object data="https://img.shields.io/endpoint.svg?url=https://nmredatainitiative.github.io/demoChemedataBadge.json&link=https://chemedata.org&link=https://nmredata.org"></object></a>
