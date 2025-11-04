@@ -14,38 +14,38 @@ correct in their format. Please report any problem...
 upload](https://doi.org/10.5281/zenodo.825777) / [direct download of
 record](https://www.zenodo.org/record/1032533/files/compound1.zip)
 
-+ prototype exemple of record located in a database : ZENODO (free - max 50 GB per user - REST API - DOI provider - versioning)
++Â prototypeÂ exempleÂ ofÂ recordÂ locatedÂ inÂ aÂ databaseÂ :Â ZENODOÂ (freeÂ -Â maxÂ 50Â GBÂ perÂ userÂ -Â RESTÂ APIÂ -Â DOIÂ providerÂ -Â versioning)
 
-+ Bruker NMR spectra are in the Record
++Â BrukerÂ NMRÂ spectraÂ areÂ inÂ theÂ Record
 
-+ correct pointer to the spectra in the NMReDATA file
++Â correctÂ pointerÂ toÂ theÂ spectraÂ inÂ theÂ NMReDATAÂ file
 
-+ correct link to the database record (doi and html) in the NMReDATA file
++Â correctÂ linkÂ toÂ theÂ databaseÂ recordÂ (doiÂ andÂ html)Â inÂ theÂ NMReDATAÂ file
 
-- assignment may not be complete (the NMReDATA file was type manually)
+-Â assignmentÂ mayÂ notÂ beÂ completeÂ (theÂ NMReDATAÂ fileÂ wasÂ typeÂ manually)
 
-~ Implicit H
+~Â ImplicitÂ H
 
-An v. 3.0 examples is [found here](examples/compound1_3.zip).
+An v. 3.0 examples is [found here](examples/compound1\_3.zip).
 
 **Set of ethanol NMReDATA files**: ([link to GitHub
 folder](https://www.github.com/djeanner/NMReDATA/tree/master/examples_of_NMRrecords_and_nmredata_sdf_files/ethanol_from_DFT_GIAO_dft))
 
-- no NMR spectra
+-Â noÂ NMRÂ spectra
 
-+ implicit and explicit H
++Â implicitÂ andÂ explicitÂ H
 
-~ simple
+~Â simple
 
 **Androsten NMReDATA files** ([link to GitHub
 folder](https://www.github.com/djeanner/NMReDATA/tree/master/examples_of_NMRrecords_and_nmredata_sdf_files/androsten_from_DFT_GIAO_calculation))
 
-- no NMR spectra
+-Â noÂ NMRÂ spectra
 
-+ coupling network tag (NMREDATA_J)
++Â couplingÂ networkÂ tagÂ (NMREDATA_J)
 
-+ very detailed description of spectra with assigned couplings (optional)
++Â veryÂ detailedÂ descriptionÂ ofÂ spectraÂ withÂ assignedÂ couplingsÂ (optional)
 
-~ explicit H
+~Â explicitÂ H
 
-~ complex
+~Â complex
