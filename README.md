@@ -160,5 +160,4 @@ NMReDATA is being integrated with [Jmol/JspecView](/Jmol "link")
 
 Link to root page
 -----------------
-[Root of NMReDATA site](../index.md)
-test
+[Root of NMReDATA site](index.md)
