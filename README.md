@@ -135,7 +135,12 @@ Changes to Versions 2.0
 For details, see [the
 specification](/NMReDATA_tag_format_2.0 "link").
 
-Changes to Versions 2.1 (future version)
+Changes to Versions 2.0
+-----------------------
+
+Makes NMReDATA records RO-Crate compatible.
+
+Changes to Versions 3.1 (future version)
 ----------------------------------------
 
 <span style="color:#FF8C00"> ''Future version of the format! Suggestions
