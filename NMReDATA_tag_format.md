@@ -265,14 +265,14 @@ Agregated data tags
 
 Two properties can be "assigned":
 
--   Chemical shifts with the <NMREDATA_ASSIGNMENT> (previously named
-    <NMR_SIGNALS>) tag.
--   Scalar couplings with the <NMREDATA_J> tag.
+-   Chemical shifts with the \<NMREDATA_ASSIGNMENT\> (previously named
+    \<NMR_SIGNALS\>) tag.
+-   Scalar couplings with the \<NMREDATA_J\> tag.
 
 In most cases, only chemical shifts are assigned. Scalar couplings are
 usually not systematically measured and/or assigned, but when they are,
 the values measured in the spectra should be compiled in the
-<NMREDATA_J> tag
+\<NMREDATA_J\> tag
 
 #### \<NMREDATA_ASSIGNMENT\> (previously named \<NMREDATA_SIGNALS\>)
 
