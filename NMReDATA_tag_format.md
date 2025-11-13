@@ -744,7 +744,7 @@ are simply listed with "," as separator.
 ````
 
 One reason for having chemical shifts listed in the
-<NMREDATA_ASSIGNMENT> tag: is that signals may overlap and be given as a
+\<NMREDATA_ASSIGNMENT\> tag: is that signals may overlap and be given as a
 range in the 1H 1D spectrum, but may be clearly determined from HSQC,
 COSY, etc.
 
