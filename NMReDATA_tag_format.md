@@ -874,7 +874,7 @@ to avoid having multiple tags with the same name:
 ### 2D spectra
 
 ````
->  2D HSQC <NMREDATA_2D_13C_1J_1H>
+>  <NMREDATA_2D_13C_1J_1H>
 Larmor=500.13\
 MD5_2rr=5E77AB5838AA4C860BA8884A5B0BD9ED\
 MD5_ser=ED8AD88199996436B40AAE283F0FB6F6\
@@ -913,7 +913,7 @@ MD5 are not mandatory, but recommended if they can be easily generated
 Here is an example of HSQC data:
 
 ````
->  2D HSQC <NMREDATA_2D_13C_1J_1H>
+>  <NMREDATA_2D_13C_1J_1H>
 Larmor=500\
 CorType=HSQC \
 Pulseprogram=XXX\
@@ -937,7 +937,9 @@ C4,C5,C6)/(e,f) , I=1.2\
 
 for HETCOR, the tag label would be
 
+````
 <NMREDATA_2D_1H_1J_13C>
+````
 
 to indicate that the first dimension in 1H and the detected dimension is
 13C.
@@ -948,16 +950,20 @@ HSQC spectrum is recorded without 180 pulse during t1, or without 13C
 decoupling during t2, (for RDC measurements for example) the following
 lines should be added respectively:
 
-`Nondecoupled=t1\`
-`Nondecoupled=t2\`
+````
+Nondecoupled=t1\
+Nondecoupled=t2\
+````
 
 If non-decoupled, or if the spectrum allows to measure couplings, the
 heteronuclear couplings may be listed as :
 
-`a/C1, Ja=155\`
+````
+a/C1, Ja=155\
+````
 
 (more details about the [attributes of 2D
-spectra](/2D_attributes "link")).
+spectra](/2D_attributes)).
 
 #### 2D COSY \<NMREDATA_2D_1H_NJ_1H\>
 
