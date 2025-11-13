@@ -299,15 +299,15 @@ compatibility problems. For example, Chemdraw does not recognize the
 atom types well when they have been given a name and marks them as red
 (as if the atoms were unknown causing hybridization problems). Because
 of this problem, we will NOT use the labels of the “.mol” file, but list
-them in a specific RD tag called <NMREDATA_ASSIGNMENT> (previously named
-<NMREDATA_SIGNALS>).
+them in a specific RD tag called \<NMREDATA_ASSIGNMENT\> (previously named
+\<NMREDATA_SIGNALS\>).
 
 For each signal, we first give the label of the signal. Chemical shifts
 follow the label. Finally, we list the atom(s) it refers to in the
 structure file. For the signals, the atom numbers start with 1 and go
 through all the atoms in the molfile. NMR signals always have a chemical
 shift associated to it. Not all atoms of the molecules will be listed in
-the <NMREDATA_ASSIGNMENT> tag, for example if they were not assigned or
+the \<NMREDATA_ASSIGNMENT\> tag, for example if they were not assigned or
 have no NMR signal (like O, N, or other isotopes for which the spectra
 were not recorded).
 
