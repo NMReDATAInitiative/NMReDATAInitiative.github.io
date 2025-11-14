@@ -505,19 +505,19 @@ The list can contain only J<sub>H,H</sub>, or only
 see above).
 
 ````
-`>  `<NMREDATA_J>
-`a, b, 7.00`<span style="color:#080808">**`\`**</span>
-`A, a, 150.3`<span style="color:#080808">**`\`**</span>
-`B, a, 7.50`<span style="color:#080808">**`\`**</span>
+>  <NMREDATA_J>
+a, b, 7.00\
+A, a, 150.3\
+B, a, 7.50\
 ````
 
 The number of bonds can be added after the keyword "nb=".
 
 ````
-`>  `<NMREDATA_J>
-`a, b, 7.00, nb=3`<span style="color:#080808">**`\`**</span>
-`A, a, 150.30, nb=1`<span style="color:#080808">**`\`**</span>
-`B, a, 7.50, nb=3`<span style="color:#080808">**`\`**</span>` `
+>  <NMREDATA_J>
+a, b, 7.00, nb=3\
+A, a, 150.30, nb=1\
+B, a, 7.50, nb=3\
 ````
 
 Alternatively comments can be used to specify the type of coupling, but
@@ -526,9 +526,9 @@ software developers.
 
 ````
 >  <NMREDATA_J>
-a, b, 7.00 ;`<sup>`3`</sup>`JHH`<span style="color:#080808">**`\**</span>
-A, a, 150.3 ;`<sup>`1`</sup>`JCH`<span style="color:#080808">**`\**</span>
-B, a, 7.50 ;`<sup>`3`</sup>`JCH`<span style="color:#080808">**`\**</span>
+a, b, 7.00 ;3JHH\
+A, a, 150.3 ;1JCH\
+B, a, 7.50 ;3JCH\
 ````
 
 This may include J<sub>H,H</sub> (from 1D <sup>1</sup>H, or from COSY)
@@ -603,19 +603,19 @@ second part of the tag lists the signals.
 Example of a 1D spectrum:
 
 ````
-`>  `<NMREDATA_1D_1H>
-`Larmor=500.13\`
-`Pulseprogram=zg30\`
-`Spectrum_Location=`[`file:./nmr/10/1/pdata/1\`](file:./nmr/10/1/pdata/1\)
-`Signal 1\`
-`Signal 2\`
-`...`
+>  <NMREDATA_1D_1H>
+Larmor=500.13\
+Pulseprogram=zg30\
+Spectrum_Location=file:./nmr/10/1/pdata/1\
+Signal 1\
+Signal 2\
+...
 ````
 
 For other isotopes:
 
 ````
-<NMREDATA_1D_`*`isotope`*`> 
+<NMREDATA_1D_*isotope*> 
 ````
 
 Each 1D "signal" line start with a chemical shift (x.xxxx) or a
@@ -627,7 +627,7 @@ for details)
 For 2D spectra the general format is
 
 ````
-<NMREDATA_2D_`*`IndirectIsotope_CodeMixing_DirectIsotope`*`> 
+<NMREDATA_2D_*IndirectIsotope_CodeMixing_DirectIsotope*> 
 ````
 
 
