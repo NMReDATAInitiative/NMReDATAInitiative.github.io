@@ -126,7 +126,7 @@ Here is an working example:
 ````
 >  <NMREDATA_ID>
 Doi=10.5281/zenodo.1146869\
-Record=`[`https://zenodo.org/record/1146869/files/sample1.zip`](https://zenodo.org/record/1146869/files/sample1.zip)\
+Record=https://zenodo.org/record/1146869/files/sample1.zip\
 Path=compound1.nmredata.sdf\
 
 ````
