@@ -27,39 +27,40 @@ Example:
 
 ````
 >  <NMREDATA_AUTHOR>
-Author=0000-0001-7018-4288 `<span style="color:#0808F8">**`\`**</span>` 
-Role=Assignment, Supervisor`<span style="color:#0808F8">**`\`**</span>` 
-Organization=`[`http://www.isni.org/isni/0000000121752154`](http://www.isni.org/isni/0000000121752154)<span style="color:#0808F8">**`\`**</span>
-Department=`*`isni`` ``of`` ``the`` ``Department`` ``if`` ``it`` ``exist`*` `<span style="color:#0808F8">**`\`**</span>
-Author=van Halle, John`<span style="color:#0808F8">**`\`**</span>` 
-Organization=De Montfort University, Lancaster, UK`<span style="color:#0808F8">**`\`**</span>
-Department=Department of chemical sciences`<span style="color:#0808F8">**`\`**</span>
+Author=0000-0001-7018-4288\
+Role=Assignment, Supervisor\
+Organization=https://www.isni.org/isni/0000000121752154\
+Department=isni of the Department if it exist\
+Author=van Halle, John\ 
+Organization=De Montfort University, Leicester, UK\
+Department=Department of chemical sciences\
 ````
 If a record is updated, the history of the authors/versions are listed
 with version numbers:
 ````
-Version=1`<span style="color:#0808F8">**`\`**</span>` 
-Author=van Halle, John`<span style="color:#0808F8">**`\`**</span>` 
-Role=Assignment`<span style="color:#0808F8">**`\`**</span>` 
-Version=2`<span style="color:#0808F8">**`\`**</span>` 
-Author=Doe, Peter`<span style="color:#0808F8">**`\**</span>
-Role=Assignment, correction of assignement of C1 an C3`<span style="color:#0808F8">**`\`**</span>
+Version=1\
+Author=van Halle, John\
+Role=Assignment\
+Version=2\
+Author=Doe, Peter\
+Role=Assignment, correction of assignement of C1 an C3\
 ````
 For automated changes, the software is given as Software name and
 version, comma, source of the software.
 
 Example:
 ````
-`>  `<NMREDATA_AUTHOR>
-`...`
-`Version=2`<span style="color:#0808F8">**`\`**</span>` `
-`Robot=SuperSoft V1, Acme Soft Ltd. `<span style="color:#0808F8">**`\`**</span>` `
-`Role=Assignment`<span style="color:#0808F8">**`\`**</span>` `
-`Organization=`[`http://www.isni.org/isni/0000000121752154`](http://www.isni.org/isni/0000000121752154)<span style="color:#0808F8">**`\`**</span>
-`Department=`*`isni`` ``of`` ``the`` ``Department`` ``if`` ``it`` ``exist`*` `<span style="color:#0808F8">**`\`**</span>
+>  <NMREDATA_AUTHOR>
+...
+Version=2\
+Robot=Sup\
+Role=Assignment\
+Organization=https://www.isni.org/isni/0000000121752154\
+Department=isni of the Department if it exist\
 ````
-3D structures
-=============
+
+Molblock (2D/3D) structures
+---------------------------
 
 In version \<2.0, we do not specify if the structure in the .sdf file is
 “flat”, or a true “3D structure”. Version 2.0 clarifies this.
@@ -71,31 +72,6 @@ to zero) with all known stereo information encoded properly in it. When
 there are two structures, the two should have the same numbering of the
 atoms, but one is for “flat” display, and one the 3D structure for
 distances measurement, measure of angles, dihedral angled, etc.
-
-The NMREDATA tags go with the 2D structure, so the overall file will
-look like this:
-
-
-    xxxxxxxxxxxxxxxxxxxx2D
-
-    <2d structure>
-    M  END
-    >  <NMREDATA_VERSION>
-    1.1\
-
-    <other tags>
-
-    $$$$
-
-    xxxxxxxxxxxxxxxxxxxx3D
-
-    <3d structure>
-    M  END
-
-    $$$$
-
-Molblock (2D/3D) structures
----------------------------
 
 The SDF file format allows to include multiple structures/model/frames
 in a single SDF file. They are separated by a line with "$$$$".
@@ -146,6 +122,27 @@ first structure, i.e. included before the first "$$$$" line. This is
 because the current reader may stop reading the SDF file at the first
 occurrence of "$$$$" and would miss them if they are listed after the 3D
 structure.
+The NMREDATA tags go with the 2D structure, so the overall file will
+look like this:
+
+
+    ;xxxxxxxxxxxxxxxxxxxx2D
+
+    <2d structure>
+    M  END
+    >  <NMREDATA_VERSION>
+    1.1\
+
+    <other tags>
+
+    $$$$
+
+    ;xxxxxxxxxxxxxxxxxxxx3D
+
+    <3d structure>
+    M  END
+
+    $$$$
 
 2D to 3D conversion
 -------------------
