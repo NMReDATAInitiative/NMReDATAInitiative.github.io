@@ -659,7 +659,7 @@ acquisition and processing parameters “fid/ser”, “acqus”, “procs”,
 is given in the NMREDATA_1D tag.
 
 The spectra are given in the native format of the manufacturer of the
-spectrometer.
+spectrometer. There can be more than one location, but the files there must be identical.
 
 There are three options for specify the directory:
 
