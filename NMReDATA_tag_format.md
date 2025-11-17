@@ -636,7 +636,7 @@ Example of HSQC spectrum:
 ````
 >  <NMREDATA_2D_13C_1J_1H>
 Larmor=125.7567\ d
-Spectrum_Location=[file:./nmr/11/1/pdata/1\](file:./nmr/11/1/pdata/1\)
+Spectrum_Location=file:./nmr/11/1/pdata/1\
 C1/H-C1\
 C2/H-C2\
 ...
@@ -655,22 +655,33 @@ The spectrum must either be included in the NMReDATA file or be stored
 in a permanently open and electronically accessible NMR database. By
 spectrum, we mean the actual data of the spectrum (“2rr” , but also the
 acquisition and processing parameters “fid/ser”, “acqus”, “procs”,
-“proc2s”, etc.) in the manufacturer's format. The location of the record
+“proc2s”, etc.) in the manufacturer's format. The spectrum is therefore a directory, not a file. The location of the directory
 is given in the NMREDATA_1D tag.
-
-`Spectrum_Location=`[`file:./nmr/10/1/pdata/1`](file:./nmr/10/1/pdata/1)` `
 
 The spectra are given in the native format of the manufacturer of the
 spectrometer.
 
-In order to avoid the spectrum refer to internet accessible spectra:
+There are three options for specify the directory:
 
-`Spectrum_Location=`[`https://www.dropbox.com/s/676w3chdbdf81kf/dj_GE425_DMSO_couplings_ax_eq_MP.zip?dl=0`](https://www.dropbox.com/s/676w3chdbdf81kf/dj_GE425_DMSO_couplings_ax_eq_MP.zip?dl=0)` ./nmr/10/1/pdata/1 `
+* A local file location. This works if the nmredata file and the spectrum files are part of a zip file or saved in a file system:
+
+`Spectrum_Location=file:./nmr/10/1/pdata/1`
+
+Note that in the file path (relative to the root of the zipfile)
+backslashes are not allowed; only forward slashes. Also, this is not a File URI since it does not need the /// for localhost.
+
+* An internet location of the directory:
+
+`Spectrum_Location=https://www.host.com/spectrumdirectory`
+
+* An internet location of a zip file with the directory in the zip file
+
+`Spectrum_Location=https://www.dropbox.com/s/676w3chdbdf81kf/dj_GE425_DMSO_couplings_ax_eq_MP.zip?dl=0 ./nmr/10/1/pdata/1`
+
+`Spectrum_Location=https://zenodo.org/record/1146869/files/sample1.zip?download=1 ./djhap_benapyr/10/1/pdata/1`
 
 In principle only DOI-based references are allowed in order to insure
 long-term stability:
-
-`Spectrum_Location=`[`https://zenodo.org/record/1146869/files/sample1.zip?download=1`](https://zenodo.org/record/1146869/files/sample1.zip?download=1)` ./djhap_benapyr/10/1/pdata/1 `
 
 In the absence of consensus on Jcamp format to use for NMR spectra,
 **Jcamp format for the spectra are not supported as source of
@@ -684,9 +695,6 @@ the peaks to atoms in the molecular structure. A draft proposal to do so
 is to provide the location and file name in a line starting with
 
 `Jcamp_location=file:`
-
-Note that in the file path (relative to the root of the zipfile)
-backslashes are not allowed; only forward slashes.
 
 ### Ambiguous assignment of signals (ONLY WITH LEVEL\>0)
 
