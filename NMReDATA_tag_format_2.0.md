@@ -152,16 +152,15 @@ add the 3D structure to the output, BUT ask for permission/warning to
 the user and warn him on the consequences and/or guide him through the
 process:
 
--Transforming 2D into 3D is not innocent. If two enantiotopic hydrogen
+* Transforming 2D into 3D is not innocent. If two enantiotopic hydrogen
 atoms are drawn with regular bonds (simple straight line) and assigned
 two different signals in the spectrum, it may be for the good reason
 that the assignment is not known. Introducing a 3D structure will erase
 the "unknown" and introduce the risk of error. When there is a risk for
 this to occur, one should use the
-\[<http://nmredata.org/wiki/NMReDATA_tag_format#Interchangeable_assignment_.28Only_for_Level.3E0.29%22ambiguous>"
-statement in the "NMREDATA_ASSIGNMENT" tag.\]
+[http://nmredata.org/wiki/NMReDATA_tag_format#interchangeable-assignment-only-for-level0](interchangeable assignment) statement in the "NMREDATA_ASSIGNMENT" tag.
 
--Other problems of this type probably exist...
+* Other problems of this type probably exist...
 
 In principle transforming 2D into 3D is quite important and useful but
 has to be done carefully to avoid introducing error or removing
