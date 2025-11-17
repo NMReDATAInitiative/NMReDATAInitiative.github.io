@@ -116,8 +116,7 @@ NMReDATA format:
 ````
 >  <NMREDATA_ID>
 Doi= doi of the NMR record\
-Record= URL pointing to the ziped file of the NMR record\
-Path= pointer to the nmredata.sdf file relative to the root of the ziped NMR record\
+Spectrum_Location= location of the spectrum files\
 ...
 ````
 
@@ -126,9 +125,8 @@ Here is an working example:
 ````
 >  <NMREDATA_ID>
 Doi=10.5281/zenodo.1146869\
-Record=https://zenodo.org/record/1146869/files/sample1.zip\
-Path=compound1.nmredata.sdf\
-
+Spectrum_Location=https://zenodo.org/record/1146869/files/sample1.zip\
+...
 ````
 
 When copied from database to database, multiple ID's may be included.
