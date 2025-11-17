@@ -96,8 +96,6 @@ For example,
 ````
 (a, b)
 (a,b) 
-(<"Unit1,C1">,<Unit2,C1>)
-(<"1/C1">,<2/C1>)
 ````
 
 Indicates that the assignment is ambiguous and corresponds to either *a*
@@ -700,7 +698,7 @@ is to provide the location and file name in a line starting with
 labels of the possible assignments are given in parentheses. For
 example:
 
-`4.8, L=(a|b)\`
+`4.8, L=(a,b)\`
 
 means that the signal at 4.8 is assigned either to a or b. We need this
 option to have the possibility to provide ambiguous data because they
@@ -938,7 +936,7 @@ Larmor=500.13\
 C1/a; optional comment will be visible in the spectrum’s view
 (C2,C3)/b, I=1.2\
 C2/(b,c) , I=1.2\ 
-C4,C5,C6)/(e,f) , I=1.2\
+(C4,C5,C6)/(e,f) , I=1.2\
 ````
 
 for HETCOR, the tag label would be
