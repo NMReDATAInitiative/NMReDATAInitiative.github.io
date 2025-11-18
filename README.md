@@ -30,7 +30,7 @@ important to always have the spectra with the SDF file! We call *"NMR Record"* t
 
 A 1.1 version was released to fix a problem in 1.0.
 
-Version 2.0 adds extensions and was released after the [1st NMReDATA symposium](/Symposium2019 "link") (Sept. 16, Porto, Portugal).
+Version 2.0 adds extensions and was released after the [1st NMReDATA symposium](/Symposium2019 "link") (Sept. 16 2019, Porto, Portugal).
 
 NMR records
 ===========
