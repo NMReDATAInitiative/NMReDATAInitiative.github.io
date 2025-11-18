@@ -188,12 +188,12 @@ providers.
 All versions of JCAMP are accepted. Below are some hints on what would be in the JCAMP files ideally. 
 Given that we have information in the NMReDATA file, this is only in addition and if JCAMP files are there.
 
-Example of reference to the JCAMP file (**in bold**):
+Example of reference to the JCAMP file (**Spectrum_Jcamp=**):
 ````
 >  <NMREDATA_1D_1H>
 Larmor=500.13
 Spectrum_Location=file:./nmr/10/1/pdata/1
-**Spectrum_Jcamp=file:./jcamp_folder/spectrum1.jcp**
+Spectrum_Jcamp=file:./jcamp_folder/spectrum1.jcp
 Signal 1
 Signal 2
 ...
