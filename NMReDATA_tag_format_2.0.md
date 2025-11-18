@@ -185,23 +185,15 @@ servers (using API), or other software tools. The jcamp spectra are
 expected to be proposed when records are provided by web-based data
 providers.
 
-<span style="color:#FF8C00"> *This is a working proposition to include
-JCAMP spectra in NMR Records / Ongoing discussion using Slack contact
-Damien Jeannerat to be associated* </span>
-
-We should discuss which version of JCAMP should be accepted - if not
-all. Given that we will use it very minimally just to allow to access
-spectra (not to convey acquisition parametes, etc.), they can be in a
-very generic form (compatible with all/most? versions of Jcamp). This
-would require no new developments of Jcamp. We "only" have to define the
-**names of the fields and the type of accepted data**.
+All versions of JCAMP are accepted. Below are some hints on what would be in the JCAMP files ideally. 
+Given that we have information in the NMReDATA file, this is only in addition and if JCAMP files are there.
 
 Example of reference to the JCAMP file (**in bold**):
 ````
 >  <NMREDATA_1D_1H>
 Larmor=500.13
-Spectrum_Location=`[`file:./nmr/10/1/pdata/1`](file:./nmr/10/1/pdata/1)` 
-**`Spectrum_Jcamp=`[`file:./jcamp_folder/spectrum1.jcp`](file:./jcamp_folder/spectrum1.jcp)**`  
+Spectrum_Location=file:./nmr/10/1/pdata/1
+**Spectrum_Jcamp=file:./jcamp_folder/spectrum1.jcp  
 Signal 1
 Signal 2
 ...
