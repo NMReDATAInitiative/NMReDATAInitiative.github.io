@@ -193,7 +193,7 @@ Example of reference to the JCAMP file (**in bold**):
 >  <NMREDATA_1D_1H>
 Larmor=500.13
 Spectrum_Location=file:./nmr/10/1/pdata/1
-**Spectrum_Jcamp=file:./jcamp_folder/spectrum1.jcp  
+**Spectrum_Jcamp=file:./jcamp_folder/spectrum1.jcp**
 Signal 1
 Signal 2
 ...
