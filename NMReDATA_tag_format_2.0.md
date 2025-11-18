@@ -232,36 +232,33 @@ The reader should be able to manage both types of parameters.
 For 2D spectra
 --------------
 
-We should consider correlation spectra (with chemical shift in both
-dimensions) but also J-resolved spectra (Hz in F1) 2D spectra with
-double quantum scales (in F1) and Diffusion "spectra" (DOSY) What other
-combination ???? Assuming the direct dimension is always in ppm.
+We consider correlation spectra (with chemical shift in both
+dimensions) but also J-resolved spectra (Hz in F1), 2D spectra with
+double quantum scales (in F1), and Diffusion "spectra" (DOSY), assuming the direct dimension is always in ppm.
 
-Preferred format (for new developments use this...)
+Preferred format
 
 "**D**" is for *direct* dimension "**I**" stands for *indirect*
 dimension.
 ````
-Type of indirect dimension: `***`TYPE_F1_SCALE=`***` "ppm", "Hz", "dq", "diff"
-Spectral within ppm in the direct and indirect dimensions '`**`'SWD=`` ``/`` ``SWI=`**` 
-Chemical shift of the first point (bottom / left side) `***`FIRSTXD=`` ``/`` ``FIRSTXI=***
-Chemical shift of the last point (top / right side) `***`LASTXD=`` ``/`` ``LASTXI=***
-Larmor frequencies (to allow switch to Hz) `***`LARMORD=`` ``/`` ``LARMORI=`***(0 if not relevant - for type "Hz")`
-Number of points in the direct and indirect dimensions, `***`NPOINTSD=`` ``/`` ``NPOINTSI=`***` 
-*NPOINTSDxNPOINTSI* data points (int or float text or binary ????) (all points of the direct dimension before starting the second point of the indirect dimension)
+Type of indirect dimension: ***TYPE_F1_SCALE=*** "ppm", "Hz", "dq", "diff"
+Spectral within ppm in the direct and indirect dimensions **SWD= / SWI=** 
+Chemical shift of the first point (bottom / left side) ***FIRSTXD= / FIRSTXI=***
+Chemical shift of the last point (top / right side) ***LASTXD= / LASTXI=***
+Larmor frequencies (to allow switch to Hz) ***LARMORD= / LARMORI=*** (0 if not relevant - for type "Hz")
+Number of points in the direct and indirect dimensions ***NPOINTSD= / NPOINTSI=***
+*NPOINTSDxNPOINTSI* data points (all points of the direct dimension before starting the second point of the indirect dimension)
 ````
 
 For compatibility with existing Bruker JCAMP
 
-How the type of 2D spectrum will be indentified is still to be
-determined.
-
 A line "$$ Bruker specific parameters for F1" separates F2 from F1
 parameters with the same names
+
 ````
-Spectral within ppm in the direct and indirect dimensions '`**`'SW=`**` 
+Spectral within ppm in the direct and indirect dimensions **SW=** 
 Chemical shift of center of the spectrum (bottom / left side) ***SFO1=***
-Larmor frequencies (to allow switch to Hz) `***`BF1=`***` (0 if not relevant - for type "Hz")
-Number of points in the direct and indirect dimensions, `***`SI=`***` 
-*`SI(1)xSI(2)`*` data points (int or float text or binary ????) (all points of the direct dimension before starting the second point of the indirect dimension)
+Larmor frequencies ***BF1=*** (0 if not relevant - for type "Hz")
+Number of points in the direct and indirect dimensions ***SI=***
+*SI(1)xSI(2)* data points (all points of the direct dimension before starting the second point of the indirect dimension)
 ````
