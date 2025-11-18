@@ -208,28 +208,26 @@ Note that the Larmor frequency can also be found in the .sdf file, but
 should be given in the camp file as well.
 
 Preferred format to be used for new developments
-[example](/Jcamp_example2 "link"):
-````
+[example](Jcamp_example2):
 
-`Frequency of the first point (left side) `***`FIRSTX=`***
-`Frequency of the last point (right side) `***`LASTX=`***` `
-`Larmor frequency (to allow to switch to ppm scale) `***`LARMOR=`***` (or `***`.OBSERVE`` ``FREQUENCY=`***` accepted for compatibility)`
-`Number of points `***`NPOINTS=`***
-*`NPOINTS`*` data points (`*`int`*` or `*`float`*` text or binary ????)`
+```
+Frequency of the first point (left side) ***`FIRSTX=`***
+Frequency of the last point (right side) ***`LASTX=`***` 
+Larmor frequency ***LARMOR=*** (or ***.OBSERVE FREQUENCY=*** accepted for compatibility)
+Number of points ***NPOINTS=***
+*NPOINTS* data points
 ````
 
 Alternative accepted parameters (Bruker type...):
 ````
 Spectral width in ppm ***SW=***
-Chemical shift of the center of the spectrum '`**`'SFO1=`**` ''
-Larmor frequency (to allow to switch to Hz scale) `***`BF1=`***` 
+Chemical shift of the center of the spectrum (to allow to switch to Hz scale) ***SFO1=***
+Larmor frequency ***BF1=***
 Number of points ***SI=***
-*`SI`*` data points (`*`int`*` or `*`float`*` text or binary ????)
+*SI* data points
 ````
 
 The reader should be able to manage both types of parameters.
-Interconvertion of (FIRSTX LASTX LARMOR NPOINTS) into (SW SFO1 BF1 SI)
-being trival.
 
 For 2D spectra
 --------------
