@@ -2,13 +2,6 @@
 title: Compatible software
 permalink: /Compatible_software/
 ---
-<style>
-    .heatMap th {
-        background: white;
-    }
-</style>
-
-<div class="heatMap">
   
 This list is tentative - It has not been validated by (all) the authors.
 
@@ -36,8 +29,6 @@ Working software and tools
 |                       | NOMAD                                                 | Tomas Lebl       |                                   |                                                                                     |              |                |                        |
 | Firefox/Google Chrome |                                                       | Julien Wist      | Any running Firefox/Google Chrome |                                                                                     | generate     | generate       |                        |
 |                       |                                                       |                  |                                   |                                                                                     |              |                |                        |
-</div>
-
 Announced Software & tools
 
 ### "Comparison of NMReDATA versions (under construction)"
