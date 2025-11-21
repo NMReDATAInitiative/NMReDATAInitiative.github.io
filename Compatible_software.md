@@ -21,7 +21,6 @@ This list is tentative - It has not been validated by (all) the authors.
 
 Working software and tools
 
-|                       |                                                       |                  |                                   |                                                                                     |              |                |                        |
 |-----------------------|-------------------------------------------------------|------------------|-----------------------------------|-------------------------------------------------------------------------------------|--------------|----------------|------------------------|
 | **Software Platform** | **Product/tool**                                      | **Developer**    | **Language/Operating system**     | **Version**                                                                         | **NMReDATA** | **NMR Record** | **Examples of output** |
 | Mnova                 | [Mnova NMR](http://mestrelab.com/software/mnova/nmr/) | Mestrelab        | Mac OS, Windows, Linux?           | Announced for Q1 2018                                                               | ?            |                |                        |
