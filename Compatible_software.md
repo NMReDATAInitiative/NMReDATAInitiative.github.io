@@ -1,6 +1,7 @@
 ---
 title: Compatible software
 permalink: /Compatible_software/
+classes: wide
 ---
   
 This list is tentative - It has not been validated by (all) the authors.
