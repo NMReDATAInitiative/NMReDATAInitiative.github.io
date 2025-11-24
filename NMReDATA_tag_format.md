@@ -165,8 +165,8 @@ C6H12O6
 
 #### \<NMREDATA_SMILES\> (optional but desired)
 
-Here comes the *isomeric smiles* when the molecule contains explicit H.
-Otherwise *canonical smile* is OK. This will allow to generate text
+Here comes the *isomeric SMILES* when the molecule contains explicit H.
+Otherwise *standard SMILES* is OK. This will allow to generate text
 including all the NMReDATA into pure text (report, PhD, paper, etc.).
 This be further developed, but it should be included.
 
@@ -179,7 +179,7 @@ hydrogen atoms)
 C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O)O)O)O)O
 ````
 
-canonical SMILES (when the hydrogen atoms are implicit)
+standard SMILES (when the hydrogen atoms are implicit)
 
 ````
 C(C1C(C(C(C(O1)O)O)O)O)O
