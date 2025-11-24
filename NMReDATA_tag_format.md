@@ -166,7 +166,7 @@ C6H12O6
 #### \<NMREDATA_SMILES\> (optional but desired)
 
 Here comes the *isomeric SMILES* when the molecule contains explicit H.
-Otherwise *standard SMILES* is OK. This will allow to generate text
+Otherwise *standard (non-isomeric and implicit H) SMILES* is OK. This will allow to generate text
 including all the NMReDATA into pure text (report, PhD, paper, etc.).
 This be further developed, but it should be included.
 
