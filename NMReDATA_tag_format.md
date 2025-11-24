@@ -602,7 +602,7 @@ Example of a 1D spectrum:
 >  <NMREDATA_1D_1H>
 Larmor=500.13\
 Pulseprogram=zg30\
-Spectrum_Location=file:./nmr/10/1/pdata/1\
+Spectrum_Location=file:./nmr/10\
 Signal 1\
 Signal 2\
 ...
@@ -632,7 +632,7 @@ Example of HSQC spectrum:
 ````
 >  <NMREDATA_2D_13C_1J_1H>
 Larmor=125.7567\ d
-Spectrum_Location=file:./nmr/11/1/pdata/1\
+Spectrum_Location=file:./nmr/11\
 C1/H-C1\
 C2/H-C2\
 ...
@@ -661,20 +661,20 @@ There are three options for specify the directory:
 
 * A local file location. This works if the nmredata file and the spectrum files are part of a zip file or saved in a file system:
 
-`Spectrum_Location=file:./nmr/10/1/pdata/1`
+`Spectrum_Location=file:./nmr/10\`
 
 Note that in the file path (relative to the root of the zipfile)
 backslashes are not allowed; only forward slashes. Also, this is not a File URI since it does not need the /// for localhost.
 
 * An internet location of the directory:
 
-`Spectrum_Location=https://www.host.com/spectrumdirectory`
+`Spectrum_Location=https://www.host.com/spectrumdirectory\`
 
 * An internet location of a zip file with the directory in the zip file
 
-`Spectrum_Location=https://www.dropbox.com/s/676w3chdbdf81kf/dj_GE425_DMSO_couplings_ax_eq_MP.zip?dl=0 ./nmr/10/1/pdata/1`
+`Spectrum_Location=https://www.dropbox.com/s/676w3chdbdf81kf/dj_GE425_DMSO_couplings_ax_eq_MP.zip?dl=0 ./nmr/10\`
 
-`Spectrum_Location=https://zenodo.org/record/1146869/files/sample1.zip?download=1 ./djhap_benapyr/10/1/pdata/1`
+`Spectrum_Location=https://zenodo.org/record/1146869/files/sample1.zip?download=1 ./djhap_benapyr/10\`
 
 In principle only DOI-based references are allowed in order to insure
 long-term stability:
