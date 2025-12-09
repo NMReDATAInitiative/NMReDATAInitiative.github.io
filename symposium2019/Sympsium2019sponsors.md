@@ -28,7 +28,7 @@ Premier sponsor
 
 [200px\|link=<https://www.jeol.co.jp/en>](/File:jeol.png "wikilink")
 
-[Signals GmbH & Co. KG”](https://logs-repository.com)
+[Signals GmbH & Co. KG](https://logs-repository.com)
 
 [190px\|link=<https://logs-repository.com>](/File:logs.png "wikilink")
 

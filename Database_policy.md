@@ -24,17 +24,17 @@ owner of the data - not the principal investigator - or the researchers
 themselves!) This trend it probably the consequence of funding agencies
 requesting scientific data to be made available. In this context our job
 is essential because we want to avoid NMR spectra to be stored without
-the precious assignment data. Our task is to set the “standard” for
+the precious assignment data. Our task is to set the "standard" for
 "good" NMR records (i.e. NMReDATA compliant).
 
 I think that we can support certain initiative, in particular if they
-propose a unique adn free service such as cheminfo.org / c6h6.org. But
+propose a unique and free service such as cheminfo.org / c6h6.org. But
 they have to provide details documentation/demo/tutorials etc. so that
 we can inform the memebers of the Initiative on what can be done with
 these tools. We will list the database on a dedicated wiki page and
 compare them.
 
-Otherwise, we will not propose any “preferered" any specific “central”
+Otherwise, we will not propose any "preferered" or any specific "central"
 NMR database - we should probably remain neutral. Siversity is probably
 better than a given preferred choice. What we can do is to support that
 that all (or the largest possible part) of the data are as open as
@@ -45,7 +45,7 @@ Our job will be to certify that the data fulfil the format so that
 compatibility among database/tools/software is the best possible. One
 important aspect of our (future) work is to organize how data are not
 uselessly duplicated or files larger than necessary by a good use of
-links to original data. We may provide a “phone book” of long-term
+links to original data. We may provide a "phone book" of long-term
 storage of NMR data/spectra so that the disappearance of one platform
 does not cause problems correcting broken links others. (To be
 developed.)

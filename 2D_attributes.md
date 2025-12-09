@@ -3,6 +3,19 @@ title: 2D attributes
 permalink: /2D_attributes/
 ---
 
+# NMReDATA initiative
+*generate, store and share the data extracted from set of NMR spectra associated to a compound*
+
+***
+
+[Home](/) [Who are we](partners) **The Format** [In the news ...](timeline)
+
+***
+
+[Format main page]( [Format of the NMREDATA tags (version 1.0/1.1)](/NMReDATA_tag_format) [Format of the NMREDATA tags (version 2.0)](/NMReDATA_tag_format_2_0) [Compatible software and webtools](/Compatible_software "Compatible software") [1D Attributes](/1D_attributes) **2D Attributes**
+
+***
+
 Generalities
 ============
 
@@ -20,9 +33,9 @@ List of signal attributes ("D spectra)
 
 **Note that they should apear in this order!**
 
-[I= Intensity](/2D_attributes/#signal-intensity "link") (***float***)
+[I= Intensity](/2D_attributes/#signal-intensity "link") (***float***)
 
-[E= Volume](/2D_attributes/#signal-Volume "link") (crude integrals) (***float***)
+[E= Volume](/2D_attributes/#signal-Volume "link") (crude integrals) (***float***)
 
 [Ja= Active scalar coupling](/2D_attributes/#active-scalar-coupling "link") (***string***)
 
@@ -30,9 +43,9 @@ List of signal attributes ("D spectra)
 
 [J2= F2 passive coupling](/2D_attributes/#passive-scalar-coupling "link") (***string***)
 
-[W1= F1 signal width](/2D_attributes/#signal-width "link") (***float***)
+[W1= F1 signal width](/2D_attributes/#signal-width "link") (***float***)
 
-[W2= F2 signal width](/2D_attributes/#signal-width "link") (***float***)
+[W2= F2 signal width](/2D_attributes/#signal-width "link") (***float***)
 
 Examples attributes of 2D signal
 ================================
@@ -46,15 +59,15 @@ description of the attributes)...
 
 ... Providing the intensity of the signal:
 
-`a/b, I=133.6`
+`a/b, I=133.6`
 
 ... Including the extracted coupling constants (from a high-resolution DQF-COSY spectrum):
 
-`H4eq/H6eq, Ja=2.2, J1= 3.0(H8ax), 3.2(H5e1), 3.3(H5ax), 12.75(H4ax), J2=4.0 (H8ax), 4.5(H10ax), 12.09(H6ax) [see paper...]`
+`H4eq/H6eq, Ja=2.2, J1= 3.0(H8ax), 3.2(H5e1), 3.3(H5ax), 12.75(H4ax), J2=4.0 (H8ax), 4.5(H10ax), 12.09(H6ax) [see paper...]`
 
 If the signal is not assigned, the chemical shift replaces the labels
 
-`1.5402/1.4423 I=133.6`
+`1.5402/1.4423 I=133.6`
 
 Attributes
 ==========
@@ -74,7 +87,7 @@ Ja: Couplings in Hz with two digits after
 the period separated by the [separator](/Separator "link"). For a
 correlation between *i* & *j* (F1 first):
 
-`i/j, Ja=9.30`
+`i/j, Ja=9.30`
 
 means the active coupling (between *i* & *j* ) is 9.3 Hz
 
@@ -84,8 +97,8 @@ Passive scalar coupling
 J1/J2: For a correlation between *i* &
 *j* :
 ````
-i/j, J1=9.30
-i/j, J1=9.30, 4.80`
+i/j, J1=9.30
+i/j, J1=9.30, 4.80`
 ````
 
 means: *i*, the spin in the F1 dimension, is coupled to one or more spin
@@ -93,8 +106,8 @@ means: *i*, the spin in the F1 dimension, is coupled to one or more spin
 
 For a correlation between *i* & *j* :
 ````
-i/j, J1=9.30(b)
-i/j, J1=9.30(b), 4.80(a)
+i/j, J1=9.30(b)
+i/j, J1=9.30(b), 4.80(a)
 ````
 
 means:J(i,b)=9.30 Hz J(i,a)=4.80 Hz(in the F1 dimension).

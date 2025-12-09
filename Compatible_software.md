@@ -12,7 +12,7 @@ classes: wide
 
 ***
 
-[Format main page](/format) [Format of the NMREDATA tags (version 1.0/1.1)](/NMReDATA_tag_format) [Format of the NMREDATA tags (version 2.0)](/NMReDATA_tag_format_2_0) **Compatible software and webtools**
+[Format main page](/format) [Format of the NMREDATA tags (version 1.0/1.1)](/NMReDATA_tag_format) [Format of the NMREDATA tags (version 2.0)](/NMReDATA_tag_format_2_0) **Compatible software and webtools** [1D Attributes](/1D_attributes) [2D Attributes](/2D_attributes)
 
 ***
 

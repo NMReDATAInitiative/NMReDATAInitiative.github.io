@@ -7,7 +7,7 @@
 
 ***
 
-**Format main page** [Format of the NMREDATA tags (version 1.0/1.1)](/NMReDATA_tag_format) [Format of the NMREDATA tags (version 2.0)](/NMReDATA_tag_format_2_0) [Compatible software and webtools](/Compatible_software "Compatible software")
+**Format main page** [Format of the NMREDATA tags (version 1.0/1.1)](/NMReDATA_tag_format) [Format of the NMREDATA tags (version 2.0)](/NMReDATA_tag_format_2_0) [Compatible software and webtools](/Compatible_software "Compatible software") [1D Attributes](/1D_attributes) [2D Attributes](/2D_attributes)
 
 ***
 
@@ -43,7 +43,7 @@ important to always have the spectra with the SDF file! We call *"NMR Record"* t
 
 A 1.1 version was released to fix a problem in 1.0.
 
-Version 2.0 adds extensions and was released after the [1st NMReDATA symposium](/Symposium2019 "link") (Sept. 16 2019, Porto, Portugal).
+Version 2.0 adds extensions and was released after the [1st NMReDATA symposium](/symposium2019/Symposium2019 "link") (Sept. 16 2019, Porto, Portugal).
 
 NMR records
 ===========
@@ -103,6 +103,8 @@ Discussion [about database providers](/Database_policy).
 
 Versions
 ========
+
+Comments about [Version 0.98](V0.98)
 
 Changes to Versions 1.1
 -----------------------

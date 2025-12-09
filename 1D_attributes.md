@@ -2,6 +2,18 @@
 title: 1D attributes
 permalink: /1D_attributes/
 ---
+# NMReDATA initiative
+*generate, store and share the data extracted from set of NMR spectra associated to a compound*
+
+***
+
+[Home](/) [Who are we](partners) **The Format** [In the news ...](timeline)
+
+***
+
+[Format main page](format) [Format of the NMREDATA tags (version 1.0/1.1)](/NMReDATA_tag_format) [Format of the NMREDATA tags (version 2.0)](/NMReDATA_tag_format_2_0) [Compatible software and webtools](/Compatible_software "Compatible software") **1D Attributes** [2D Attributes](/2D_attributes)
+
+***
 
 Generalities
 ============
@@ -12,25 +24,25 @@ of signal attributes (1D spectra)
 **Note that they should apear in this order! All labels are optional,
 the shift value is mandatory.**
 
-[S= Multiplicity](#s-multiplicity "link") (***string***)
+[S= Multiplicity](#s-multiplicity "link") (***string***)
 
-[J= Scalar coupling](/#j-scalar_coupling "link") (***string***)
+[J= Scalar coupling](/#j-scalar_coupling "link") (***string***)
 
-[N= number of nuclei](/#n-number_of_nuclei "link") (rounded number of atoms) (***int***)
+[N= number of nuclei](/#n-number_of_nuclei "link") (rounded number of atoms) (***int***)
 
-[L= Label of the signal](/#l-label "link") (***string***)
+[L= Label of the signal](/#l-label "link") (***string***)
 
-[E= Integral](/#e-signal_Integral "link") (crude integrals) (***float***)
+[E= Integral](/#e-signal_Integral "link") (crude integrals) (***float***)
 
-[I= Intensity](/#i-signal_intensity "link") (***float***)
+[I= Intensity](/#i-signal_intensity "link") (***float***)
 
-[W= Width](/#w-signal_width "link") (***float***)
+[W= Width](/#w-signal_width "link") (***float***)
 
-[T1= T1 relaxation time](/#t1t2-relaxation_time "link") in second (***float***)
+[T1= T1 relaxation time](/#t1t2-relaxation_time "link") in second (***float***)
 
-[T2= T2 relaxation time](/#t1t2-Relaxation_time "link") in second (***float***)
+[T2= T2 relaxation time](/#t1t2-Relaxation_time "link") in second (***float***)
 
-[Diff= for diffusion rate](/#diff-diffusion_rate "link") in m<sup>2</sup>/s<sup>-1</sup>(***float***)
+[Diff= for diffusion rate](/#diff-diffusion_rate "link") in m<sup>2</sup>/s<sup>-1</sup>(***float***)
 
 Examples of signal attribute in 1D spectrum
 ===========================================
@@ -41,20 +53,20 @@ Examples of a doublet in 1D <sup>1</sup>H spectrum: "4.182 (*s*, 2H,
 H-(C3))"
 
 ````
-4.1823, S=d, N=2, L=H-(C3)
-4.1823, S=d, N=2, L=<>
-4.1820-4.1815, S=d, N=2, L=H-(C3)
+4.1823, S=d, N=2, L=H-(C3)
+4.1823, S=d, N=2, L=<>
+4.1820-4.1815, S=d, N=2, L=H-(C3)
 ````
 
 Examples of a typical signals in 1D <sup>13</sup>C spectra: "14.1823
 CH<sub>2</sub>,C(5)"
 
-`14.1823, S=2, L=C(5)`
+`14.1823, S=2, L=C(5)`
 
 Examples of a a negative signal for CH<sub>2</sub>,C(5) a DEPT
 <sup>13</sup>C spectra
 
-`14.1823, S=2, L=C(5), I=-95.12`
+`14.1823, S=2, L=C(5), I=-95.12`
 
 Attributes
 ==========
@@ -84,11 +96,11 @@ look as a triplet, can be called "t".
 Couplings in Hz with two digits after the period separated by the
 [separator](/Separator "link").
 
-`4.1823, S=dd, N=1, L=a, J=9.30,4.81`
+`4.1823, S=dd, N=1, L=a, J=9.30,4.81`
 
 indicates a *dd* with J=9.30 and 4.81 Hz.
 
-`4.1823, S=td, N=1, L=a, J=9.30,4.81 `
+`4.1823, S=td, N=1, L=a, J=9.30,4.81 `
 
 means: the first coupling of 9.30 causes a triplet shape and a doublet
 with J=4.81 Hz.
@@ -101,11 +113,11 @@ the coupling.
 Scalar couplings are given with
 two digits following the period. For a signal assigned to "a":
 
-`4.1823, S=d, N=1, L=a J=9.32(b) `
+`4.1823, S=d, N=1, L=a J=9.32(b) `
 
 means: J(a,b)=9.32 Hz
 
-`4.1823, S=dd, N=1, L=a J=9.32(b),4.80(c) `
+`4.1823, S=dd, N=1, L=a J=9.32(b),4.80(c) `
 
 means: J(a,b)=9.32 Hz and J(a,c)=4.80 Hz
 
@@ -147,13 +159,13 @@ W width of the signal at half height (in Hz).
 Results of relaxation measurements, T1, T2,
 etc. can be given in seconds as:
 
-`4.8000, S=q, E=2, L=a, T1=0.7`
+`4.8000, S=q, E=2, L=a, T1=0.7`
 
 ## Diff= Diffusion rate
 Diffusion rates in
 m<sup>2</sup>/s<sup>-1</sup>
 
-`4.8000, S=q, E=2, L=a, Diff=1.12e-9`
+`4.8000, S=q, E=2, L=a, Diff=1.12e-9`
 
 Parsing data
 ------------

@@ -21,7 +21,7 @@ computer. No data (structure, etc.) are sent to any server via the net.
     shifts, couplings) are displayed on top of the structure display.
 
 This work was presented at the [1st NMReDATA symposium in Sept.
-2019](/Symposium2019 "link").
+2019](/symposium2019/Symposium2019 "link").
 
 ### 2D to 3D conversion
 
@@ -30,7 +30,7 @@ JSmol can display 3D structures
 NMReDATA .SDF files include "flat" structures.
 
 J_reader allows to start from the 2D model, add the implicit hydrogens
-and generate an “optimized” 3D structure that may be added to the
+and generate an "optimized" 3D structure that may be added to the
 original NMReDATA file and later saved to disk. The assignments and
 couplings are remapped accordingly on the 3D model.
 
