@@ -9,7 +9,7 @@
 
 The NMReDATA Initiative was started in 2016 and coordinated until 2024 by Damien Jeannerat (then University of Geneva, Swizerland). It is now coordinated by Stefan Kuhn, University of Tartu, Estonia.
 
-The main communication medium is a mailing list (contact Stefan Kuhn for subscription). The partners of the Initiative are listed below. They showed interest in the NMReDATA Initiative and are susceptible to provide advice on the development of the format or related aspects such as database structure, etc. We also have a mailing list of “followers” of the Initiative, but not actively participating.
+The main communication medium is a mailing list (contact Stefan Kuhn for subscription). The partners of the Initiative are listed below. They showed interest in the NMReDATA Initiative and are susceptible to provide advice on the development of the format or related aspects such as database structure, etc. We also have a mailing list of "followers" of the Initiative, but not actively participating.
 
 ## Individual members
 
@@ -19,16 +19,16 @@ Interest in data processing and methodology developments in small-molecule NMR. 
 
 ### Julien Wist, University of Valle, Colombia
 
-Graduated from the University of Lausanne, Switzerland. Obtained his Ph.D at Geoffrey Bodenhausen's Lab at Ecole Polytechnique Fédérale de Lausanne, Switzerland working on slow dynamics in proteins. Joined the Universidad Nacional de Colombia in Bogotá in 2006 and started there to build an NMR community. Moved to Universidad del Valle in Cali, Colombia in 2010 and works on cheminformatics (www.cheminfo.org) and NMR to help extracting information from complex mixtures. Member of the associate board of <em>Magnetic Resonance in Chemistry</em>.
+Graduated from the University of Lausanne, Switzerland. Obtained his Ph.D at Geoffrey Bodenhausen's Lab at Ecole Polytechnique F&#233;d&#233;rale de Lausanne, Switzerland working on slow dynamics in proteins. Joined the Universidad Nacional de Colombia in Bogot&#00E1; in 2006 and started there to build an NMR community. Moved to Universidad del Valle in Cali, Colombia in 2010 and works on cheminformatics (www.cheminfo.org) and NMR to help extracting information from complex mixtures. Member of the associate board of <em>Magnetic Resonance in Chemistry</em>.
 
 
-### Jean-Marc Nuzillard, Université de Reims-Champagne-Ardenne and Centre National de la Recherche Scientifique, France (retired)
+### Jean-Marc Nuzillard, Universit&#233; de Reims-Champagne-Ardenne and Centre National de la Recherche Scientifique, France (retired)
 
-Former leader of the ["Isolement et Structure" research group](http://eos.univ-reims.fr/LSD/ISgroup.html) at the Institut de Chimie Moléculaire de Reims. Developer of [LSD](http://www.univ-reims.fr/LSD/JmnSoft/), a Computer-Assisted Structure Elucidation software. Over 160 publications in the fields of natural product chemistry and NMR data acquisition, processing and interpretation.
+Former leader of the ["Isolement et Structure" research group](http://eos.univ-reims.fr/LSD/ISgroup.html) at the Institut de Chimie Mol&#233;culaire de Reims. Developer of [LSD](http://www.univ-reims.fr/LSD/JmnSoft/), a Computer-Assisted Structure Elucidation software. Over 160 publications in the fields of natural product chemistry and NMR data acquisition, processing and interpretation.
 
 ### Nils Schloerer, Universit&auml;t Jena, Germany
 
-NMR facility manager at Universit&auml;t Jena. Interested in modern and affordable technologies for academic NMR labs (e.g. fast NMR methods and their application to ‘routine’ NMR) as well as in electronic data and laboratory management. Trying to find ways how to teach chemists to ‘read’ and handle NMR data in an adequate fashion.
+NMR facility manager at Universit&auml;t Jena. Interested in modern and affordable technologies for academic NMR labs (e.g. fast NMR methods and their application to 'routine' NMR) as well as in electronic data and laboratory management. Trying to find ways how to teach chemists to 'read' and handle NMR data in an adequate fashion.
 
 ### Stefan Kuhn, University of Tartu, Estonia
 
@@ -44,7 +44,7 @@ Professor in organic chemistry with interest in NMR spectroscopy, medicinal chem
 
 ### Manuel Perez, Mestrelab
 
-PhD studies at University of Liverpool with Proffesor Ray Abraham on “NMR prediction of Amides and Peptides” and development of the CHARGE NMR prediction software. Worked for Pfizer in the UK in the areas of NMR, Comp Chemistry and PK/PD departments. Internal Awards: Global prize, runner-up Best Medicinal Chemist in 2009. Since 2011, Senior Vice President – Strategy and Business Development EMEA at Mestrelab Research. Member of the Associate Editorial Board at MRC. Published in many different areas: Parallel Synthesis, Synthetic Method Development, NMR, Computational Chemistry and Medicinal Chemistry and is inventor in three patents in the Pain Therapeutic Area.
+PhD studies at University of Liverpool with Proffesor Ray Abraham on "NMR prediction of Amides and Peptides" and development of the CHARGE NMR prediction software. Worked for Pfizer in the UK in the areas of NMR, Comp Chemistry and PK/PD departments. Internal Awards: Global prize, runner-up Best Medicinal Chemist in 2009. Since 2011, Senior Vice President - Strategy and Business Development EMEA at Mestrelab Research. Member of the Associate Editorial Board at MRC. Published in many different areas: Parallel Synthesis, Synthetic Method Development, NMR, Computational Chemistry and Medicinal Chemistry and is inventor in three patents in the Pain Therapeutic Area.
 
 
 ### Adolfo Botana, Jeol
@@ -65,7 +65,7 @@ Analytical scientist specializing in NMR and later in cheminformatic. Graduated 
 
 ### Bozhana Mikhova, Bulgarian Academy of Sciences, Bulgaria
 
-Associate Professor at the Institute of Organic Chemistry with Centre of Phytochemistry with research interests in the field of small molecule NMR - natural products and synthetic derivatives with potential biological activity. Participated in projects about NMR spectral data collections with ISISBase and SciDex. Member of the <em>Editorial Board</em> of <em>Magnetic Resonance in Chemistry</em> responsible mainly for the papers in section <em>Letter – spectral assignment</em>.
+Associate Professor at the Institute of Organic Chemistry with Centre of Phytochemistry with research interests in the field of small molecule NMR - natural products and synthetic derivatives with potential biological activity. Participated in projects about NMR spectral data collections with ISISBase and SciDex. Member of the <em>Editorial Board</em> of <em>Magnetic Resonance in Chemistry</em> responsible mainly for the papers in section <em>Letter - spectral assignment</em>.
 
 ### Craig Butts, University of Bristol, United Kingdom
 
@@ -77,7 +77,7 @@ Manager of the liquid-state NMR facility at the University of St Andrews since 2
 
 ### Gregory M. Banik, Bio-Rad Laboratories, Informatics Division
 
-General Manager of the Informatics Division of Bio-Rad Laboratories and creator of its award-winning KnowItAll software for analytical chemistry, overseeing the Division’s Bio-Rad Sadtler spectral databases of NMR, IR, Raman, UV-Vis, and mass spectra and SpectraBase cloud-based spectral repository.  Received a B.A. degree in Chemistry and Computer Science from Grinnell College and M.S. and Ph.D. degrees in organic chemistry from Northwestern University. Previously held management positions at Molecular Simulations Inc. (MSI, now part of BIOVIA/Dassault Systèmes), UMI (now ProQuest), Thomson Reuter's Institute for Scientific Information (ISI, now Clarivate Analytics), and Abbott Laboratories Pharmaceutical Products Division (now AbbVie) as well as a lectureship position at Northwestern University.  A member of the IUPAC Subcommittee on Cheminformatics Data Standards (SCDS), member of the Data Interest Group/Chemistry (DIGChem) and chair of its NMR/spectral repository working group, member of the NMReDATA initiative, member of the Society of Applied Spectroscopy, member of the Coblentz Society, member of the Vidocq Society, member of the American Chemical Society, and former Chair of the American Chemical Society Division of Chemical Information (CINF).
+General Manager of the Informatics Division of Bio-Rad Laboratories and creator of its award-winning KnowItAll software for analytical chemistry, overseeing the Division's Bio-Rad Sadtler spectral databases of NMR, IR, Raman, UV-Vis, and mass spectra and SpectraBase cloud-based spectral repository.  Received a B.A. degree in Chemistry and Computer Science from Grinnell College and M.S. and Ph.D. degrees in organic chemistry from Northwestern University. Previously held management positions at Molecular Simulations Inc. (MSI, now part of BIOVIA/Dassault Syst&#232;mes), UMI (now ProQuest), Thomson Reuter's Institute for Scientific Information (ISI, now Clarivate Analytics), and Abbott Laboratories Pharmaceutical Products Division (now AbbVie) as well as a lectureship position at Northwestern University.  A member of the IUPAC Subcommittee on Cheminformatics Data Standards (SCDS), member of the Data Interest Group/Chemistry (DIGChem) and chair of its NMR/spectral repository working group, member of the NMReDATA initiative, member of the Society of Applied Spectroscopy, member of the Coblentz Society, member of the Vidocq Society, member of the American Chemical Society, and former Chair of the American Chemical Society Division of Chemical Information (CINF).
 
 ## Software developers
 
@@ -89,11 +89,11 @@ Nmrshiftdb2 is an open-data repository for organic structures and their nuclear 
 
 ### <strong>Cheminfo</strong> [www.cheminfo.org](http://www.cheminfo.org/)
 
-Open source (MIT license) project developed mainly by Luc Patiny (formerly Ecole Polytéchnique Fédérale de Lausanne, Lausanne, Switzerland) and Julien Wist (Universidad del Valle en Cali, Colombia). The aim of this project is to bring efficient, research-grade, cheminformatics tools into the browser, thus is written exclusively in javaScript that is natively supported by all browsers. This technology was chosen because it allows to develop tools that can run either on the server or on the client and because it enable the user to access all the power of the system without installing a single package. It will run on all operating systems and is suitable for mobile devices. </span><span style="font-family: Georgia; font-size: 12px;">Cheminfo.org permits to perform complex operations on many different kind of chemical data, such as molecules and spectra, but also includes efficient libraries to work with images (microscopy, petri dishes, etc.). Cheminfo.org showcases the potential of this paradigm shift, from the standard c++ libraries and standalone desktop application to the all in browser. Many demo tools can be found that can inspire others to contribute to the effort.
+Open source (MIT license) project developed mainly by Luc Patiny (formerly Ecole Polyt&#233;chnique F&#233;d&#233;rale de Lausanne, Lausanne, Switzerland) and Julien Wist (Universidad del Valle en Cali, Colombia). The aim of this project is to bring efficient, research-grade, cheminformatics tools into the browser, thus is written exclusively in javaScript that is natively supported by all browsers. This technology was chosen because it allows to develop tools that can run either on the server or on the client and because it enable the user to access all the power of the system without installing a single package. It will run on all operating systems and is suitable for mobile devices. </span><span style="font-family: Georgia; font-size: 12px;">Cheminfo.org permits to perform complex operations on many different kind of chemical data, such as molecules and spectra, but also includes efficient libraries to work with images (microscopy, petri dishes, etc.). Cheminfo.org showcases the potential of this paradigm shift, from the standard c++ libraries and standalone desktop application to the all in browser. Many demo tools can be found that can inspire others to contribute to the effort.
 
 ### <strong> Bio-Rad Laboratories</strong>, Informatic Division, [www.knowitall.com](http://www.knowitall.com/)
 
-Bio-Rad is a world leader in spectral databases and spectroscopy software. Bio-Rad’s Informatics Division, founded as Sadtler Research Laboratories in Philadelphia in 1874, has the longest history of any spectral database producer. Sadtler created the spectral reference industry in the 1950’s with its print library collections, and after being acquired by Bio-Rad in 1978, launched the first commercial spectral database system for personal computers just two years later. With its award-winning KnowItAll® software and database product line for Microsoft Windows and its SpectraBase™ product line for the web, the Informatics Division has been at the forefront of innovative spectral database and search technology and has amassed the world’s largest collection of spectral reference databases, with over 2.4 million spectra and counting. Bio-Rad is exploring ways to incorporate the NMReDATA format in future versions of its products.
+Bio-Rad is a world leader in spectral databases and spectroscopy software. Bio-Rad's Informatics Division, founded as Sadtler Research Laboratories in Philadelphia in 1874, has the longest history of any spectral database producer. Sadtler created the spectral reference industry in the 1950s with its print library collections, and after being acquired by Bio-Rad in 1978, launched the first commercial spectral database system for personal computers just two years later. With its award-winning KnowItAll&#174; software and database product line for Microsoft Windows and its SpectraBase&#153; product line for the web, the Informatics Division has been at the forefront of innovative spectral database and search technology and has amassed the world's largest collection of spectral reference databases, with over 2.4 million spectra and counting. Bio-Rad is exploring ways to incorporate the NMReDATA format in future versions of its products.
 
 ### <strong>NOMAD</strong>, [nomad.wp.st-andrews.ac.uk](http://nomad.wp.st-andrews.ac.uk/)
 
@@ -111,13 +111,13 @@ ACD/Labs has over two decades of experience boosting the productivity of synthet
 
 ![mestrelab logo](mestrelab_med.jpeg)
 
-Mestrelab Research SL is a Spanish company specialized in the development of state of the art software applications for handling of analytical chemistry data (NMR, LC/GC/MS). Mestrelab Research SL develops and commercializes Mnova, a World leading integrated software package for processing and advanced analysis of NMR and LC/GC/MS data with multivendor support, Phys Chem predictions and an extensive Worldwide user base. The company’s mission is to develop software solutions which become the universal processing and analysis interface between analytical instrumentation and chemists. <strong>Mestrelab will explore best ways to generate the NMReDATA format in future versions of Mnova</strong>.
+Mestrelab Research SL is a Spanish company specialized in the development of state of the art software applications for handling of analytical chemistry data (NMR, LC/GC/MS). Mestrelab Research SL develops and commercializes Mnova, a World leading integrated software package for processing and advanced analysis of NMR and LC/GC/MS data with multivendor support, Phys Chem predictions and an extensive Worldwide user base. The company's mission is to develop software solutions which become the universal processing and analysis interface between analytical instrumentation and chemists. <strong>Mestrelab will explore best ways to generate the NMReDATA format in future versions of Mnova</strong>.
 
 ### <strong>Bruker</strong>
 
 ![bruker logo](bruker_med.jpeg)
 
-Bruker’s CMC-se software will generate .sdf including <strong>NMReDATA by the end of 2017</strong>.
+Bruker's CMC-se software will generate .sdf including <strong>NMReDATA by the end of 2017</strong>.
 
 ## <strong>Academic institutions</strong>
 
