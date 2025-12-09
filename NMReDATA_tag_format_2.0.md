@@ -2,6 +2,18 @@
 title: NMReDATA tag format 2.0
 permalink: /NMReDATA_tag_format_2.0/
 ---
+# NMReDATA initiative
+*generate, store and share the data extracted from set of NMR spectra associated to a compound*
+
+***
+
+[Home](README) [Who are we](partners) **The Format** [In the news ...](timeline)
+
+***
+
+[Format main page](format) [Format of the NMREDATA tags (version 1.0/1.1)](NMReDATA_tag_format) **Format of the NMREDATA tags (version 2.0)** [Compatible software and webtools](Compatible_software "Compatible software")
+
+***
 
 The NMReDATA 2.0 format consists of the [1.1
 format](/NMReDATA_tag_format "wikilink") with the following extensions:
@@ -26,31 +38,31 @@ manager, *etc.*
 Example:
 
 ````
->  <NMREDATA_AUTHOR>
+>  <NMREDATA_AUTHOR>
 Author=0000-0001-7018-4288\
-Role=Assignment, Supervisor\
+Role=Assignm t, Supervisor\
 Organization=https://www.isni.org/isni/0000000121752154\
 Department=isni of the Department if it exist\
-Author=van Halle, John\ 
-Organization=De Montfort University, Leicester, UK\
-Department=Department of chemical sciences\
+Author=van Halle, John\ 
+Organization=De Montfort University, Leicester, UK\
+Department=Department of chemical sciences\
 ````
 If a record is updated, the history of the authors/versions are listed
 with version numbers:
 ````
 Version=1\
-Author=van Halle, John\
+Author=van Halle, John\
 Role=Assignment\
 Version=2\
-Author=Doe, Peter\
-Role=Assignment, correction of assignement of C1 an C3\
+Author=Doe, Peter\
+Role=Assignment, correction of assignement of C1 an C3\
 ````
 For automated changes, the software is given as Software name and
 version, comma, source of the software.
 
 Example:
 ````
->  <NMREDATA_AUTHOR>
+>  <NMREDATA_AUTHOR>
 ...
 Version=2\
 Robot=Sup\
@@ -63,14 +75,14 @@ Molblock (2D/3D) structures
 ---------------------------
 
 In version \<2.0, we do not specify if the structure in the .sdf file is
-“flat”, or a true “3D structure”. Version 2.0 clarifies this.
+"flat", or a true "3D structure". Version 2.0 clarifies this.
 
 The proposition is that sdf files could have two structures (.sdf files
-allows for any number of structure - we don’t violate any rule here).
-When there is only one structure, it should be “flat” (z coordinate set
+allows for any number of structure - we don't violate any rule here).
+When there is only one structure, it should be "flat" (z coordinate set
 to zero) with all known stereo information encoded properly in it. When
 there are two structures, the two should have the same numbering of the
-atoms, but one is for “flat” display, and one the 3D structure for
+atoms, but one is for "flat" display, and one the 3D structure for
 distances measurement, measure of angles, dihedral angled, etc.
 
 The SDF file format allows to include multiple structures/model/frames
@@ -190,12 +202,12 @@ Given that we have information in the NMReDATA file, this is only in addition an
 
 Example of reference to the JCAMP file (**Spectrum_Jcamp=**):
 ````
->  <NMREDATA_1D_1H>
+>  <NMREDATA_1D_1H>
 Larmor=500.13
 Spectrum_Location=file:./nmr/10/1/pdata/1
 Spectrum_Jcamp=file:./jcamp_folder/spectrum1.jcp
-Signal 1
-Signal 2
+Signal 1
+Signal 2
 ...
 ````
 You will find below, for both 1D and 2D spectra, the prefered format,
@@ -211,20 +223,20 @@ Preferred format to be used for new developments
 [example](Jcamp_example2):
 
 ```
-Frequency of the first point (left side) ***`FIRSTX=`***
-Frequency of the last point (right side) ***`LASTX=`***` 
-Larmor frequency ***LARMOR=*** (or ***.OBSERVE FREQUENCY=*** accepted for compatibility)
-Number of points ***NPOINTS=***
-*NPOINTS* data points
+Frequency of the first point (left side) ***`FIRSTX=`***
+Frequency of the last point (right side) ***`LASTX=`***` 
+Larmor frequency ***LARMOR=*** (or ***.OBSERVE FREQUENCY=*** accepted for compatibility)
+Number of points ***NPOINTS=***
+*NPOINTS* data points
 ````
 
 Alternative accepted parameters (Bruker type...):
 ````
-Spectral width in ppm ***SW=***
-Chemical shift of the center of the spectrum (to allow to switch to Hz scale) ***SFO1=***
-Larmor frequency ***BF1=***
-Number of points ***SI=***
-*SI* data points
+Spectral width in ppm ***SW=***
+Chemical shift of the center of the spectrum (to allow to switch to Hz scale) ***SFO1=***
+Larmor frequency ***BF1=***
+Number of points ***SI=***
+*SI* data points
 ````
 
 The reader should be able to manage both types of parameters.
@@ -241,13 +253,13 @@ Preferred format
 "**D**" is for *direct* dimension "**I**" stands for *indirect*
 dimension.
 ````
-Type of indirect dimension: ***TYPE_F1_SCALE=*** "ppm", "Hz", "dq", "diff"
-Spectral within ppm in the direct and indirect dimensions **SWD= / SWI=** 
-Chemical shift of the first point (bottom / left side) ***FIRSTXD= / FIRSTXI=***
-Chemical shift of the last point (top / right side) ***LASTXD= / LASTXI=***
-Larmor frequencies (to allow switch to Hz) ***LARMORD= / LARMORI=*** (0 if not relevant - for type "Hz")
-Number of points in the direct and indirect dimensions ***NPOINTSD= / NPOINTSI=***
-*NPOINTSDxNPOINTSI* data points (all points of the direct dimension before starting the second point of the indirect dimension)
+Type of indirect dimension: ***TYPE_F1_SCALE=*** "ppm", "Hz", "dq", "diff"
+Spectral within ppm in the direct and indirect dimensions **SWD= / SWI=** 
+Chemical shift of the first point (bottom / left side) ***FIRSTXD= / FIRSTXI=***
+Chemical shift of the last point (top / right side) ***LASTXD= / LASTXI=***
+Larmor frequencies (to allow switch to Hz) ***LARMORD= / LARMORI=*** (0 if not relevant - for type "Hz")
+Number of points in the direct and indirect dimensions ***NPOINTSD= / NPOINTSI=***
+*NPOINTSDxNPOINTSI* data points (all points of the direct dimension before starting the second point of the indirect dimension)
 ````
 
 For compatibility with existing Bruker JCAMP
@@ -256,9 +268,9 @@ A line "$$ Bruker specific parameters for F1" separates F2 from F1
 parameters with the same names
 
 ````
-Spectral within ppm in the direct and indirect dimensions **SW=** 
-Chemical shift of center of the spectrum (bottom / left side) ***SFO1=***
-Larmor frequencies ***BF1=*** (0 if not relevant - for type "Hz")
-Number of points in the direct and indirect dimensions ***SI=***
-*SI(1)xSI(2)* data points (all points of the direct dimension before starting the second point of the indirect dimension)
+Spectral within ppm in the direct and indirect dimensions **SW=** 
+Chemical shift of center of the spectrum (bottom / left side) ***SFO1=***
+Larmor frequencies ***BF1=*** (0 if not relevant - for type "Hz")
+Number of points in the direct and indirect dimensions ***SI=***
+*SI(1)xSI(2)* data points (all points of the direct dimension before starting the second point of the indirect dimension)
 ````

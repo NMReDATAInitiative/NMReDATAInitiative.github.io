@@ -3,7 +3,19 @@ title: Compatible software
 permalink: /Compatible_software/
 classes: wide
 ---
-  
+# NMReDATA initiative
+*generate, store and share the data extracted from set of NMR spectra associated to a compound*
+
+***
+
+[Home](README) [Who are we](partners) **The Format** [In the news ...](timeline)
+
+***
+
+[Format main page](format) [Format of the NMREDATA tags (version 1.0/1.1)](NMReDATA_tag_format) [Format of the NMREDATA tags (version 2.0)](NMReDATA_tag_format_2.0) **Compatible software and webtools**
+
+***
+
 This list is tentative - It has not been validated by (all) the authors.
 
 | **Software Platform**                                 | **Product/tool**                                                                                                    | **Developer**                 | **Language/Operating system** | <abbr title="Version of the .sdf format">**Version**</abbr> | **NMReDATA**                                     | **Supported NMReDATA versions** | **NMR Record**                        | **Examples of output**                                                                   | **Documentation**                                         | **License/availability**                                                                                                                  |
