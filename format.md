@@ -7,7 +7,7 @@
 
 ***
 
-**Format main page** [Format of the NMREDATA tags (version 1.0/1.1)](NMReDATA_tag_format) [Format of the NMREDATA tags (version 2.0)](NMReDATA_tag_format_2.0) [Compatible software and webtools](Compatible_software "Compatible software")
+**Format main page** [Format of the NMREDATA tags (version 1.0/1.1)](NMReDATA_tag_format) [Format of the NMREDATA tags (version 2.0)](NMReDATA_tag_format_2_0) [Compatible software and webtools](Compatible_software "Compatible software")
 
 ***
 
@@ -120,7 +120,7 @@ Changes to Versions 2.0
 -   Possibility to add author and institution information (to facilitate
     integration of these metadata in repositories).
 
-For details, see [the specification](/NMReDATA_tag_format_2.0).
+For details, see [the specification](/NMReDATA_tag_format_2_0).
 
 Changes to Versions 3.0
 -----------------------

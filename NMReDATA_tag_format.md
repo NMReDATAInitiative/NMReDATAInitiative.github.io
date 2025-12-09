@@ -11,7 +11,7 @@ permalink: /NMReDATA_tag_format/
 
 ***
 
-[Format main page](format) **Format of the NMREDATA tags (version 1.0/1.1)** [Format of the NMREDATA tags (version 2.0)](NMReDATA_tag_format_2.0) [Compatible software and webtools](Compatible_software "Compatible software")
+[Format main page](format) **Format of the NMREDATA tags (version 1.0/1.1)** [Format of the NMREDATA tags (version 2.0)](NMReDATA_tag_format_2_0) [Compatible software and webtools](Compatible_software "Compatible software")
 
 ***
 
