@@ -37,7 +37,7 @@ Program
 #### First Session: Relevance of the NMReDATA Initiative in chemistry
 
 -   9:00-9:15 Forwords on **The NMReDATA Initiative**, Damien
-    Jeannerat [(.pdf of the presentation)](../extra/DJ1.pdf "pdf")
+    Jeannerat [(.pdf of the presentation)](/symposium2019/DJ1.pdf "pdf")
 -   9:15-10:00 **Feature presentation**
 
 **Jonathan Bisson**, University of Illinois Chicago, USA
@@ -56,7 +56,7 @@ Program
 
 
 
-*[Teaching NMR data handling, electronic assignment and CASE at the university](/symposium2019/NS_abstract "link")* [( pdf of the presentation)](/symposium2019/extra/NS.pdf "pdf")
+*[Teaching NMR data handling, electronic assignment and CASE at the university](/symposium2019/NS_abstract "link")* [( pdf of the presentation)](/symposium2019/NS.pdf "pdf")
 
 -   10:40-11:00 Coffee Break
 
@@ -74,7 +74,7 @@ Program
 
 **Mitcheell Maestre-Martinez**, Mestrelab, Spain
 
-*[Mnova meets NMReData: automation workflows and new opportunities](/symposium2019/CC_abstract "link")* [(.pdf of the presentation)](/symposium2019/extra/MM.pdf "pdf")
+*[Mnova meets NMReData: automation workflows and new opportunities](/symposium2019/CC_abstract "link")* [(.pdf of the presentation)](/symposium2019/MM.pdf "pdf")
 
 **Dimitris Argyropoulos**, ACD/Labs, Canada,
 
@@ -94,7 +94,7 @@ Program
 
 **Robert Hanson**, St. Olaf College, Northfield, MN,
 
-*[Putting it all together: Fully automated NMR spectrometer, web-based analysis, and spectral simulation with 2D/3D structure correlation for first-year organic chemistry](/symposium2019/RH_abstract "link") * [(.pdf of the presentation)](/symposium2019/extra/RH.pdf "pdf")
+*[Putting it all together: Fully automated NMR spectrometer, web-based analysis, and spectral simulation with 2D/3D structure correlation for first-year organic chemistry](/symposium2019/RH_abstract "link") * [(.pdf of the presentation)](/symposium2019/RH.pdf "pdf")
 
 **Angel Herraez**, University of Alcala, Spain
 

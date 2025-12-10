@@ -170,7 +170,7 @@ two different signals in the spectrum, it may be for the good reason
 that the assignment is not known. Introducing a 3D structure will erase
 the "unknown" and introduce the risk of error. When there is a risk for
 this to occur, one should use the
-[interchangeable assignment](http://nmredata.org/wiki/NMReDATA_tag_format#interchangeable-assignment-only-for-level0) statement in the "NMREDATA_ASSIGNMENT" tag.
+[interchangeable assignment](/NMReDATA_tag_format#interchangeable-assignment-only-for-level0) statement in the "NMREDATA_ASSIGNMENT" tag.
 
 * Other problems of this type probably exist...
 
