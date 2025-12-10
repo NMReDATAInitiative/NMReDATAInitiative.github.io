@@ -7,7 +7,7 @@ permalink: /Examples/
 
 ***
 
-[Home](/) **/** [Who are we](partners) **/** **The Format** **/** [In the news ...](timeline)
+[Home](/) **/** [Who are we](/partners) **/** **The Format** **/** [In the news ...](/timeline)
 
 ***
 

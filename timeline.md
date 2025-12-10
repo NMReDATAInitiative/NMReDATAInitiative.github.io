@@ -27,7 +27,7 @@ NMReDATA discussed in the (Tony Davies Column)[https://www.spectroscopyeurope.co
 
 [Chemical language: A 'Babel Fish' for NMR](https://analyticalscience.wiley.com/content/article-do/chemical-language-babel-fish-nmr) in spectroscopynow.com.
 
-Press release **A common electronic language for magnetic resonance** published by [eurekalert.org](https://web.archive.org/web/20210228164704/https://eurekalert.org/pub_releases/2018-06/udg-ace060618.php), [phys.org](https://phys.org/news/2018-06-common-electronic-language-magnetic-resonance.html), [sciencedaily](https://www.sciencedaily.com/releases/2018/06/180606120417.htm), and [University of Geneva](https://web.archive.org/web/20241205101001/https://www.unige.ch/communication/communiques/en/2018/cdp180607/2018/06/180606120417.htm).
+Press release **A common electronic language for magnetic resonance** published by [eurekalert.org](https://web.archive.org/web/20210228164704/https://eurekalert.org/pub_releases/2018-06/udg-ace060618.php), [phys.org](https://phys.org/news/2018-06-common-electronic-language-magnetic-resonance.html), [sciencedaily](https://www.sciencedaily.com/releases/2018/06/180606120417.htm), and [University of Geneva](https://www.unige.ch/medias/en/2018/cdp180607).
 
 **June  2018: IUPAC/CODATA symposium**
 
