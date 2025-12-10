@@ -122,3 +122,5 @@ W1/W2: Signal widht in F1/F2 in Hz
 W1=6.0
 W2=1.2
 ````
+
+![logo](images/pasted-file_med.png) [Contact](mailto:nmrshiftdb2-admin@uni-koeln.de)

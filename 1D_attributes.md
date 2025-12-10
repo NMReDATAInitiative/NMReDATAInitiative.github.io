@@ -195,3 +195,5 @@ is the next attribute, what follows the "," is alphanumerical and "=".
 Keep in mind the [possible issue with labels
 including](/NMReDATA_tag_format#Labels_including_comma_or_other_special_characters "link")
 ",", " ", etc.
+
+![logo](images/pasted-file_med.png) [Contact](mailto:nmrshiftdb2-admin@uni-koeln.de)

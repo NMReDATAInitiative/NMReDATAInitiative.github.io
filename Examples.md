@@ -62,3 +62,5 @@ An v. 3.0 examples is [found here](/examples/compound1_3.zip).
 ~ explicit H
 
 ~ complex
+
+![logo](images/pasted-file_med.png) [Contact](mailto:nmrshiftdb2-admin@uni-koeln.de)

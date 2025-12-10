@@ -146,4 +146,4 @@ Consolidation of the Initiative
 
 The Initiative will be professionalized in order to propose a  service for the validation of NMR Records and present the NMReDATA at conferences
 
-![logo](images/pasted-file_med.png)
+![logo](images/pasted-file_med.png) [Contact](mailto:nmrshiftdb2-admin@uni-koeln.de)

@@ -52,4 +52,5 @@ Official announcement of the Initiative at the <span style="color: rgb(255, 147,
 **September 2017: SMASH 2017**
 
 Round-table discussion at the <span style="color: rgb(255, 147, 0);">SMASH 2017</span></strong><span style="color: rgb(0, 0, 0);"> conference (Baveno, Italy) and decision on the version 1.0 of the file format
-												
+
+![logo](images/pasted-file_med.png) [Contact](mailto:nmrshiftdb2-admin@uni-koeln.de)

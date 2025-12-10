@@ -48,5 +48,5 @@ More datails on the [wiki pages of the NMReDATA initiative](format)
 
 Reporting NMReDATA in an open format is gaining importance in a world where the <strong>community expect</strong> and the <strong>funding agencies impose</strong> to scientists to make <strong><span style="color: rgb(255, 147, 0); font-family: Georgia; font-size: 14px;">open data</span></strong><span style="font-family: Georgia; font-size: 14px;">. In the absence of NMReDATA spectral data are almost useless because the chemical structure they correspond are not linked and because the assignement data are not present or in propriatary format.
 
-![logo](images/pasted-file_med.png)
+![logo](images/pasted-file_med.png) [Contact](mailto:nmrshiftdb2-admin@uni-koeln.de)
 											

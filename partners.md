@@ -142,4 +142,4 @@ Following the proposition by the <em>Associate board</em>, the <em>Editor in Chi
 - Gary Martin (co-editor in chief), Merck and co., USA
 - Paul Trevorrow</strong> (executive journal editor), Wiley, Chichester, UK
 
-![logo](images/pasted-file_med.png)
+![logo](images/pasted-file_med.png) [Contact](mailto:nmrshiftdb2-admin@uni-koeln.de)
