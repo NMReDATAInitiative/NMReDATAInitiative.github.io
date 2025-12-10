@@ -1,6 +1,6 @@
 ---
 title: PK abstract
-permalink: /PK_abstract/
+permalink: /symposium2019/PK_abstract/
 ---
 
 NMReData and NMR Records are data formats that simplify the publishing,

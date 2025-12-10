@@ -135,7 +135,7 @@ NMREDATA_J tag, without being found in the NMREDATA_ASSIGNMENT tag.
 Finally, note that the situation where a 2D peak is not given a label,
 but a chemical shift value should not be a problem. This may occur when
 a peak is not not assigned - or partially assigned.
-[More](https://nmredata.org/wiki/2D_attributes#Examples_attributes_of_2D_signal).
+[More](/2D_attributes#Examples_attributes_of_2D_signal).
 In this case the label is the text of the chemical shift. This should be
 fine - if not very elegant.
 
@@ -161,9 +161,7 @@ Examples of zip files will be provided to developers.
 #### get_parameters
 
 Extract all the parameters of a NMReDATA tag (a line with a name
-followed by "=")
-
-`the name of the paramter is before the "=", the value is the string up to the EOF or the ";", the comment start from the ";" and the EOL. the comment should be stored. We should have two fields for each object: the value and the comment`
+followed by "="). The name of the paramter is before the "=", the value is the string up to the EOF or the ";", the comment start from the ";" and the EOL. the comment should be stored. We should have two fields for each object: the value and the comment.
 
 Examples of .sdf files will be provided to testers.
 
@@ -171,7 +169,7 @@ Examples of .sdf files will be provided to testers.
 
 extract the value of the parameter and the comment. examples:
 
-`get_param(1,"Larmor","float") Will extract the floating point from the string of the parameter Larmor. Also extract the comment`
+get_param(1,"Larmor","float") Will extract the floating point from the string of the parameter Larmor. Also extracts the comment.
 
 #### get_assignment(tagnumber of NMREDATA_ASSIGNMENT, tagnumber of NMREDATA_J)
 

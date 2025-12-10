@@ -1,6 +1,6 @@
 ---
 title: JMN-abstract
-permalink: /JMN-abstract/
+permalink: /symposium2019/JMN-abstract/
 ---
 
 The discovery of natural organic compounds and the preparation of new

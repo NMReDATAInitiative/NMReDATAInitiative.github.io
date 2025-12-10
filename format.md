@@ -24,7 +24,7 @@ Publication on V1.1 of the format: <span style="color: rgb(255, 147, 0); font-fa
 Introduction
 ============
 
-The [NMReDATA working group](http://www.nmredata.org/partners.html)
+The [NMReDATA working group](/partners)
 decided to include data extracted from NMR spectra of small molecules in
 [SDF files](/Sdf_files "link") using SD tags.
 

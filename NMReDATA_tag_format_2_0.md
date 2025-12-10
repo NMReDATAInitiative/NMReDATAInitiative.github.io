@@ -107,7 +107,7 @@ the determined 3D structure, instead of having *z* set to zero as for
 "flat" structure.
 
 To obey the [official
-specification](http://accelrys.com/products/informatics/cheminformatics/ctfile-formats/no-fee.php)
+specification](https://discover.3ds.com/sites/default/files/2020-08/biovia_ctfileformats_2020.pdf)
 of the MOLfile format and, hence, assure compatibility of the files with
 other software, the second line in the header of each molblock should
 include either "2D" or "3D" (the 'dimensional codes') in columns 21 and
@@ -170,7 +170,7 @@ two different signals in the spectrum, it may be for the good reason
 that the assignment is not known. Introducing a 3D structure will erase
 the "unknown" and introduce the risk of error. When there is a risk for
 this to occur, one should use the
-[http://nmredata.org/wiki/NMReDATA_tag_format#interchangeable-assignment-only-for-level0](interchangeable assignment) statement in the "NMREDATA_ASSIGNMENT" tag.
+[interchangeable assignment](http://nmredata.org/wiki/NMReDATA_tag_format#interchangeable-assignment-only-for-level0) statement in the "NMREDATA_ASSIGNMENT" tag.
 
 * Other problems of this type probably exist...
 
@@ -220,7 +220,7 @@ Note that the Larmor frequency can also be found in the .sdf file, but
 should be given in the camp file as well.
 
 Preferred format to be used for new developments
-[example](Jcamp_example2):
+[example](/Jcamp_example2):
 
 ```
 Frequency of the first point (left side) ***`FIRSTX=`***

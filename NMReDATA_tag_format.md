@@ -565,15 +565,15 @@ Equivalent a, b, c\
 Equivalent F1,F2,F3\
 ...
 >  <NMREDATA_J>
-a, F1, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
-a, F2, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
-a, F3, 7.00 ;`<sup>`5`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
-b, F2, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
-b, F3, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
-b, F1, 7.00 ;`<sup>`5`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
-c, F3, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
-c, F1, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
-c, F2, 7.00 ;`<sup>`5`</sup>`J`<sub>`H,H`</sub><span style="color:#080808">**\**</span>
+a, F1, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub>\
+a, F2, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub>\
+a, F3, 7.00 ;`<sup>`5`</sup>`J`<sub>`H,H`</sub>\
+b, F2, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub>\
+b, F3, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub>\
+b, F1, 7.00 ;`<sup>`5`</sup>`J`<sub>`H,H`</sub>\
+c, F3, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub>\
+c, F1, 17.00 ;`<sup>`3`</sup>`J`<sub>`H,H`</sub>\
+c, F2, 7.00 ;`<sup>`5`</sup>`J`<sub>`H,H`</sub>\
 Equivalent a/F1,a/F2,b/F2,b/F2,c/F3,c/F1 
 Equivalent a/F3,b/F1,c/F2
 ````

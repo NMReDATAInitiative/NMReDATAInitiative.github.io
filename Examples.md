@@ -11,7 +11,7 @@ permalink: /Examples/
 
 ***
 
-[Format main page](format) **/** [Format of the NMREDATA tags (version 1.0/1.1)](/NMReDATA_tag_format) **/** [Format of the NMREDATA tags (version 2.0)](/NMReDATA_tag_format_2_0) **/** [Compatible software and webtools](/Compatible_software "Compatible software") **/** [1D Attributes](/1D_attributes) [2D Attributes](/2D_attributes) **/** **Examples**
+[Format main page](/format) **/** [Format of the NMREDATA tags (version 1.0/1.1)](/NMReDATA_tag_format) **/** [Format of the NMREDATA tags (version 2.0)](/NMReDATA_tag_format_2_0) **/** [Compatible software and webtools](/Compatible_software "Compatible software") **/** [1D Attributes](/1D_attributes) [2D Attributes](/2D_attributes) **/** **Examples**
 
 ***
 
@@ -41,7 +41,7 @@ If you find any problems with these examples of of NMR records and of NMReDATA, 
 
 ~ Implicit H
 
-An v. 3.0 examples is [found here](examples/compound1\_3.zip).
+An v. 3.0 examples is [found here](/examples/compound1\_3.zip).
 
 **Set of ethanol NMReDATA files**: ([link to GitHub folder](https://www.github.com/djeanner/NMReDATA/tree/master/examples_of_NMRrecords_and_nmredata_sdf_files/ethanol_from_DFT_GIAO_dft))
 

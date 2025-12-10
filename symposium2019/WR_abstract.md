@@ -1,6 +1,6 @@
 ---
 title: WR abstract
-permalink: /WR_abstract/
+permalink: /symposium2019/WR_abstract/
 ---
 
 Structure elucidation of organic natural products is a complex task

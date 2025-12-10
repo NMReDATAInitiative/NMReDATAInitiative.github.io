@@ -1,6 +1,6 @@
 ---
 title: JB abstract
-permalink: /JB_abstract/
+permalink: /symposium2019/JB_abstract/
 ---
 
 One challenge in NMR has always been to reduce the acquired data to

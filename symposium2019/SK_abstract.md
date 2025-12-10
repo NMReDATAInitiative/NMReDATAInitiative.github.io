@@ -1,6 +1,6 @@
 ---
 title: SK abstract
-permalink: /SK_abstract/
+permalink: /symposium2019/SK_abstract/
 ---
 
 This talk demonstrates how the NMReDATA Java Tools

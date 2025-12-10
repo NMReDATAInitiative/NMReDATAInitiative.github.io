@@ -1,6 +1,6 @@
 ---
 title: RH abstract
-permalink: /RH_abstract/
+permalink: /symposium2019/RH_abstract/
 ---
 
 At St. Olaf College, we have developed a web-based fully automated

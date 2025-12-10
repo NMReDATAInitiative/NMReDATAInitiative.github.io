@@ -1,6 +1,6 @@
 ---
 title: CC abstract
-permalink: /CC_abstract/
+permalink: /symposium2019/CC_abstract/
 ---
 
 Mnova meets NMReData: automation workflows and new opportunities

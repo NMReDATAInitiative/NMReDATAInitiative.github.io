@@ -73,7 +73,7 @@ Professor of Structural and Mechanistic Chemistry, specialising in the developme
 
 ### Tomas Lebl, University of St Andrews, UK
 
-Manager of the liquid-state NMR facility at the University of St Andrews since 2004. Managing the walk-up automated NMR service provided by 6 fully automated [NMR spectrometers](http://nmr.st-andrews.ac.uk/), collaborates as NMR expert on various research projects across the chemical and biological sciences. Co-author of 64 publications (H-index 18, WOS). Expertise in conformational analysis of small molecules, RDC analysis, reaction monitoring, diffusion ordered spectroscopy, etc. Interest in data management of high throughput NMR laboratories and driving force behind the [NOMAD project](http://nomad.wp.st-andrews.ac.uk/).
+Manager of the liquid-state NMR facility at the University of St Andrews since 2004. Managing the walk-up automated NMR service provided by 6 fully automated [NMR spectrometers](https://nmr.wp.st-andrews.ac.uk/), collaborates as NMR expert on various research projects across the chemical and biological sciences. Co-author of 64 publications (H-index 18, WOS). Expertise in conformational analysis of small molecules, RDC analysis, reaction monitoring, diffusion ordered spectroscopy, etc. Interest in data management of high throughput NMR laboratories and driving force behind the [NOMAD project](http://nomad.wp.st-andrews.ac.uk/).
 
 ### Gregory M. Banik, Bio-Rad Laboratories, Informatics Division
 

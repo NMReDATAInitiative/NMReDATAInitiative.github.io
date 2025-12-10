@@ -1,6 +1,6 @@
 ---
 title: Symposium2019
-permalink: /Symposium2019/
+permalink: /symposium2019/Symposium2019/
 ---
 
 General

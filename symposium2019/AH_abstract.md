@@ -1,6 +1,6 @@
 ---
 title: AH abstract
-permalink: /AH_abstract/
+permalink: /symposium2019/AH_abstract/
 ---
 
 ### NMReDATA J_reader: an HTML interface for displaying the contents of NMReDATA files, molecular structure, NMR data and spectra

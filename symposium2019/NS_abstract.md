@@ -1,6 +1,6 @@
 ---
 title: NS abstract
-permalink: /NS_abstract/
+permalink: /symposium2019/NS_abstract/
 ---
 
 Recently, awareness of the need for improved data handling has reached

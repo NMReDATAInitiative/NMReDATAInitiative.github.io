@@ -1,6 +1,6 @@
 ---
 title: JL abstract
-permalink: /JL_abstract/
+permalink: /symposium2019/JL_abstract/
 ---
 
 LOGS (Lab Organisation Group Site) is a local data repository allowing

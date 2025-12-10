@@ -47,21 +47,27 @@ When possible, authors should submit NMR Records for all assigned
 compounds.
 
 See ["NMReDATA-compatible
-software"](http://nmredata.org/wiki/Compatible_software)
+software"](/Compatible_software)
 
 When authors ***cannot*** generate NMR records, they should submit:
 
-`1) The chemical structure(s) of the compound(s)`
-`File(s) should be in the .mol format. (preference for mol 2000) `
+1) The chemical structure(s) of the compound(s)
 
-`2) The spectra (spectra + FID + acquisition and processing parameters as from the spectrometer manufacturer)`
-`A zip file, including the folder containing the NMR spectra (all the files  including also FID's, acquisition and processing parameters)`
-`For Bruker format, simply zip the "experiment" folder (i.e. the one including the numbered folders of the "experiment number")`
+File(s) should be in the .mol format. (preference for mol 2000) 
 
-`3) The Assignment data`
-`a2) A Mnova file (with the assignment on all 1D and 2D spectra, and analysis of the multiplet)  `
-`or`
-`2b) An excel sheet containing the NMReDATA (`[`download`` ``template`](https://www.dropbox.com/s/1wpsiab7l8a39zl/NMReDATA_compound1.xlsx?dl=0)`).`
+2) The spectra (spectra + FID + acquisition and processing parameters as from the spectrometer manufacturer)
+
+A zip file, including the folder containing the NMR spectra (all the files  including also FID's, acquisition and processing parameters)
+
+For Bruker format, simply zip the "experiment" folder (i.e. the one including the numbered folders of the "experiment number")
+
+3) The Assignment data
+
+a2) A Mnova file (with the assignment on all 1D and 2D spectra, and analysis of the multiplet)  
+
+or
+
+2b) An excel sheet containing the NMReDATA ([download template](https://www.dropbox.com/s/1wpsiab7l8a39zl/NMReDATA_compound1.xlsx?dl=0)).
 
 The files can be ziped to simplify submission.
 
@@ -79,5 +85,5 @@ An alternative is for the author to submit the .zip files on zenodo and
 use the "embargo" option during the review process - this process is
 slightly more complex - but any X- and Z-generation can do it!
 
-See [sheet "Example of NMReDATA
-form"](http://nmredata.org/wiki/example_NMReDATA_form)
+<!-- See [sheet "Example of NMReDATA
+form"](http://nmredata.org/wiki/example_NMReDATA_form) -->

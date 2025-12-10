@@ -1,6 +1,6 @@
 ---
 title: Sympsium2019sponsors
-permalink: /Sympsium2019sponsors/
+permalink: /symposium2019/Sympsium2019sponsors/
 ---
 
 We thank our sponsors!
