@@ -7,11 +7,11 @@ permalink: /NMReDATA_tag_format/
 
 ***
 
-[Home](/) [Who are we](partners) **The Format** [In the news ...](timeline)
+[Home](/) **|** [Who are we](partners) **|** **The Format** **|** [In the news ...](timeline)
 
 ***
 
-[Format main page](/format) **Format of the NMREDATA tags (version 1.0/1.1)** [Format of the NMREDATA tags (version 2.0)](/NMReDATA_tag_format_2_0) [Compatible software and webtools](/Compatible_software "Compatible software") [1D Attributes](/1D_attributes) [2D Attributes](/2D_attributes)
+[Format main page](/format) **|** **Format of the NMREDATA tags (version 1.0/1.1)** **|** [Format of the NMREDATA tags (version 2.0)](/NMReDATA_tag_format_2_0) **|** [Compatible software and webtools](/Compatible_software "Compatible software") **|** [1D Attributes](/1D_attributes) **|** [2D Attributes](/2D_attributes) **|** [Examples](Examples)
 
 ***
 
@@ -68,7 +68,7 @@ version : 1.1
 ````
 Note the <span style="color:#0808F8"> addition of the "**\\**" before
 the end-of-line character. If is optional for tags with a single line,
-but mandatory to reparate lines [(more details)](/End-of-line.md "link").
+but mandatory to reparate lines [(more details)](/End-of-line "link").
 
 #### \<NMREDATA_LEVEL\>
 

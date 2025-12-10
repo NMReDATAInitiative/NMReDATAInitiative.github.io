@@ -1,7 +1,7 @@
 # NMReDATA initiative
 *generate, store and share the data extracted from set of NMR spectra associated to a compound*
 
-**Home** [Who are we](partners) [The Format](format) [In the news ...](timeline)
+**Home** **|** [Who are we](partners) **|** [The Format](format) **|** [In the news ...](timeline)
 
 ***
 
