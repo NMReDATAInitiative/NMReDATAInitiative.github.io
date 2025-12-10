@@ -1,6 +1,6 @@
 ---
 title: Jmol testpage2
-permalink: /Jmol_testpage2/
+permalink: /jmol/Jmol_testpage2/
 ---
 
 Pop-up models

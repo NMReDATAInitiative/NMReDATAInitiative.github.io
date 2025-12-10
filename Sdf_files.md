@@ -20,11 +20,11 @@ SDF tags
 
 A SDF tag, has the following structure:
 
-`>  `<TAG_NAME>
-`... tag content line 1 ... `
-`... tag content line 2 ... `
-`... tag content line 3 ...`
-`[Empty line to indicate the end of the tag]`
+`>  `<TAG_NAME>
+`... tag content line 1 ... `
+`... tag content line 2 ... `
+`... tag content line 3 ...`
+`[Empty line to indicate the end of the tag]`
 
 For more information on SDF tags and how to read/write them see ...
 

@@ -1,6 +1,6 @@
 ---
 title: Jmol testpage
-permalink: /Jmol_testpage/
+permalink: /jmol/Jmol_testpage/
 ---
 
 Note that I could not find a `includes/mime.types` file in main wiki

@@ -1,6 +1,6 @@
 ---
 title: Jreader
-permalink: /Jreader/
+permalink: /jmol/Jreader/
 ---
 
 [*J_reader*](http://www3.uah.es/nmr_e_data/reader/reader.htm) is a

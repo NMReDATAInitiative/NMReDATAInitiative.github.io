@@ -32,10 +32,10 @@ Examples:
 `Compound_1/starting_product.cdx`
 
 `Compound_2/final_product.cdx`
-`Compound_2/NMR/St332_1/10/... (1D 1H spectrum)`
-`Compound_2/NMR/St332_1/11/... (1D 13C spectrum)`
-`Compound_2/NMR/St332_1/12/... (2D HSQC) `
-`Compound_2/IR/st322.jcamp `
+`Compound_2/NMR/St332_1/10/... (1D 1H spectrum)`
+`Compound_2/NMR/St332_1/11/... (1D 13C spectrum)`
+`Compound_2/NMR/St332_1/12/... (2D HSQC) `
+`Compound_2/IR/st322.jcamp `
 `Compound_2/EA/exact_mass.txt`
 
 -   Compress the main folder in the form of a .zip file.

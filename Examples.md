@@ -27,7 +27,7 @@ If you find any problems with these examples of of NMR records and of NMReDATA, 
 
 **benzopyrene record**: [link to zenodo upload](https://doi.org/10.5281/zenodo.825777) / [direct download of record](https://www.zenodo.org/record/1032533/files/compound1.zip)
 
-!(nmredata record image)[images/900px-Nmr_record.png]
+!(nmredata record image)[/images/900px-Nmr_record.png]
 
 + prototype exemple of record located in a database : ZENODO (free - max 50 GB per user - REST API - DOI provider - versioning)
 
