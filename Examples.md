@@ -21,6 +21,7 @@ If you find any problems with these examples of of NMR records and of NMReDATA, 
 
 **Model paper** with [NMReDATA in SI](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/mrc.4782)
 
+**Examples in github** [https://github.com/NMReDATAInitiative/Examples-of-NMR-records](https://github.com/NMReDATAInitiative/Examples-of-NMR-records)
 
 **Javatools test files** in the [github repository](https://github.com/NMReDATAInitiative/javatools/tree/master/lib/src/test)
 
