@@ -41,7 +41,7 @@ If you find any problems with these examples of of NMR records and of NMReDATA, 
 
 ~ Implicit H
 
-An v. 3.0 examples is [found here](/examples/compound1\_3.zip).
+An v. 3.0 examples is [found here](/examples/compound1_3.zip).
 
 **Set of ethanol NMReDATA files**: ([link to GitHub folder](https://www.github.com/djeanner/NMReDATA/tree/master/examples_of_NMRrecords_and_nmredata_sdf_files/ethanol_from_DFT_GIAO_dft))
 

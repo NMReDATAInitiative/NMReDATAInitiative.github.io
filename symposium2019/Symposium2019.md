@@ -12,7 +12,7 @@ has taken place on September 26th 2019 as a satellite meeting of the
 SMASH 2019 Conference in Porto, Portugal.
 
 The attendance to the sumposium was free of charge thanks to our
-**[sponsors](/Sympsium2019sponsors "link")**.
+**[sponsors](/symposium2019/Sympsium2019sponsors "link")**.
 
 Organization Committee
 ----------------------

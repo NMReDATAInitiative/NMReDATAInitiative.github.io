@@ -135,7 +135,7 @@ Changes to Versions 3.1 (future version)
 <span style="color:#FF8C00"> ''Future version of the format! Suggestions
 are welcome! '' </span>
 
-- Possibility to include [J-coupling assignment data](/Jassign "link") (coupling network and J-graph data).
+- Possibility to include (coupling network and J-graph data).
 - Correct imperfections and consider how the format can accommodate solid-state NMR data, DFT-GIAO spectra, literature data.
 - Consider the use of JCAMP format as open format for the spectra.
 
