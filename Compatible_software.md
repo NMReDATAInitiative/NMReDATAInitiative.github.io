@@ -4,7 +4,7 @@ permalink: /Compatible_software/
 classes: wide
 ---
 # NMReDATA initiative
-*generate, store and share the data extracted from set of NMR spectra associated to a compound*
+*generate, store and share the data extracted from a set of NMR spectra associated to a compound*
 
 ***
 

@@ -4,7 +4,7 @@ permalink: /2D_attributes/
 ---
 
 # NMReDATA initiative
-*generate, store and share the data extracted from set of NMR spectra associated to a compound*
+*generate, store and share the data extracted from a set of NMR spectra associated to a compound*
 
 ***
 

@@ -3,7 +3,7 @@ title: 1D attributes
 permalink: /1D_attributes/
 ---
 # NMReDATA initiative
-*generate, store and share the data extracted from set of NMR spectra associated to a compound*
+*generate, store and share the data extracted from a set of NMR spectra associated to a compound*
 
 ***
 
