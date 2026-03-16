@@ -55,4 +55,4 @@ is probably also working on linux systems. It requires Mnova to be
 installed because it relies on Mnova script for the generation of the
 NMReDATA.
 
-![logo](images/pasted-file_med.png) [Contact](mailto:nmrshiftdb2-admin@uni-koeln.de)
+![logo](images/pasted-file_med.png) [Contact (Stefan Kuhn)](mailto:nmrshiftdb2-admin@uni-koeln.de)

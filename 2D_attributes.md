@@ -123,4 +123,4 @@ W1=6.0
 W2=1.2
 ````
 
-![logo](images/pasted-file_med.png) [Contact](mailto:nmrshiftdb2-admin@uni-koeln.de)
+![logo](images/pasted-file_med.png) [Contact (Stefan Kuhn)](mailto:nmrshiftdb2-admin@uni-koeln.de)

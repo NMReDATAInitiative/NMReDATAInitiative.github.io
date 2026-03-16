@@ -64,4 +64,4 @@ An v. 3.0 examples is [found here](/examples/compound1_3.zip).
 
 ~ complex
 
-![logo](images/pasted-file_med.png) [Contact](mailto:nmrshiftdb2-admin@uni-koeln.de)
+![logo](images/pasted-file_med.png) [Contact (Stefan Kuhn)](mailto:nmrshiftdb2-admin@uni-koeln.de)

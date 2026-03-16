@@ -275,4 +275,4 @@ Number of points in the direct and indirect dimensions ***SI=***
 *SI(1)xSI(2)* data points (all points of the direct dimension before starting the second point of the indirect dimension)
 ````
 
-![logo](images/pasted-file_med.png) [Contact](mailto:nmrshiftdb2-admin@uni-koeln.de)
+![logo](images/pasted-file_med.png) [Contact (Stefan Kuhn)](mailto:nmrshiftdb2-admin@uni-koeln.de)

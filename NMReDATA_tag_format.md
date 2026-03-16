@@ -580,7 +580,6 @@ Equivalent a/F3,b/F1,c/F2
 
 for the protons of Cl-CH2-CH2-Br
 
-![logo](images/pasted-file_med.png) [Contact](mailto:nmrshiftdb2-admin@uni-koeln.de)
 ````
 >  <NMREDATA_ASSIGNMENT>
 a, 3.301, 5\
@@ -1112,3 +1111,5 @@ only the detected isotope is given.
 
 The spectrum is described as a 1D 1H spectrum (providing chemical shift,
 couplings, etc.).
+
+![logo](images/pasted-file_med.png) [Contact (Stefan Kuhn)](mailto:nmrshiftdb2-admin@uni-koeln.de)
