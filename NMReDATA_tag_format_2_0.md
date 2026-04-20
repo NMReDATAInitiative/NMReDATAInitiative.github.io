@@ -86,7 +86,7 @@ atoms, but one is for "flat" display, and one the 3D structure for
 distances measurement, measure of angles, dihedral angled, etc.
 
 The SDF file format allows to include multiple structures/model/frames
-in a single SDF file. They are separated by a line with "$$$$".
+in a single SDF file. They are separated by a line with "\$\$\$\$".
 
 For the NMReDATA format, there is always one (first) structure
 representing the "flat" 2D structure. By flat we don't mean that
@@ -98,7 +98,7 @@ structure (additional to the first - not replacing it!).
 
 The second structure (3D with non-zero *z* coordinates) may be added by
 simply appending a molblock to the SDF file and terminate (as usual),
-the file with "$$$$".
+the file with "\$\$\$\$".
 
 It should fulfil the following conditions: the order of atoms and bonds
 should be the same as for the main (first) structure. The "only"
@@ -130,9 +130,9 @@ be the 3D structures and ignore any addition ones (third, fourth,
 *etc.*)
 
 We strongly recommend to have all the NMReDATA tags associated with the
-first structure, i.e. included before the first "$$$$" line. This is
+first structure, i.e. included before the first "\$\$\$\$" line. This is
 because the current reader may stop reading the SDF file at the first
-occurrence of "$$$$" and would miss them if they are listed after the 3D
+occurrence of "\$\$\$\$" and would miss them if they are listed after the 3D
 structure.
 The NMREDATA tags go with the 2D structure, so the overall file will
 look like this:
@@ -264,7 +264,7 @@ Number of points in the direct and indirect dimensions ***NPOINTSD= / NPOINTSI=*
 
 For compatibility with existing Bruker JCAMP
 
-A line "$$ Bruker specific parameters for F1" separates F2 from F1
+A line "\$\$ Bruker specific parameters for F1" separates F2 from F1
 parameters with the same names
 
 ````
