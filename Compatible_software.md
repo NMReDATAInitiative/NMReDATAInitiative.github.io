@@ -16,7 +16,9 @@ classes: wide
 
 ***
 
-This list is tentative - It has not been validated by (all) the authors.
+An online tool for checking the validity of files is available as [part of nmrshiftdb2](https://nmrshiftdb.nmr.uni-koeln.de/nmrshiftdbhtml/validatenmredata.jsp).
+
+This list is maintained to the best of our knowledge - please inform us about changes/updates.
 
 | **Software Platform**                                 | **Product/tool**                                                                                                    | **Developer**                 | **Language/Operating system** | <abbr title="Version of the .sdf format">**Version**</abbr> | **NMReDATA**                                     | **Supported NMReDATA versions** | **NMR Record**                        | **Examples of output**                                                                   | **Documentation**                                         | **License/availability**                                                                                                                  |
 |-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|-------------------------------|-------------------------------|-------------------------------------------------------------|--------------------------------------------------|---------------------------------|---------------------------------------|------------------------------------------------------------------------------------------|-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
