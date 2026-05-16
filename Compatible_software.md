@@ -29,7 +29,7 @@ This list is maintained to the best of our knowledge - please inform us about ch
 | [WebCocon](https://cocon-nmr.de/)                     | Export option                                                                                                       | Jochen Junker                 | Web browser                   | V?                                                          | write                                            | 1.1                             | n/a                                   | pending request                                                                          | <https://cocon-nmr.de/media/files/Manual.pdf>             |                                                                                                                                           |
 |                                                       |                                                                                                                     |                               |                               |                                                             |                                                  |                                 |                                       |                                                                                          |                                                           |                                                                                                                                           |
 
-Working software and tools
+### Announced Software & tools
 
 | **Software Platform** | **Product/tool**                                      | **Developer**    | **Language/Operating system**     | **Version**                                                                         | **NMReDATA** | **NMR Record** | **Examples of output** |
 |-----------------------|-------------------------------------------------------|------------------|-----------------------------------|-------------------------------------------------------------------------------------|--------------|----------------|------------------------|
@@ -37,20 +37,6 @@ Working software and tools
 | Matlab/Octave         | NMReDATA_View                                         | Damien Jeannerat | Any system running matalab/octave | V0 (will be on [GitHub](https://github.com/NMReDATAInitiative)) when ready for test | read         | read           |                        |
 |                       | NOMAD                                                 | Tomas Lebl       |                                   |                                                                                     |              |                |                        |
 | Firefox/Google Chrome |                                                       | Julien Wist      | Any running Firefox/Google Chrome |                                                                                     | generate     | generate       |                        |
-|                       |                                                       |                  |                                   |                                                                                     |              |                |                        |
-
-
-Announced Software & tools
-
-### "Comparison of NMReDATA versions (under construction)"
-
-
-The unix script written for Mac converting Mnova files to nmredata.sdf
-files and generating NMR records (when the spectral data are at their
-original locations) was written by Damien Jeannerat. It is [available on
-github](https://github.com/NMReDATAInitiative/Mnova_export_script). It
-is probably also working on linux systems. It requires Mnova to be
-installed because it relies on Mnova script for the generation of the
-NMReDATA.
+| Comparison of NMReDATA versions  | A  unix script written for Mac converting Mnova files to nmredata.sdf files and generating NMR records (when the spectral data are at their original locations). It is [available on github](https://github.com/NMReDATAInitiative/Mnova_export_script). It is probably also working on linux systems. It requires Mnova to be installed because it relies on Mnova script for the generation of the NMReDATA.| Damien Jeannerat                 | MAC                                |                                                                                     |              |                |                        |
 
 ![logo](images/pasted-file_med.png) [Contact (Stefan Kuhn)](mailto:nmrshiftdb2-admin@uni-koeln.de)
