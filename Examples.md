@@ -7,11 +7,11 @@ permalink: /Examples/
 
 ***
 
-[Home](/) **/** [Who are we](/partners) **/** **The Format** **/** [In the news ...](/timeline)
+[Home](/) **/** [Who are we](/partners) **/** **The Format** **/** [Compatible software and webtools](/Compatible_software "Compatible software") **/** [In the news ...](/timeline)
 
 ***
 
-[Format main page](/format) **/** [Format of the NMREDATA tags (version 1.0/1.1)](/NMReDATA_tag_format) **/** [Format of the NMREDATA tags (version 2.0)](/NMReDATA_tag_format_2_0) **/** [Compatible software and webtools](/Compatible_software "Compatible software") **/** [1D Attributes](/1D_attributes) [2D Attributes](/2D_attributes) **/** **Examples**
+[Format main page](/format) **/** [Format of the NMREDATA tags (version 1.0/1.1)](/NMReDATA_tag_format) **/** [Format of the NMREDATA tags (version 2.0)](/NMReDATA_tag_format_2_0) **/** [1D Attributes](/1D_attributes) [2D Attributes](/2D_attributes) **/** **Examples**
 
 ***
 
