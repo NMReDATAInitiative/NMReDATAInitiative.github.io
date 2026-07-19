@@ -60,7 +60,7 @@ about the NMR dataset.
 
 #### \<NMREDATA_VERSION\>
 
-This tag is used to specify the VERSION of the file format. Current
+Compulsory. This tag is used to specify the VERSION of the file format. Current
 version : 1.1
 ````
 >  <NMREDATA_VERSION>
@@ -72,7 +72,7 @@ but mandatory to reparate lines [(more details)](/End-of-line "link").
 
 #### \<NMREDATA_LEVEL\>
 
-This tag is used to specify the level of complexity of the data. In most
+Compulsory. This tag is used to specify the level of complexity of the data. In most
 cases, level 0 (the standard) will be used when an assignment is
 complete. This tag will allow developers to avoid the difficulties of
 reading complex data (with level \>0).
