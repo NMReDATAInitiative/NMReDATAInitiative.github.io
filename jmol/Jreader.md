@@ -39,7 +39,7 @@ couplings are remapped accordingly on the 3D model.
 For local installation:
 
 Download [the J_reader
-package](http://www3.uah.es/nmr_e_data/J_reader.zip) that contains a
+package](https://NMReDATA.web.uah.es/J_reader.1.0.zip) that contains a
 copy of [the web
 application](https://nmredata.web.uah.es/reader/index.htm) and
 ancillary files. Extract everything.
