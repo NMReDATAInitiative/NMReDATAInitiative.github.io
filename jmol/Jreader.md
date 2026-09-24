@@ -3,7 +3,7 @@ title: Jreader
 permalink: /jmol/Jreader/
 ---
 
-[*J_reader*](http://www3.uah.es/nmr_e_data/reader/reader.htm) is a
+[*J_reader*](https://nmredata.web.uah.es/) is a
 webtool for reading and editing NMReDATA files that can be accessed
 through the web or [installed](/jmol/Jreader#Installation "link") on a
 local computer. In both cases, the program is running on the users's
@@ -41,7 +41,7 @@ For local installation:
 Download [the J_reader
 package](http://www3.uah.es/nmr_e_data/J_reader.zip) that contains a
 copy of [the web
-application](http://www3.uah.es/nmr_e_data/reader/reader.htm) and
+application](https://nmredata.web.uah.es/reader/index.html) and
 ancillary files. Extract everything.
 
 
